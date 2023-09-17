@@ -15,8 +15,8 @@ class SevenStar : public Fonts {
             if(i==0||i==6)
             {
               if((j%7)%3!=0){ 
-                v[i][j+col]='$';}
-              else  {v[i][j+col]=' ';}
+                letters[i][j+col]='$';}
+              else  {letters[i][j+col]=' ';}
                 
             }
 
@@ -24,16 +24,16 @@ class SevenStar : public Fonts {
 
             if(i==1||i==5)
             {
-              if(((j)%7)<2||((j)%7)>4)  {v[i][j+col]='$';}
-              else  {v[i][j+col]=' ';}
+              if(((j)%7)<2||((j)%7)>4)  {letters[i][j+col]='$';}
+              else  {letters[i][j+col]=' ';}
             }
 
             // rest 
 
             if(i==2||i==4||i==3)
             {
-              if(((j)%7)<2) { v[i][j+col]='$';}
-              else  {v[i][j+col]=' ';}
+              if(((j)%7)<2) { letters[i][j+col]='$';}
+              else  {letters[i][j+col]=' ';}
             }
 
 
@@ -53,14 +53,14 @@ class SevenStar : public Fonts {
           {
             if(i==0||i==6)
             {
-              if(((j)%7)!=0&&((j)%7)%3==0) v[i][j+col]=' ';
-              else v[i][j+col]='%' ;
+              if(((j)%7)!=0&&((j)%7)%3==0) letters[i][j+col]=' ';
+              else letters[i][j+col]='%' ;
             }
             else{
               if(((j)%7)==1||((j)%7)==2||((j)%7)==5||((j)%7)==6)
-                v[i][j+col]='%';
+                letters[i][j+col]='%';
               else
-                v[i][j+col]=' ';
+                letters[i][j+col]=' ';
             }
           }
           
