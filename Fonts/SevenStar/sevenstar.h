@@ -4,9 +4,12 @@
 class SevenStar : public Fonts {
  public:
   SevenStar(){}
+  inline int col_num(int colnumber){
+      return (colnumber!=0)?((colnumber*7)+colnumber+colnumber):0;
+    }
     void C (int colnumber)
       {
-        int col=(colnumber!=0)?((colnumber*7)+colnumber+colnumber):0;
+        int col=col_num(colnumber);
         for(int i=0;i<7;i++)
         {
           for(int j=0;j<7;j++)
@@ -46,7 +49,7 @@ class SevenStar : public Fonts {
 
     void D(int colnumber)
       {
-        int col=(colnumber!=0)?((colnumber*7)+colnumber+colnumber):0;
+        int col=col_num(colnumber);
         for(int i=0;i<7;i++)
         {
           for(int j=0;j<7;j++)
