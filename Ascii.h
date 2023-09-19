@@ -40,6 +40,53 @@ public:
                 font->C(i);
             else if(c=='D')
                 font->D(i);
+            else if(c=='E')
+                font->E(i);
+            else if(c=='F')
+                font->F(i);
+            else if(c=='G')
+                font->G(i);
+            else if(c=='H')
+                font->H(i);
+            else if(c=='I')
+                font->I(i);
+            else if(c=='J')
+                font->J(i);
+            else if(c=='K')
+                font->K(i);
+            else if(c=='L')
+                font->L(i);
+            else if(c=='M')
+                font->M(i);
+            else if(c=='N')
+                font->N(i);
+            else if(c=='O')
+                font->O(i);
+            else if(c=='P')
+                font->P(i);
+            else if(c=='Q')
+                font->Q(i);
+            else if(c=='R')
+                font->R(i);
+            else if(c=='S')
+                font->S(i);
+            else if(c=='T')
+                font->T(i);
+            else if(c=='U')
+                font->U(i);
+            else if(c=='V')
+                font->V(i);
+            else if(c=='W')
+                font->W(i);
+            else if(c=='X')
+                font->X(i);
+            else if(c=='Y')
+                font->Y(i);
+            else if(c=='Z')
+                font->Z(i);
+           
+        
+              
         }
         font->printvector();
         //font->destroyspace();        
