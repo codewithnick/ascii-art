@@ -31,7 +31,7 @@ public:
         //std::cout<<"printing";
         for(int i=0;i<text.size();i++){
             char c=text[i];
-            
+            if(c>='a'&&c<='z')c-=32;
             if(c=='C')
                 font->C(i);
             else if(c=='D')
