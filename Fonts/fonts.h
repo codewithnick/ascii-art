@@ -201,6 +201,36 @@ class Fonts{
         virtual void Z(int colnumber) {
             std::cout << "Z not overridden?" << std::endl;
         }
+        virtual void zero(int colnumber) {
+            std::cout << "Zero not overridden?" << std::endl;
+        }
+        virtual void one(int colnumber) {
+            std::cout << "One not overridden?" << std::endl;
+        }
+        virtual void two(int colnumber) {
+            std::cout << "Two not overridden?" << std::endl;
+        }
+        virtual void three(int colnumber) {
+            std::cout << "Three not overridden?" << std::endl;
+        }
+        virtual void four(int colnumber) {
+            std::cout << "Four not overridden?" << std::endl;
+        }
+        virtual void five(int colnumber) {
+            std::cout << "Five not overridden?" << std::endl;
+        }
+        virtual void six(int colnumber) {
+            std::cout << "Six not overridden?" << std::endl;
+        }
+        virtual void seven(int colnumber) {
+            std::cout << "Seven not overridden?" << std::endl;
+        }
+        virtual void eight(int colnumber) {
+            std::cout << "Eight not overridden?" << std::endl;
+        }
+        virtual void nine(int colnumber) {
+            std::cout << "Nine not overridden?" << std::endl;
+        }
 
     /********************************done adding virtual functions********************************/
     void destroyspace(){
