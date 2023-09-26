@@ -889,6 +889,41 @@ public:
 			}
 		}
 	}
+	void Y(int colnumber)
+{
+	int col = col_num(colnumber);
+    for(int i=0;i<7;i++)
+    {
+
+        for(int j=0;j<7;j++)
+        {
+          
+            if(i==0||i==1||i==2)
+            {
+                 if(j==2||j==3||j==6) letters[i][j + col] = ' ';
+                 else letters[i][j + col] = '%';
+            }
+            
+
+            if(i==3)
+            {
+                if(j==0||j==5||j==6) letters[i][j + col] = ' ';
+                else letters[i][j + col] = '%';
+            }
+
+            if(i>3)
+            {
+                if(j==2||j==3) letters[i][j + col] = '%';
+                else letters[i][j + col] = ' ';
+            }
+
+        }
+	}
+}
+
+
+
+
 
 	void Z(int colnumber)
 	{
@@ -946,6 +981,9 @@ public:
 			// cout<<endl;
 		}
 	}
+
+
+	
 	void zero(int colnumber)
 	{
 		int col = col_num(colnumber);
