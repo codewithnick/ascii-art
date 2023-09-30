@@ -35,139 +35,144 @@ public:
     {
 
         font->allocatespace(text);
+        char** character = nullptr;
         // std::cout<<"printing";
         
              for (int i = 0; i < text.size(); i++)
         {
             char c = text[i];
 
-                
-           
-
+            // Uppercase alphabets
             if (c == 'A')
-                font->A(i);
-            else if(c=='a')
-                font->a(i);
+                character=font->A();
             else if (c == 'B')
-                font->B(i);
-            else if (c == 'b')
-                font->b(i);
+                character=font->B();
             else if (c == 'C')
-                font->C(i);
-            else if (c == 'c')
-                font->c(i);
+                character=font->C();
             else if (c == 'D')
-                font->D(i);
-            else if (c == 'd')
-                font->d(i);
+                character=font->D();
             else if (c == 'E')
-                font->E(i);
-            else if (c == 'e')
-                font->e(i);
+                character=font->E();
             else if (c == 'F')
-                font->F(i);
-            else if (c == 'f')
-                font->f(i);
+                character=font->F();
             else if (c == 'G')
-                font->G(i);
-            else if (c == 'g')
-                font->g(i);
+                character=font->G();
             else if (c == 'H')
-                font->H(i);
-            else if (c == 'h')
-                font->h(i);
+                character=font->H();
             else if (c == 'I')
-                font->I(i);
-            else if (c == 'i')
-                font->i(i);
+                character=font->I();
             else if (c == 'J')
-                font->J(i);
-            else if (c == 'j')
-                font->j(i);
+                character=font->J();
             else if (c == 'K')
-                font->K(i);
-            else if (c == 'k')
-                font->k(i);
+                character=font->K();
             else if (c == 'L')
-                font->L(i);
-            else if (c == 'l')
-                font->l(i);
+                character=font->L();
             else if (c == 'M')
-                font->M(i);
-            else if (c == 'm')
-                font->m(i);
+                character=font->M();
             else if (c == 'N')
-                font->N(i);
-            else if (c == 'n')
-                font->n(i);
+                character=font->N();
             else if (c == 'O')
-                font->O(i);
-            else if (c == 'o')
-                font->o(i);
+                character=font->O();
             else if (c == 'P')
-                font->P(i);
-            else if (c == 'p')
-                font->p(i);
+                character=font->P();
             else if (c == 'Q')
-                font->Q(i);
-            else if (c == 'q')
-                font->q(i);
+                character=font->Q();
             else if (c == 'R')
-                font->R(i);
-            else if (c == 'r')
-                font->r(i);
+                character=font->R();
             else if (c == 'S')
-                font->S(i);
-            else if (c == 's')
-                font->s(i);
+                character=font->S();
             else if (c == 'T')
-                font->T(i);
-            else if (c == 't')
-                font->t(i);
+                character=font->T();
             else if (c == 'U')
-                font->U(i);
-            else if (c == 'u')
-                font->u(i);
+                character=font->U();
             else if (c == 'V')
-                font->V(i);
-            else if (c == 'v')
-                font->v(i);
+                character=font->V();
             else if (c == 'W')
-                font->W(i);
-            else if (c == 'w')
-                font->w(i);
+                character=font->W();
             else if (c == 'X')
-                font->X(i);
-            else if (c == 'x')
-                font->x(i);
+                character=font->X();
             else if (c == 'Y')
-                font->Y(i);
-            else if (c == 'y')
-                font->y(i);
+                character=font->Y();
             else if (c == 'Z')
-                font->Z(i);
+                character=font->Z();
+
+            // Lowercase alphabets
+            else if (c == 'a')
+                character=font->a();
+            else if (c == 'b')
+                character=font->b();
+            else if (c == 'c')
+                character=font->c();
+            else if (c == 'd')
+                character=font->d();
+            else if (c == 'e')
+                character=font->e();
+            else if (c == 'f')
+                character=font->f();
+            else if (c == 'g')
+                character=font->g();
+            else if (c == 'h')
+                character=font->h();
+            else if (c == 'i')
+                character=font->i();
+            else if (c == 'j')
+                character=font->j();
+            else if (c == 'k')
+                character=font->k();
+            else if (c == 'l')
+                character=font->l();
+            else if (c == 'm')
+                character=font->m();
+            else if (c == 'n')
+                character=font->n();
+            else if (c == 'o')
+                character=font->o();
+            else if (c == 'p')
+                character=font->p();
+            else if (c == 'q')
+                character=font->q();
+            else if (c == 'r')
+                character=font->r();
+            else if (c == 's')
+                character=font->s();
+            else if (c == 't')
+                character=font->t();
+            else if (c == 'u')
+                character=font->u();
+            else if (c == 'v')
+                character=font->v();
+            else if (c == 'w')
+                character=font->w();
+            else if (c == 'x')
+                character=font->x();
+            else if (c == 'y')
+                character=font->y();
             else if (c == 'z')
-                font->z(i);
+                character=font->z();
+
+            //Numbers
             else if (c == '0')
-                font->zero(i);
+                character=font->zero();
             else if (c == '1')
-                font->one(i);
+                character=font->one();
             else if (c == '2')
-                font->two(i);
+                character=font->two();
             else if (c == '3')
-                font->three(i);
+                character=font->three();
             else if (c == '4')
-                font->four(i);
+                character=font->four();
             else if (c == '5')
-                font->five(i);
+                character=font->five();
             else if (c == '6')
-                font->six(i);
+                character=font->six();
             else if (c == '7')
-                font->seven(i);
+                character=font->seven();
             else if (c == '8')
-                font->eight(i);
+                character=font->eight();
             else if (c == '9')
-                font->nine(i);
+                character=font->nine();
+
+            font->pushChar(character);
         }
         font->printvector();
         // font->destroyspace();
