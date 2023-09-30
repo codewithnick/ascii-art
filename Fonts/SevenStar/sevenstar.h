@@ -9,9 +9,11 @@ public:
 	{
 		return (colnumber != 0) ? ((colnumber * 7) + colnumber + colnumber) : 0;
 	}
-	void A(int colnumber)
+	std::vector<std::vector<char>> A()
 	{
-		int col = col_num(colnumber);
+
+		std::vector<std::vector<char>> character = getCharGrid();
+		
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -19,40 +21,42 @@ public:
 				if (i == 0)
 				{
 					if (j == 2 || j == 3 || j == 4)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 
 				if (i == 1)
 				{
 					if (j % 3 == 0)
 					{
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					}
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 2 || i == 3 || i == 5 || i == 6)
 				{
 					if (j == 0 || j == 1 || j == 5 || j == 6)
 					{
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					}
 					else
 					{
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					}
 				}
 
 				if (i == 4)
 				{
 
-					letters[i][j + col] = '%';
+					character[i][j] = '%';
 				}
 			}
 		}
+
+		return character;
 	}
 	void B(int colnumber)
 	{

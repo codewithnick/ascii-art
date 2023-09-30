@@ -29,14 +29,16 @@ public:
     {
 
         font->allocatespace(text);
+        std::vector<std::vector<char>> character;
         // std::cout<<"printing";
         for (int i = 0; i < text.size(); i++)
         {
             char c = text[i];
+
             if (c >= 'a' && c <= 'z')
                 c -= 32;
             if (c == 'A')
-                font->A(i);
+                character=font->A();
             else if (c == 'B')
                 font->B(i);
             else if (c == 'C')
@@ -107,6 +109,8 @@ public:
                 font->eight(i);
             else if (c == '9')
                 font->nine(i);
+
+            font->push_char(character);
         }
         font->printvector();
         // font->destroyspace();

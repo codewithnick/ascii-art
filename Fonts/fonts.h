@@ -8,13 +8,34 @@
 #include <iostream>
 
 class Fonts{
+    int curr_col;
+
+   protected:
+    std::vector<std::vector<char>> getCharGrid(){
+        std::vector<std::vector<char>> char_grid;
+        char_grid.reserve(7);
+        for (int i = 0; i < 7; i++) {
+            char_grid.emplace_back(7,' ');
+        }
+        return char_grid;
+    }
+
    public:
+    void push_char(std::vector<std::vector<char>> character){
+        for(int i = 0;i<7;i++){
+            for(int j=0;j<7;j++){
+                letters[i][j + curr_col] = character[i][j];
+            }
+        }
+        curr_col += 9;
+    }
     std::vector<std::vector<char>>letters;
     Fonts(){
          letters.reserve(7);
         for (int i = 0; i < 7; i++) {
             letters.emplace_back(100,' '); // Create rows with 100 spaces each
         }
+        curr_col = 0;
     }
     void allocatespace(const std::string &text){
         /*
@@ -123,7 +144,7 @@ class Fonts{
         }
 
         // Virtual functions for uppercase letters
-        virtual void A(int colnumber) {
+        virtual std::vector<std::vector<char>> A() {
             std::cout << "A not overridden?" << std::endl;
         }
         virtual void B(int colnumber) {
