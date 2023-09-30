@@ -2,6 +2,6 @@
 #include "string"
 int main(){
     Ascii a = Ascii("sevenstar");
-    a.print("123Anshuman");
+    a.print("NITJSR");
     return 0;
 }
