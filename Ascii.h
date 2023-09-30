@@ -6,6 +6,7 @@
 #include <string>
 #include "./Fonts/fonts.h"
 #include "./Fonts/SevenStar/sevenstar.h"
+#include "./Fonts/Boomer/boomer.h"
 
 class Ascii
 {
@@ -19,6 +20,11 @@ public:
         {
             // std::cout<<"initialised sevenstar";
             this->font = new SevenStar();
+        }
+        else if (fontName == "boomer")
+        {
+            // std::cout<<"initialised sevenstar";
+            this->font = new Boomer();
         }
         else
         {
