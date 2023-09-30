@@ -1007,9 +1007,9 @@ public:
 		return character;
 	}
 //small letter
-void a(int colnumber)
+char** a()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1017,45 +1017,46 @@ void a(int colnumber)
 				if (i == 0)
 				{
 					if (j == 2 || j == 3 || j == 4)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 
 				if (i == 1)
 				{
 					if (j % 3 == 0)
 					{
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					}
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 2 || i == 3 || i == 5 || i == 6)
 				{
 					if (j == 0 || j == 1 || j == 5 || j == 6)
 					{
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					}
 					else
 					{
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					}
 				}
 
 				if (i == 4)
 				{
 
-					letters[i][j + col] = '%';
+					character[i][j] = '%';
 				}
 			}
 		}
+		return character;
 	}
 
-	void b(int colnumber)
+	char** b()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1063,32 +1064,33 @@ void a(int colnumber)
 				if (i == 0 || i == 6)
 				{
 					if (j == 5 || j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i >= 1 && i <= 5 && i != 3)
 				{
 					if (j == 2 || j == 3 || j == 4)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 3)
 				{
 					if (j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 			}
 		}
+		return character;
 	}
-	void c(int colnumber)
+	char** c()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1098,11 +1100,11 @@ void a(int colnumber)
 				{
 					if ((j % 7) % 3 != 0)
 					{
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					}
 					else
 					{
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					}
 				}
 
@@ -1112,11 +1114,11 @@ void a(int colnumber)
 				{
 					if (((j) % 7) < 2 || ((j) % 7) > 4)
 					{
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					}
 					else
 					{
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					}
 				}
 
@@ -1126,19 +1128,20 @@ void a(int colnumber)
 				{
 					if (((j) % 7) < 2)
 					{
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					}
 					else
 					{
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					}
 				}
 			}
 		}
+		return character;
 	}
-	void d(int colnumber)
+	char** d()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1146,95 +1149,98 @@ void a(int colnumber)
 				if (i == 0 || i == 6)
 				{
 					if (((j) % 7) != 0 && ((j) % 7) % 3 == 0)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 				else
 				{
 					if (((j) % 7) == 1 || ((j) % 7) == 2 || ((j) % 7) == 5 || ((j) % 7) == 6)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 			}
 		}
+		return character;
 	}
-	void e(int colnumber)
+	char** e()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
 			{
 				if (i == 0 || i == 6)
 				{
-					letters[i][j + col] = '%';
+					character[i][j] = '%';
 				}
 
 				if (i == 1 || i == 5)
 				{
 					if (j == 0 || j == 1 || j == 5 || j == 6)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 
 				if (i == 2 || i == 4)
 				{
 					if (j == 0 || j == 1)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 
 				if (i == 3)
 				{
 					if (j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 			}
 		}
+		return character;
 	}
 
-	void f(int colnumber)
+	char** f()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
 			{
 				if (i == 0)
 				{
-					letters[i][j + col] = '%';
+					character[i][j] = '%';
 				}
 
 				if (i == 2 || i == 5 || i == 6 || i == 1 || i == 4)
 				{
 					if (j == 0 || j == 1)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 
 				if (i == 3)
 				{
 					if (j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 			}
 
 			// cout<<endl;
 		}
+		return character;
 	}
 
-	void g(int colnumber)
+	char** g()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1242,41 +1248,42 @@ void a(int colnumber)
 				if (i == 0 || i == 6)
 				{
 					if (j == 0 || j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 1 || i == 5 || i == 4)
 				{
 					if (j == 0 || j == 1 || j == 5 || j == 6)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 
 				if (i == 3)
 				{
 					if (j == 2 || j == 3)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 2)
 				{
 					if (j == 0 || j == 1)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 			}
 		}
+		return character;
 	}
 
-	void h(int colnumber)
+	char** h()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1284,46 +1291,48 @@ void a(int colnumber)
 				if (i >= 0 && i <= 6)
 				{
 					if (j == 0 || j == 1 || j == 5 || j == 6)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 
 				if (i == 3)
 				{
 					if (j > 1 && j < 5)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 			}
 		}
+		return character;
 	}
 
-	void i(int colnumber)
+	char** i()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
 			{
 				if (i == 0 || i == 6)
 				{
-					letters[i][j + col] = '%';
+					character[i][j] = '%';
 				}
 				else
 				{
 					if (j == 2 || j == 3 || j == 4)
 					{
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					}
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 			}
 		}
+		return character;
 	}
-	void j(int colnumber)
+	char** j()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1331,41 +1340,42 @@ void a(int colnumber)
 				if (i == 0)
 				{
 					if (j < 3)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 1 || i == 2 || i == 3)
 				{
 					if (j == 4 || j == 5)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 
 				if (i == 4 || i == 5)
 				{
 					if (j == 2 || j == 3 || j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 6)
 				{
 					if (j == 0 || j == 5 || j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 			}
 		}
+		return character;
 	}
 
-	void k(int colnumber)
+	char** k()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1373,41 +1383,42 @@ void a(int colnumber)
 				if (i == 0 || i == 6)
 				{
 					if (j == 2 || j == 3 || j == 4)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 1 || i == 5)
 				{
 					if (j == 2 || j == 3 || j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 3)
 				{
 					if (j == 4 || j == 5 || j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 2 || i == 4)
 				{
 					if (j == 2 || j == 5 || j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 			}
 		}
+		return character;
 	}
 
-	void l(int colnumber)
+	char** l()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1415,19 +1426,20 @@ void a(int colnumber)
 				if (i < 6)
 				{
 					if (j == 0 || j == 1)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 				else
-					letters[i][j + col] = '%';
+					character[i][j] = '%';
 			}
 		}
+		return character;
 	}
 
-	void m(int colnumber)
+	char** m()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1435,48 +1447,49 @@ void a(int colnumber)
 				if (i == 0)
 				{
 					if (j == 2 || j == 3 || j == 4)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 1)
 				{
 					if (j == 3)
 					{
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					}
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 2)
 				{
-					letters[i][j + col] = '%';
+					character[i][j] = '%';
 				}
 
 				if (i == 3)
 				{
 					if (j == 2 || j == 4)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i >= 4 && i <= 6)
 				{
 					if (j == 2 || j == 3 || j == 4)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 			}
 		}
+		return character;
 	}
 
-	void n(int colnumber)
+	char** n()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1484,46 +1497,47 @@ void a(int colnumber)
 				if (i == 0 || i == 6)
 				{
 					if (j == 2 || j == 3 || j == 4)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 2 || i == 1)
 				{
 					if (j == 3 || j == 4)
 					{
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					}
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 3)
 				{
 					if (j == 2 || j == 4)
 					{
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					}
 					else
 					{
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					}
 				}
 
 				if (i == 4 || i == 5)
 				{
 					if (j == 2 || j == 3)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 			}
 		}
+		return character;
 	}
-	void o(int colnumber)
+	char** o()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1531,26 +1545,27 @@ void a(int colnumber)
 				if (i == 6 || i == 0)
 				{
 					if (j == 0 || j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 				else
 				{
 					if (j == 2 || j == 3 || j == 4)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 			}
 
 			//	cout<<endl;
 		}
+		return character;
 	}
 
-	void p(int colnumber)
+	char** p()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1558,39 +1573,40 @@ void a(int colnumber)
 				if (i == 0 || i == 3)
 				{
 					if (j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 1 || i == 2)
 				{
 					if (j == 2 || j == 3 || j == 4)
 					{
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					}
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i >= 4 && i <= 6)
 				{
 					if (j == 0 || j == 1)
 					{
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					}
 					else
 					{
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					}
 				}
 			}
 		}
+		return character;
 	}
 
-	void q(int colnumber)
+	char** q()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1598,42 +1614,43 @@ void a(int colnumber)
 				if (i == 0)
 				{
 					if (j % 3 == 0)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i >= 1 && i <= 4)
 				{
 					if (j == 2 || j == 3 || j == 4)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 5)
 				{
 					if (j == 2 || j == 3 || j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 				if (i == 6)
 				{
 					if (j == 0 || j == 3 || j == 4)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 			}
 
 			// cout<<endl;
 		}
+		return character;
 	}
 
-	void r(int colnumber)
+	char** r()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1641,34 +1658,35 @@ void a(int colnumber)
 				if (i == 0 || i == 3)
 				{
 					if (j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 1 || i == 2 || i == 5 || i == 6)
 				{
 					if (j == 2 || j == 3 || j == 4)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 4)
 				{
 					if (j == 2 || j == 3 || j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 			}
 			// cout<<endl;
 		}
+		return character;
 	}
 
-	void s(int colnumber)
+	char** s()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1676,30 +1694,30 @@ void a(int colnumber)
 				if (i == 0 || i == 6)
 				{
 					if (j == 0 || j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 1 || i == 5)
 				{
 					if (j == 3 || j == 2 || j == 4)
 					{
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					}
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 2)
 				{
 					if (j == 4 || j == 5 || j == 6)
 					{
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					}
 					else
 					{
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					}
 				}
 
@@ -1707,50 +1725,52 @@ void a(int colnumber)
 				{
 
 					if (j == 0 || j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 4)
 				{
 					if (j == 4 || j == 5 || j == 6)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 			}
 		}
+		return character;
 	}
 
-	void t(int colnumber)
+	char** t()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
 			{
 				if (i == 0)
 				{
-					letters[i][j + col] = '%';
+					character[i][j] = '%';
 				}
 
 				if (i >= 1 && i <= 6)
 				{
 					if (j == 3 || j == 2)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 			}
 
 			// cout<<endl;
 		}
+		return character;
 	}
 
-	void u(int colnumber)
+	char** u()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1758,26 +1778,27 @@ void a(int colnumber)
 				if (i <= 5)
 				{
 					if (j == 2 || j == 3 || j == 4)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 				else
 				{
 					if (j == 0 || j == 6)
 					{
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					}
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 			}
 		}
+		return character;
 	}
 
-	void v(int colnumber)
+	char** v()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1785,38 +1806,39 @@ void a(int colnumber)
 				if (i == 6)
 				{
 					if (j == 2 || j == 3 || j == 4)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 
 				if (i == 5)
 				{
 					if (j % 3 == 0)
 					{
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					}
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 				if (i < 5)
 				{
 					if (j == 0 || j == 1 || j == 5 || j == 6)
 					{
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					}
 					else
 					{
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					}
 				}
 			}
 		}
+		return character;
 	}
 
-	void w(int colnumber)
+	char** w()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1824,40 +1846,41 @@ void a(int colnumber)
 				if (i == 0 || i == 1 || i == 2 || i == 6)
 				{
 					if (j == 2 || j == 3 || j == 4)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 3)
 				{
 					if (j == 2 || j == 4)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 4)
 				{
-					letters[i][j + col] = '%';
+					character[i][j] = '%';
 				}
 
 				if (i == 5)
 				{
 					if (j == 3)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 			}
 
 			// cout<<endl;
 		}
+		return character;
 	}
 
-	void x(int colnumber)
+	char** x()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1865,32 +1888,33 @@ void a(int colnumber)
 				if (i == 0 || i == 1 || i == 5 || i == 6)
 				{
 					if (j == 2 || j == 3 || j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 2 || i == 4)
 				{
 					if (j == 0 || j == 5 || j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 3)
 				{
 					if (j == 3 || j == 2)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 			}
 		}
+		return character;
 	}
-	void y(int colnumber)
+	char** y()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 
@@ -1900,33 +1924,34 @@ void a(int colnumber)
 				if (i == 0 || i == 1 || i == 2)
 				{
 					if (j == 2 || j == 3 || j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i == 3)
 				{
 					if (j == 0 || j == 5 || j == 6)
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 					else
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 				}
 
 				if (i > 3)
 				{
 					if (j == 2 || j == 3)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 			}
 		}
+		return character;
 	}
 
-	void z(int colnumber)
+	char** z()
 	{
-		int col = col_num(colnumber);
+		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1934,55 +1959,56 @@ void a(int colnumber)
 				if (i == 0 || i == 6)
 				{
 					if (j > 0)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 
 				if (i == 1)
 				{
 					if (j == 5 || j == 6)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 
 				if (i == 2)
 				{
 					if (j == 4 || j == 5)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 				if (i == 3)
 				{
 					if (j == 3 || j == 4)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 				if (i == 4)
 				{
 					if (j == 3 || j == 2)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 				if (i == 5)
 				{
 					if (j == 1 || j == 2)
-						letters[i][j + col] = '%';
+						character[i][j] = '%';
 					else
-						letters[i][j + col] = ' ';
+						character[i][j] = ' ';
 				}
 			}
 
 			// cout<<endl;
 		}
+		return character;
 	}
 
 //digits
-	void zero(int colnumber)
+	char** zero()
 	{
 		char** character = getCharGrid();
 		for (int i = 0; i < 7; i++)
