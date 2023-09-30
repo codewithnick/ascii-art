@@ -1,7 +1,7 @@
 #include "Ascii.h"
-int main()
-{
-    Ascii font = Ascii("boomer");
-    font.print("a");
+#include "string"
+int main(){
+    Ascii a = Ascii("sevenstar");
+    a.print("NITJSR");
     return 0;
 }

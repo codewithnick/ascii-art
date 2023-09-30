@@ -5,31 +5,27 @@ class Boomer : public Fonts
 {
 public:
 	Boomer() {}
-	inline int col_num(int colnumber)
+	
+	char** a()
 	{
-		return (colnumber != 0) ? ((colnumber * 7) + colnumber + colnumber) : 0;
+		char** character = getCharGrid();
+
+		character[2][2]=character[2][3]=character[2][5]='_';
+		character[3][1]='/';character[3][3]='_';character[3][4]='`';character[3][6]='|';
+		character[4][0]='|';character[4][2]='(';character[4][3]='_';character[4][4]='|';character[4][6]='|';
+		character[5][1]='\\';character[5][2]='_';character[5][3]='_';character[5][4]=',';character[5][5]='_';character[5][6]='|';
+		return character;
 	}
-	
-	void a(int colnumber)
-	{
-		int col=col_num(colnumber);
 
-		letters[2][2+col]=letters[2][3+col]=letters[2][5+col]='_';
-		letters[3][1+col]='/';letters[3][3+col]='_';letters[3][4+col]='`';letters[3][6+col]='|';
-	letters[4][0+col]='|';letters[4][2+col]='(';letters[4][3+col]='_';letters[4][4+col]='|';letters[4][6+col]='|';
-	letters[5][1+col]='\\';letters[5][2+col]='_';letters[5][3+col]='_';letters[5][4+col]=',';letters[5][5+col]='_';letters[5][6+col]='|';
-}
-
-void A(int colnumber)
-{
+	char** A()
+	{	
 	
-	int col =col_num(colnumber);
-	letters[0][2+col]=letters[0][3+col]=letters[0][4+col]=letters[1][3+col]=letters[2][3+col]=letters[3][3+col]=letters[5][1+col]=letters[5][5+col]='_';
-	letters[1][1+col]=letters[2][0+col]=letters[2][2+col]=letters[5][6+col]='/';
-	letters[1][5+col]=letters[2][4+col]=letters[2][6+col]=letters[5][0+col]='\\';
-	letters[3][0+col]=letters[3][6+col]=letters[4][0+col]=letters[4][2+col]=letters[4][4+col]=letters[4][6+col]=letters[5][2+col]=letters[5][4+col]='|';
-	
-
-}
+		char** character = getCharGrid();
+		character[0][2]=character[0][3]=character[0][4]=character[1][3]=character[2][3]=character[3][3]=character[5][1]=character[5][5]='_';
+		character[1][1]=character[2][0]=character[2][2]=character[5][6]='/';
+		character[1][5]=character[2][4]=character[2][6]=character[5][0]='\\';
+		character[3][0]=character[3][6]=character[4][0]=character[4][2]=character[4][4]=character[4][6]=character[5][2]=character[5][4]='|';
+		return character;
+	}
 };
 #endif
