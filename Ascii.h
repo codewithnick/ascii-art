@@ -6,6 +6,7 @@
 #include <string>
 #include "./Fonts/fonts.h"
 #include "./Fonts/SevenStar/sevenstar.h"
+#include "./Fonts/Boomer/boomer.h"
 
 class Ascii
 {
@@ -20,6 +21,11 @@ public:
             // std::cout<<"initialised sevenstar";
             this->font = new SevenStar();
         }
+        else if (fontName == "boomer")
+        {
+            // std::cout<<"initialised sevenstar";
+            this->font = new Boomer();
+        }
         else
         {
             exit(500);
@@ -31,7 +37,8 @@ public:
         font->allocatespace(text);
         char** character = nullptr;
         // std::cout<<"printing";
-        for (int i = 0; i < text.size(); i++)
+        
+             for (int i = 0; i < text.size(); i++)
         {
             char c = text[i];
 

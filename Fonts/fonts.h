@@ -37,7 +37,8 @@ class Fonts{
         }
         curr_col = 0;
     }
-    void allocatespace(const std::string &text){
+    void allocatespace(const std::string &text)
+    {
         /*
         int n=(text.length()*7)+((text.length()-1)*2);
         for(int i=0;i<7;i++){
@@ -50,15 +51,19 @@ class Fonts{
         */
     }
 
-    std::vector<std::vector<char>> getletters(){
+    std::vector<std::vector<char>> getletters()
+    {
         return letters;
     }
-    void printvector(){
-        for(int i=0;i<letters.size();i++){
-            for(int j=0;j<letters[0].size();j++){
-                std::cout<<letters[i][j];
+    void printvector()
+    {
+        for (int i = 0; i < letters.size(); i++)
+        {
+            for (int j = 0; j < letters[0].size(); j++)
+            {
+                std::cout << letters[i][j];
             }
-            std::cout<<std::endl;
+            std::cout << std::endl;
         }
     }
 
@@ -316,12 +321,13 @@ class Fonts{
         }
 
     /********************************done adding virtual functions********************************/
-    void destroyspace(){
+    void destroyspace()
+    {
         letters.clear();
     }
-    ~Fonts(){
+    ~Fonts()
+    {
         destroyspace();
     }
-
 };
 #endif
