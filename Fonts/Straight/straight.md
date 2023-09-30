@@ -1,0 +1,8 @@
+## How characters look like:-
+
+```
+
+ /\
+/--\
+
+```

@@ -12,6 +12,10 @@
 - [Overview](https://github.com/codewithnick/ascii-art#overview)
 - [Usage](https://github.com/codewithnick/ascii-art#Usage)
   - [Seven Star](https://github.com/codewithnick/ascii-art#1-Seven-Star)
+  - [Boomer](https://github.com/codewithnick/ascii-art#2-Boomer)
+  - [Carlos](https://github.com/codewithnick/ascii-art#3-Carlos)
+  - [Straight](https://github.com/codewithnick/ascii-art#4-Straight)
+  - [Starwar](https://github.com/codewithnick/ascii-art#5-Starwar)
 - [Contribution](https://github.com/codewithnick/ascii-art/blob/main/CONTRIBUTING.md)
 - [Reference](https://github.com/codewithnick/ascii-art#Reference)
 - [Authors](https://github.com/codewithnick/ascii-art#Authors)
@@ -43,6 +47,12 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
 ### 1-[Seven star](./Fonts/SevenStar/sevenstar.md)
 
 ### 2-[Boomer](./Fonts/Boomer/boomer.md)
+
+### 3-[Carlos](./Fonts/carlos/carlos.md)
+
+### 4-[Straight](./Fonts/Straight/straight.md)
+
+### 5-[Starwar](./Fonts/starwar/starwar.md)
 
 ## Reference
 
