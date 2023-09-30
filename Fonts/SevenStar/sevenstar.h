@@ -5,10 +5,7 @@ class SevenStar : public Fonts
 {
 public:
 	SevenStar() {}
-	// inline int col_num()
-	// {
-	// 	return (colnumber != 0) ? ((colnumber * 7)numbernumber) : 0;
-	// }
+
 	char** A()
 	{
 		char** character = getCharGrid();

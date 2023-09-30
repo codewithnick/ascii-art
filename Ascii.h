@@ -42,6 +42,7 @@ public:
         {
             char c = text[i];
 
+            // Uppercase alphabets
             if (c == 'A')
                 character=font->A();
             else if (c == 'B')
@@ -94,6 +95,62 @@ public:
                 character=font->Y();
             else if (c == 'Z')
                 character=font->Z();
+
+            // Lowercase alphabets
+            else if (c == 'a')
+                character=font->a();
+            else if (c == 'b')
+                character=font->b();
+            else if (c == 'c')
+                character=font->c();
+            else if (c == 'd')
+                character=font->d();
+            else if (c == 'e')
+                character=font->e();
+            else if (c == 'f')
+                character=font->f();
+            else if (c == 'g')
+                character=font->g();
+            else if (c == 'h')
+                character=font->h();
+            else if (c == 'i')
+                character=font->i();
+            else if (c == 'j')
+                character=font->j();
+            else if (c == 'k')
+                character=font->k();
+            else if (c == 'l')
+                character=font->l();
+            else if (c == 'm')
+                character=font->m();
+            else if (c == 'n')
+                character=font->n();
+            else if (c == 'o')
+                character=font->o();
+            else if (c == 'p')
+                character=font->p();
+            else if (c == 'q')
+                character=font->q();
+            else if (c == 'r')
+                character=font->r();
+            else if (c == 's')
+                character=font->s();
+            else if (c == 't')
+                character=font->t();
+            else if (c == 'u')
+                character=font->u();
+            else if (c == 'v')
+                character=font->v();
+            else if (c == 'w')
+                character=font->w();
+            else if (c == 'x')
+                character=font->x();
+            else if (c == 'y')
+                character=font->y();
+            else if (c == 'z')
+                character=font->z();
+
+            //Numbers
             else if (c == '0')
                 character=font->zero();
             else if (c == '1')

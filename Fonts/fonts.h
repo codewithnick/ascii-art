@@ -13,8 +13,11 @@ class Fonts{
    protected:
     char** getCharGrid(){
         char** char_grid = new char*[7];
-        for(int i =0; i<7;i++)
+        for(int i =0; i<7;i++){
             char_grid[i] = new char[7];
+            for(int j=0;j<7;j++)
+                char_grid[i][j] = ' ';
+        }
         return char_grid;
     }
 
