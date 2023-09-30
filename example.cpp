@@ -2,6 +2,6 @@
 int main()
 {
     Ascii font = Ascii("boomer");
-    font.print("a");
+    font.print("A");
     return 0;
 }

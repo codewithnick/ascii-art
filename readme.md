@@ -41,6 +41,8 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
 <img src="./7star-result.png">
 </div>
 
+### 2-[Boomer](./Fonts/Boomer/boomer.md)
+
 ## Reference
 
 1. [Art 6.1](https://pypi.org/project/art/)
