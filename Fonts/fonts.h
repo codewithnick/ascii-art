@@ -11,17 +11,15 @@ class Fonts{
     int curr_col;
 
    protected:
-    std::vector<std::vector<char>> getCharGrid(){
-        std::vector<std::vector<char>> char_grid;
-        char_grid.reserve(7);
-        for (int i = 0; i < 7; i++) {
-            char_grid.emplace_back(7,' ');
-        }
+    char** getCharGrid(){
+        char** char_grid = new char*[7];
+        for(int i =0; i<7;i++)
+            char_grid[i] = new char[7];
         return char_grid;
     }
 
    public:
-    void push_char(std::vector<std::vector<char>> character){
+    void push_char(char** character){
         for(int i = 0;i<7;i++){
             for(int j=0;j<7;j++){
                 letters[i][j + curr_col] = character[i][j];
@@ -144,8 +142,9 @@ class Fonts{
         }
 
         // Virtual functions for uppercase letters
-        virtual std::vector<std::vector<char>> A() {
+        virtual char** A() {
             std::cout << "A not overridden?" << std::endl;
+            return nullptr;
         }
         virtual void B(int colnumber) {
             std::cout << "B not overridden?" << std::endl;

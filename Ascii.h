@@ -29,7 +29,7 @@ public:
     {
 
         font->allocatespace(text);
-        std::vector<std::vector<char>> character;
+        char** character;
         // std::cout<<"printing";
         for (int i = 0; i < text.size(); i++)
         {

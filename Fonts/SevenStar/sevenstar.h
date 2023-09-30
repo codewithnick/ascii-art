@@ -9,11 +9,10 @@ public:
 	{
 		return (colnumber != 0) ? ((colnumber * 7) + colnumber + colnumber) : 0;
 	}
-	std::vector<std::vector<char>> A()
+	char** A()
 	{
+		char** character = getCharGrid();
 
-		std::vector<std::vector<char>> character = getCharGrid();
-		
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
