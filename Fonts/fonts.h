@@ -20,6 +20,8 @@ class Fonts{
 
    public:
     void push_char(char** character){
+        if(!character)
+            return;
         for(int i = 0;i<7;i++){
             for(int j=0;j<7;j++){
                 letters[i][j + curr_col] = character[i][j];
@@ -62,83 +64,109 @@ class Fonts{
 
     /********************************adding virtual functions********************************/
         // Virtual functions for lowercase letters
-        virtual void a(int colnumber) {
+        virtual char** a() {
             std::cout << "a not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void b(int colnumber) {
+        virtual char** b() {
             std::cout << "b not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void c(int colnumber) {
+        virtual char** c() {
             std::cout << "c not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void d(int colnumber) {
+        virtual char** d() {
             std::cout << "d not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void e(int colnumber) {
+        virtual char** e() {
             std::cout << "e not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void f(int colnumber) {
+        virtual char** f() {
             std::cout << "f not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void g(int colnumber) {
+        virtual char** g() {
             std::cout << "g not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void h(int colnumber) {
+        virtual char** h() {
             std::cout << "h not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void i(int colnumber) {
+        virtual char** i() {
             std::cout << "i not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void j(int colnumber) {
+        virtual char** j() {
             std::cout << "j not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void k(int colnumber) {
+        virtual char** k() {
             std::cout << "k not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void l(int colnumber) {
+        virtual char** l() {
             std::cout << "l not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void m(int colnumber) {
+        virtual char** m() {
             std::cout << "m not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void n(int colnumber) {
+        virtual char** n() {
             std::cout << "n not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void o(int colnumber) {
+        virtual char** o() {
             std::cout << "o not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void p(int colnumber) {
+        virtual char** p() {
             std::cout << "p not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void q(int colnumber) {
+        virtual char** q() {
             std::cout << "q not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void r(int colnumber) {
+        virtual char** r() {
             std::cout << "r not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void s(int colnumber) {
+        virtual char** s() {
             std::cout << "s not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void t(int colnumber) {
+        virtual char** t() {
             std::cout << "t not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void u(int colnumber) {
+        virtual char** u() {
             std::cout << "u not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void v(int colnumber) {
+        virtual char** v() {
             std::cout << "v not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void w(int colnumber) {
+        virtual char** w() {
             std::cout << "w not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void x(int colnumber) {
+        virtual char** x() {
             std::cout << "x not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void y(int colnumber) {
+        virtual char** y() {
             std::cout << "y not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void z(int colnumber) {
+        virtual char** z() {
             std::cout << "z not overridden?" << std::endl;
+            return nullptr;
         }
 
         // Virtual functions for uppercase letters
@@ -146,110 +174,145 @@ class Fonts{
             std::cout << "A not overridden?" << std::endl;
             return nullptr;
         }
-        virtual void B(int colnumber) {
+        virtual char** B() {
             std::cout << "B not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void C(int colnumber) {
+        virtual char** C() {
             std::cout << "C not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void D(int colnumber) {
+        virtual char** D() {
             std::cout << "D not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void E(int colnumber) {
+        virtual char** E() {
             std::cout << "E not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void F(int colnumber) {
+        virtual char** F() {
             std::cout << "F not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void G(int colnumber) {
+        virtual char** G() {
             std::cout << "G not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void H(int colnumber) {
+        virtual char** H() {
             std::cout << "H not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void I(int colnumber) {
+        virtual char** I() {
             std::cout << "I not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void J(int colnumber) {
+        virtual char** J() {
             std::cout << "J not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void K(int colnumber) {
+        virtual char** K() {
             std::cout << "K not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void L(int colnumber) {
+        virtual char** L() {
             std::cout << "L not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void M(int colnumber) {
+        virtual char** M() {
             std::cout << "M not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void N(int colnumber) {
+        virtual char** N() {
             std::cout << "N not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void O(int colnumber) {
+        virtual char** O() {
             std::cout << "O not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void P(int colnumber) {
+        virtual char** P() {
             std::cout << "P not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void Q(int colnumber) {
+        virtual char** Q() {
             std::cout << "Q not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void R(int colnumber) {
+        virtual char** R() {
             std::cout << "R not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void S(int colnumber) {
+        virtual char** S() {
             std::cout << "S not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void T(int colnumber) {
+        virtual char** T() {
             std::cout << "T not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void U(int colnumber) {
+        virtual char** U() {
             std::cout << "U not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void V(int colnumber) {
+        virtual char** V() {
             std::cout << "V not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void W(int colnumber) {
+        virtual char** W() {
             std::cout << "W not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void X(int colnumber) {
+        virtual char** X() {
             std::cout << "X not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void Y(int colnumber) {
+        virtual char** Y() {
             std::cout << "Y not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void Z(int colnumber) {
+        virtual char** Z() {
             std::cout << "Z not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void zero(int colnumber) {
+        virtual char** zero() {
             std::cout << "Zero not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void one(int colnumber) {
+        virtual char** one() {
             std::cout << "One not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void two(int colnumber) {
+        virtual char** two() {
             std::cout << "Two not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void three(int colnumber) {
+        virtual char** three() {
             std::cout << "Three not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void four(int colnumber) {
+        virtual char** four() {
             std::cout << "Four not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void five(int colnumber) {
+        virtual char** five() {
             std::cout << "Five not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void six(int colnumber) {
+        virtual char** six() {
             std::cout << "Six not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void seven(int colnumber) {
+        virtual char** seven() {
             std::cout << "Seven not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void eight(int colnumber) {
+        virtual char** eight() {
             std::cout << "Eight not overridden?" << std::endl;
+            return nullptr;
         }
-        virtual void nine(int colnumber) {
+        virtual char** nine() {
             std::cout << "Nine not overridden?" << std::endl;
+            return nullptr;
         }
 
     /********************************done adding virtual functions********************************/

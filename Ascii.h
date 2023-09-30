@@ -29,86 +29,84 @@ public:
     {
 
         font->allocatespace(text);
-        char** character;
+        char** character = nullptr;
         // std::cout<<"printing";
         for (int i = 0; i < text.size(); i++)
         {
             char c = text[i];
 
-            if (c >= 'a' && c <= 'z')
-                c -= 32;
             if (c == 'A')
                 character=font->A();
             else if (c == 'B')
-                font->B(i);
+                character=font->B();
             else if (c == 'C')
-                font->C(i);
+                character=font->C();
             else if (c == 'D')
-                font->D(i);
+                character=font->D();
             else if (c == 'E')
-                font->E(i);
+                character=font->E();
             else if (c == 'F')
-                font->F(i);
+                character=font->F();
             else if (c == 'G')
-                font->G(i);
+                character=font->G();
             else if (c == 'H')
-                font->H(i);
+                character=font->H();
             else if (c == 'I')
-                font->I(i);
+                character=font->I();
             else if (c == 'J')
-                font->J(i);
+                character=font->J();
             else if (c == 'K')
-                font->K(i);
+                character=font->K();
             else if (c == 'L')
-                font->L(i);
+                character=font->L();
             else if (c == 'M')
-                font->M(i);
+                character=font->M();
             else if (c == 'N')
-                font->N(i);
+                character=font->N();
             else if (c == 'O')
-                font->O(i);
+                character=font->O();
             else if (c == 'P')
-                font->P(i);
+                character=font->P();
             else if (c == 'Q')
-                font->Q(i);
+                character=font->Q();
             else if (c == 'R')
-                font->R(i);
+                character=font->R();
             else if (c == 'S')
-                font->S(i);
+                character=font->S();
             else if (c == 'T')
-                font->T(i);
+                character=font->T();
             else if (c == 'U')
-                font->U(i);
+                character=font->U();
             else if (c == 'V')
-                font->V(i);
+                character=font->V();
             else if (c == 'W')
-                font->W(i);
+                character=font->W();
             else if (c == 'X')
-                font->X(i);
+                character=font->X();
             else if (c == 'Y')
-                font->Y(i);
+                character=font->Y();
             else if (c == 'Z')
-                font->Z(i);
+                character=font->Z();
             else if (c == '0')
-                font->zero(i);
+                character=font->zero();
             else if (c == '1')
-                font->one(i);
+                character=font->one();
             else if (c == '2')
-                font->two(i);
+                character=font->two();
             else if (c == '3')
-                font->three(i);
+                character=font->three();
             else if (c == '4')
-                font->four(i);
+                character=font->four();
             else if (c == '5')
-                font->five(i);
+                character=font->five();
             else if (c == '6')
-                font->six(i);
+                character=font->six();
             else if (c == '7')
-                font->seven(i);
+                character=font->seven();
             else if (c == '8')
-                font->eight(i);
+                character=font->eight();
             else if (c == '9')
-                font->nine(i);
+                character=font->nine();
 
             font->push_char(character);
         }
