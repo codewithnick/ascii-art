@@ -26,7 +26,6 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
 
 ## Usage
 
-### 1-Seven Star
 
 <br/>
 <div align="center">
@@ -40,6 +39,8 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
 <div align="center">
 <img src="./7star-result.png">
 </div>
+
+### 1-[Seven star](./Fonts/SevenStar/sevenstar.md)
 
 ### 2-[Boomer](./Fonts/Boomer/boomer.md)
 
