@@ -172,7 +172,7 @@ public:
             else if (c == '9')
                 character=font->nine();
 
-            font->push_char(character);
+            font->pushChar(character);
         }
         font->printvector();
         // font->destroyspace();

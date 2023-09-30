@@ -22,7 +22,7 @@ class Fonts{
     }
 
    public:
-    void push_char(char** character){
+    void pushChar(char** character){
         if(!character)
             return;
         for(int i = 0;i<7;i++){
