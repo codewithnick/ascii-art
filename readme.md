@@ -12,8 +12,8 @@
 - [Overview](https://github.com/codewithnick/ascii-art#overview)
 - [Usage](https://github.com/codewithnick/ascii-art#Usage)
   - [Seven Star](https://github.com/codewithnick/ascii-art#1-Seven-Star)
-- [Contribution](https://github.com/sepandhaghighi/art/blob/master/.github/CONTRIBUTING.md)
-- [Reference](https://github.com/sepandhaghighi/art#reference)
+- [Contribution](https://github.com/codewithnick/ascii-art/CONTRIBUTING.md)
+- [Reference](https://github.com/codewithnick/ascii-art#Reference)
 - [Authors](https://github.com/sepandhaghighi/art/blob/master/AUTHORS.md)
 - [Show Your Support](https://github.com/sepandhaghighi/art#show-your-support)
 
