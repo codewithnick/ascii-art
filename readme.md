@@ -14,7 +14,7 @@
   - [Seven Star](https://github.com/codewithnick/ascii-art#1-Seven-Star)
 - [Contribution](https://github.com/codewithnick/ascii-art/blob/main/CONTRIBUTING.md)
 - [Reference](https://github.com/codewithnick/ascii-art#Reference)
-- [Authors](https://github.com/sepandhaghighi/art/blob/master/AUTHORS.md)
+- [Authors](https://github.com/codewithnick/ascii-art#Authors)
 - [Show Your Support](https://github.com/codewithnick/ascii-art#Show-your-support)
 
 ## Overview
@@ -46,12 +46,51 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
 1. [Art 6.1](https://pypi.org/project/art/)
 2. [Ascii Generator](https://ascii-generator.site/t/)
 
+## Authors
+
+<!-- readme: collaborators -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/sachinkumar911">
+            <img src="https://avatars.githubusercontent.com/u/115224664?v=4" width="100;" alt="subrajeet-maharana"/>
+            <br />
+            <sub><b>Sachin Kumar</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/vishu567">
+            <img src="https://avatars.githubusercontent.com/u/112263798?v=4" width="100;" alt="vkumar8192449"/>
+            <br />
+            <sub><b>Vishal</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/vkumar8192449">
+            <img src="https://avatars.githubusercontent.com/u/64706066?v=4" width="100;" alt="vkumar8192449"/>
+            <br />
+            <sub><b>Vinay Kumar</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/AnshumanMahato">
+            <img src="https://avatars.githubusercontent.com/u/58422570?v=4" width="100;" alt="AnshumanMahato"/>
+            <br />
+            <sub><b>Anshuman Mahato</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/codewithnick">
+            <img src="https://avatars.githubusercontent.com/u/53932029?v=4" width="100;" alt="vkumar8192449"/>
+            <br />
+            <sub><b>Nikhil Singh</b></sub>
+        </a>
+    </td>
+    </tr>
+</table>
+
 ## Show your support
 
 <h3>Star this repo</h3>
 
-Give a ⭐ if you like this project!
-
-<h3>Donate to our project</h3>
-
-<a href="https://www.ascii-art.site/#support" target="_blank"><img src="https://github.com/sepandhaghighi/art/raw/master/otherfile/donate-button.png" height="70px" width="220px" alt="Art Donation"></a>
+Give a ⭐ if you like this project !
