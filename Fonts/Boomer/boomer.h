@@ -27,5 +27,11 @@ public:
 		character[3][0]=character[3][6]=character[4][0]=character[4][2]=character[4][4]=character[4][6]=character[5][2]=character[5][4]='|';
 		return character;
 	}
+	char** E()
+	{
+		char** character=getCharGrid();
+		character[0][0]=' ';
+		return character;
+	}
 };
 #endif
