@@ -32,7 +32,7 @@ class Fonts{
         }
         curr_col += 9;
     }
-    std::vector<std::vector<char>>letters;
+    std::vector<std::vector<char> >letters;
     Fonts(){
          letters.reserve(7);
         for (int i = 0; i < 7; i++) {
@@ -54,7 +54,7 @@ class Fonts{
         */
     }
 
-    std::vector<std::vector<char>> getletters()
+    std::vector<std::vector<char> > getletters()
     {
         return letters;
     }
