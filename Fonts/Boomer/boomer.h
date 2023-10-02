@@ -5,7 +5,7 @@ class Boomer : public Fonts
 {
 public:
 	Boomer() {}
-	
+
 	char** a()
 	{
 		char** character = getCharGrid();
@@ -18,8 +18,8 @@ public:
 	}
 
 	char** A()
-	{	
-	
+	{
+
 		char** character = getCharGrid();
 		character[0][2]=character[0][3]=character[0][4]=character[1][3]=character[2][3]=character[3][3]=character[5][1]=character[5][5]='_';
 		character[1][1]=character[2][0]=character[2][2]=character[5][6]='/';
@@ -27,6 +27,7 @@ public:
 		character[3][0]=character[3][6]=character[4][0]=character[4][2]=character[4][4]=character[4][6]=character[5][2]=character[5][4]='|';
 		return character;
 	}
+
 	char** I()
 	{	
 	
@@ -36,6 +37,7 @@ public:
 		character[5][5]='/';
 		character[5][1]='\\';
 		character[0][1]=character[0][2]=character[0][3]=character[0][4]=character[0][5]=character[1][1]=character[1][5]=character[4][1]=character[4][5]=character[5][2]=character[5][3]=character[5][4]='_';
+
 		return character;
 	}
 };
