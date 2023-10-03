@@ -4,6 +4,5 @@ int main()
 {
     Ascii a = Ascii("boomer");
     a.print("P");
-
     return 0;
 }
