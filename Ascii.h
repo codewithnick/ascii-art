@@ -7,6 +7,8 @@
 #include "./Fonts/fonts.h"
 #include "./Fonts/SevenStar/sevenstar.h"
 #include "./Fonts/Boomer/boomer.h"
+#include "./Fonts/banner/banner.h"
+
 class Ascii
 {
 public:
@@ -24,6 +26,11 @@ public:
         {
             // std::cout<<"initialised sevenstar";
             this->font = new Boomer();
+        }
+        else if (fontName == "banner")
+        {
+            // std::cout<<"initialised sevenstar";
+            this->font = new Banner();
         }
         else
         {
