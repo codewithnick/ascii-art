@@ -49,7 +49,5 @@ public:
 		character[0][1]=character[0][2]=character[0][3]=character[0][4]=character[0][5]=character[1][1]=character[1][5]=character[4][1]=character[4][5]=character[5][2]=character[5][3]=character[5][4]='_';
 		return character;
 	}
-    
-  
 };
 #endif
