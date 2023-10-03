@@ -3,6 +3,6 @@
 int main()
 {
     Ascii a = Ascii("boomer");
-    a.print("abuxx");
+    a.print("aboxx");
     return 0;
 }

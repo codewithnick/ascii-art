@@ -475,17 +475,21 @@ public:
 
     */
 
-    /*
-        char **o()
-        {
-            char **character = getCharGrid();
+    
+    char** o()
+    {
+        char** character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
+        character[2][2] = character[2][4] = '_';
+        character[3][1] = '/'; character[3][5] = '\\';
+        character[4][0] = character[4][6] = '|';
+        character[5][1] = '\\'; character[5][5] = '/';
+        character[5][2] = character[5][4] = '_';
+        character[4][3] = 'o';
+        return character;
+    }
 
-            return character;
-        }
-
-    */
+    
 
     /*
         char **p()
