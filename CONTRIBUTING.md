@@ -8,20 +8,22 @@ Please consider the following :
 2. Add your new features
    - To add a new font visit [here](#font)
    - To add a new character visit [here](#new-char)
+
 3. Update README.md (if needed)
 4. Submit a pull request.
 
 ## Font
 
 1. Select a non-duplicate name for font
-2. Create a directory in "Fonts" with the name as of font name
-3. In that directory, create a header file which consist of a class which inherits class "Fonts"
-4. In the class create a individual functions for every single characters
+2. Copy the fontname directory from templates directory to Fonts directoy. Rename this directory to the name of your font
+3. In that directory, rename the header file and the md file to the name of your font.
+4. Set the specified grid size for your font in the appropriate macro fields.
 5. Now, In "Ascii.h" #include your font
 6. then, Add the condition of your font in the if else block
+7. Add some previews to the md file. 
 
 ## New-Char
 
 1. Select a character which is not previously used in a font
-2. In your selected font's header file create function which take a "colnumber" as parameter
-3. then, apply your algorithm and update 2d array named as "letters"
+2. In your selected font's header file uncomment the respective function.
+3. then, apply your algorithm and update `character` grid acccordingly.
