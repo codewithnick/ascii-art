@@ -428,17 +428,16 @@ public:
 
     */
 
-    /*
-        char **k()
-        {
-            char **character = getCharGrid();
-
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-
-    */
+    char **k()
+	{
+		char **character = getCharGrid();
+		character[0][1] = character[2][4] = character[2][5] = character[5][1] = character[5][4] = '_';
+		character[1][0] = character[1][2] = character[2][0] = character[2][2] = character[3][0] = character[3][2] = character[4][0] = character[5][0] = character[5][2] = '|';
+	    character[3][3] = character[3][5] = '/';
+        character[4][4] = '<';
+        character[5][3] = character[5][5] = '\\';
+		return character;
+	}
 
     /*
         char **l()
