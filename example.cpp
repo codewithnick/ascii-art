@@ -2,7 +2,7 @@
 #include "string"
 int main()
 {
-    Ascii a = Ascii("ha");
+    Ascii a = Ascii("boomer");
     a.print("H");
     return 0;
 }
