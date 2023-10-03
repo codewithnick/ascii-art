@@ -7,7 +7,6 @@
 #include "./Fonts/fonts.h"
 #include "./Fonts/SevenStar/sevenstar.h"
 #include "./Fonts/Boomer/boomer.h"
-
 class Ascii
 {
 public:
