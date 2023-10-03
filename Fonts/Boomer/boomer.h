@@ -1,33 +1,15 @@
 #ifndef BOOMER_H
 #define BOOMER_H
+#define ROWS 7
+#define COLS 7
 #include "../fonts.h"
+
 class Boomer : public Fonts
 {
 public:
-	Boomer() : Fonts(7, 7) {}
+	Boomer() : Fonts(ROWS, COLS) {}
 
-	char **a()
-	{
-		char **character = getCharGrid();
-
-		character[2][2] = character[2][3] = character[2][5] = '_';
-		character[3][1] = '/';
-		character[3][3] = '_';
-		character[3][4] = '`';
-		character[3][6] = '|';
-		character[4][0] = '|';
-		character[4][2] = '(';
-		character[4][3] = '_';
-		character[4][4] = '|';
-		character[4][6] = '|';
-		character[5][1] = '\\';
-		character[5][2] = '_';
-		character[5][3] = '_';
-		character[5][4] = ',';
-		character[5][5] = '_';
-		character[5][6] = '|';
-		return character;
-	}
+	// Uppercase
 
 	char **A()
 	{
@@ -137,5 +119,32 @@ public:
 		character[1][0] = '|';
 		return character;
 	}
+
+	// Lowercase
+
+	char **a()
+	{
+		char **character = getCharGrid();
+
+		character[2][2] = character[2][3] = character[2][5] = '_';
+		character[3][1] = '/';
+		character[3][3] = '_';
+		character[3][4] = '`';
+		character[3][6] = '|';
+		character[4][0] = '|';
+		character[4][2] = '(';
+		character[4][3] = '_';
+		character[4][4] = '|';
+		character[4][6] = '|';
+		character[5][1] = '\\';
+		character[5][2] = '_';
+		character[5][3] = '_';
+		character[5][4] = ',';
+		character[5][5] = '_';
+		character[5][6] = '|';
+		return character;
+	}
+
+	// Digits
 };
 #endif

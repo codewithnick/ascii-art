@@ -1,10 +1,13 @@
 #ifndef SEVENSTAR_H
 #define SEVENSTAR_H
+#define ROWS 7
+#define COLS 7
 #include "../fonts.h"
+
 class SevenStar : public Fonts
 {
 public:
-	SevenStar() : Fonts(7, 7) {}
+	SevenStar() : Fonts(ROWS, COLS) {}
 
 	char **A()
 	{
