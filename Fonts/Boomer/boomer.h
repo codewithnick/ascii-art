@@ -145,6 +145,6 @@ public:
 		return character;
 	}
 
-	// Digits
+	// Numbers
 };
 #endif
