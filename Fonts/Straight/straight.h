@@ -1,29 +1,28 @@
 #ifndef STRAIGHT_H
 #define STRAIGHT_H
-#define ROW 3
-#define COL 4
 #include "../fonts.h"
 
 class Straight : public Fonts
 {
+    static const int rows = 3;
+    static const int cols = 4;
+
 public:
-    Straight() : Fonts(ROW, COL) {}
+    Straight() : Fonts(rows, cols) {}
 
     // Uppercase
 
-    
-        char **A()
-        {
-            char **character = getCharGrid();
+    char **A()
+    {
+        char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
-            character[1][1]=character[2][0]='/';
-            character[1][2]=character[2][3]='\\';
-            character[2][1]=character[2][2]='-';
+        // Enter the character grid in ROWS X COLS
+        character[1][1] = character[2][0] = '/';
+        character[1][2] = character[2][3] = '\\';
+        character[2][1] = character[2][2] = '-';
 
-            return character;
-        }
-    
+        return character;
+    }
 
     /*
         char **B()
