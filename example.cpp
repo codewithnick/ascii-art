@@ -2,7 +2,7 @@
 #include "string"
 int main()
 {
-    Ascii a = Ascii("boomer");
-    a.print("eWAf");
+    Ascii a = Ascii("banner");
+    a.print("ABCAC");
     return 0;
 }
