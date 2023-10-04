@@ -3,6 +3,6 @@
 int main()
 {
     Ascii a = Ascii("boomer");
-    a.print("N");
+    a.print("eWAf");
     return 0;
 }
