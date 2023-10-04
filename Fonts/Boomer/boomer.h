@@ -479,13 +479,13 @@ public:
     char** o()
     {
         char** character = getCharGrid();
-
-        character[2][2] = character[2][4] = '_';
+        character[2][2] = character[2][3] = character[2][4] = '_';
+        character[3][3] = '_';
         character[3][1] = '/'; character[3][5] = '\\';
         character[4][0] = character[4][6] = '|';
+        character[4][2] = '('; character[4][4] = ')'; character[4][3] = '_';
         character[5][1] = '\\'; character[5][5] = '/';
-        character[5][2] = character[5][4] = '_';
-        character[4][3] = 'o';
+        character[5][2] = character[5][3] = character[5][4] = '_';
         return character;
     }
 
