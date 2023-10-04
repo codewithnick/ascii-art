@@ -8,6 +8,10 @@
 #include "./Fonts/SevenStar/sevenstar.h"
 #include "./Fonts/Boomer/boomer.h"
 #include "./Fonts/starwar/starwar.h"
+#include "./Fonts/Carlos/carlos.h"
+#include "./Fonts/banner/banner.h"
+
+
 class Ascii
 {
 public:
@@ -28,6 +32,15 @@ public:
         }
         else if (fontName == "starwar") {
             this->font = new Starwar();
+        }
+        else if(fontName == "carlos")
+        {
+            this->font = new Carlos();
+         }
+        else if (fontName == "banner")
+        {
+            // std::cout<<"initialised sevenstar";
+            this->font = new Banner();
         }
         else
         {
