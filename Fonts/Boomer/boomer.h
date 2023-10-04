@@ -4,7 +4,7 @@
 
 class Boomer : public Fonts
 {
-    static const int rows = 7;
+    static const int rows = 8;
     static const int cols = 7;
 
 public:
