@@ -14,35 +14,37 @@
 
 class Ascii
 {
+    
 public:
+    enum FontName{sevenstar,boomer,straight,starwar,carlos,banner};
     std::string fontName;
     Fonts *font;
-    Ascii(const std::string &fontName)
+    Ascii(const FontName &fontName)
     {
         // std::cout<<"initialised ascii";
-        if (fontName == "sevenstar")
+        if (fontName == FontName::sevenstar)
         {
             // std::cout<<"initialised sevenstar";
             this->font = new SevenStar();
         }
-        else if (fontName == "boomer")
+        else if (fontName == FontName::boomer)
         {
             // std::cout<<"initialised sevenstar";
             this->font = new Boomer();
         }
-        else if(fontName == "straight") {
+        else if(fontName == FontName::straight) {
 
             this->font = new Straight();
         }
-        else if (fontName == "starwar")
+        else if (fontName == FontName::starwar)
         {
             this->font = new Starwar();
         }
-        else if (fontName == "carlos")
+        else if (fontName == FontName::carlos)
         {
             this->font = new Carlos();
         }
-        else if (fontName == "banner")
+        else if (fontName == FontName::banner)
         {
             // std::cout<<"initialised sevenstar";
             this->font = new Banner();
