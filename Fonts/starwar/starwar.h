@@ -1,23 +1,22 @@
 #ifndef STARWAR_H
 #define STARWAR_H
-#define ROW 6
-#define COL 13
 #include "../fonts.h"
-
 
 class Starwar : public Fonts
 {
+    static const int rows = 6;
+    static const int cols = 13;
+
 public:
-    Starwar() : Fonts(ROW, COL) {}
+    Starwar() : Fonts(rows, cols) {}
     // Uppercase
 
-
-    char** A()
+    char **A()
     {
-        char** character = getCharGrid();
+        char **character = getCharGrid();
         character[5][0] = character[4][1] = character[3][2] = character[2][3] = character[1][4] = character[5][3] = character[3][5] = '/';
         character[1][8] = character[2][9] = character[3][10] = character[4][11] = character[5][12] = character[3][7] = character[5][9] = '\\';
-        character[0][5] = character[0][6] = character[0][7] = character[4][4] = character[4][5] = character[4][6] = character[4][7] = character[4][8] = character[5][1] = character[5][2] = character[5][10] = character[5][11] = '-';
+        character[0][5] = character[0][6] = character[0][7] = character[3][6] = character[4][4] = character[4][5] = character[4][6] = character[4][7] = character[4][8] = character[5][1] = character[5][2] = character[5][10] = character[5][11] = '_';
         character[2][6] = '^';
         return character;
     }
@@ -724,6 +723,5 @@ public:
         }
 
     */
-
 };
 #endif

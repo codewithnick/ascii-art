@@ -1,40 +1,40 @@
-#ifndef FONTNAME_H
-#define FONTNAME_H
-#define ROWS 7
-#define COL 14
+#ifndef CARLOS_H
+#define CARLOS_H
 #include "../fonts.h"
 
 class Carlos : public Fonts
 {
+    static const int rows = 7;
+    static const int cols = 14;
+
 public:
-    Carlos() : Fonts(ROWS, COL) {}
+    Carlos() : Fonts(rows, cols) {}
 
+    char **A()
+    {
+        char **character = getCharGrid();
 
-        char **A()
-        {
-            char **character = getCharGrid();
+        character[0][3] = character[0][4] = character[0][5] = character[0][6] = '_';
+        character[1][2] = '(';
+        character[1][7] = ')';
+        character[2][0] = character[2][1] = character[2][3] = character[2][6] = character[2][8] = character[2][9] = ' ';
+        character[2][2] = character[2][4] = '/';
+        character[2][5] = character[2][7] = '\\';
+        character[3][1] = character[3][3] = '(';
+        character[3][4] = character[3][5] = '_';
+        character[3][6] = character[3][8] = ')';
+        character[4][2] = ')';
+        character[4][7] = '(';
+        character[5][1] = character[5][4] = '/';
+        character[5][5] = character[5][8] = '\\';
+        character[6][0] = '/';
+        character[6][1] = character[6][2] = character[6][7] = character[6][8] = '_';
+        character[6][3] = '(';
+        character[6][6] = ')';
+        character[6][9] = '\\';
 
-            character[0][3] = character[0][4] = character[0][5] = character[0][6] = '_';
-            character[1][2] = '(';
-            character[1][7] = ')';
-            character[2][0] = character[2][1] = character[2][3] = character[2][6] = character[2][8] = character[2][9] = ' ';
-            character[2][2] = character[2][4] = '/';
-            character[2][5] = character[2][7] = '\\';
-            character[3][1] = character[3][3] = '(';
-            character[3][4] = character[3][5] = '_';
-            character[3][6] = character[3][8] = ')';
-            character[4][2] = ')';
-            character[4][7] = '(';
-            character[5][1] = character[5][4] = '/';
-            character[5][5] = character[5][8] = '\\';
-            character[6][0] = '/';
-            character[6][1] = character[6][2] = character[6][7] = character[6][8] = '_';
-            character[6][3] = '(';
-            character[6][6] = ')';
-            character[6][9] = '\\';
-
-            return character;
-        }
+        return character;
+    }
 
     /*
         char **B()
@@ -313,31 +313,31 @@ public:
 
     // Lowercase
 
-        char **a()
-        {
-            char **character = getCharGrid();
+    char **a()
+    {
+        char **character = getCharGrid();
 
-            character[0][3] = character[0][4] = character[0][5] = character[0][6] = '_';
-            character[1][2] = '(';
-            character[1][7] = ')';
-            character[2][0] = character[2][1] = character[2][3] = character[2][6] = character[2][8] = character[2][9] = ' ';
-            character[2][2] = character[2][4] = '/';
-            character[2][5] = character[2][7] = '\\';
-            character[3][1] = character[3][3] = '(';
-            character[3][4] = character[3][5] = '_';
-            character[3][6] = character[3][8] = ')';
-            character[4][2] = ')';
-            character[4][7] = '(';
-            character[5][1] = character[5][4] = '/';
-            character[5][5] = character[5][8] = '\\';
-            character[6][0] = '/';
-            character[6][1] = character[6][2] = character[6][7] = character[6][8] = '_';
-            character[6][3] = '(';
-            character[6][6] = ')';
-            character[6][9] = '\\';
+        character[0][3] = character[0][4] = character[0][5] = character[0][6] = '_';
+        character[1][2] = '(';
+        character[1][7] = ')';
+        character[2][0] = character[2][1] = character[2][3] = character[2][6] = character[2][8] = character[2][9] = ' ';
+        character[2][2] = character[2][4] = '/';
+        character[2][5] = character[2][7] = '\\';
+        character[3][1] = character[3][3] = '(';
+        character[3][4] = character[3][5] = '_';
+        character[3][6] = character[3][8] = ')';
+        character[4][2] = ')';
+        character[4][7] = '(';
+        character[5][1] = character[5][4] = '/';
+        character[5][5] = character[5][8] = '\\';
+        character[6][0] = '/';
+        character[6][1] = character[6][2] = character[6][7] = character[6][8] = '_';
+        character[6][3] = '(';
+        character[6][6] = ')';
+        character[6][9] = '\\';
 
-            return character;
-        }
+        return character;
+    }
 
     /*
         char **b()

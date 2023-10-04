@@ -1,13 +1,14 @@
 #ifndef FONTNAME_H
 #define FONTNAME_H
-#define ROWS rows
-#define COLS columns
 #include "../fonts.h"
 
 class Fontname : public Fonts
 {
+    static const int rows = <rows>;
+    static const int cols = <cols>;
+
 public:
-    Fontname() : Fonts(ROWS, COLS) {}
+    Fontname() : Fonts(rows, cols) {}
 
     // Uppercase
 
