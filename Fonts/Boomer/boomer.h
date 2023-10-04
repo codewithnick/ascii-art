@@ -282,16 +282,18 @@ public:
         return character;
     }
 
-    /*
-       char **Y()
-       {
-           char **character = getCharGrid();
+    char** Y()
+	{	
+	
+		char** character = getCharGrid();
+		character[0][0]=character[0][1]=character[0][5]=character[0][6]=character[5][3]='_';
+		character[1][4]=character[1][6]=character[2][5]=character[5][4]=character[3][4]='/';
+		character[1][0]=character[1][2]=character[3][2]=character[5][2]=character[2][1]='\\';
+        character[2][3]='v';
+		character[4][2]=character[4][4]='|';
+		return character;
+  } 
 
-           //Enter the character grid in ROWS X COLS
-
-           return character;
-       }
-   */
 
     char **Z()
     {
