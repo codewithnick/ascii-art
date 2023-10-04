@@ -1,4 +1,4 @@
 *.exe
 *.o
 .vscode
-test.cpp
+.\test.cpp
