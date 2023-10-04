@@ -7,6 +7,7 @@
 #include "./Fonts/fonts.h"
 #include "./Fonts/SevenStar/sevenstar.h"
 #include "./Fonts/Boomer/boomer.h"
+#include "./Fonts/Straight/straight.h"
 #include "./Fonts/starwar/starwar.h"
 #include "./Fonts/Carlos/carlos.h"
 #include "./Fonts/banner/banner.h"
@@ -28,6 +29,10 @@ public:
         {
             // std::cout<<"initialised sevenstar";
             this->font = new Boomer();
+        }
+        else if(fontName == "straight") {
+
+            this->font = new Straight();
         }
         else if (fontName == "starwar")
         {
