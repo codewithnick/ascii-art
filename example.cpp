@@ -10,5 +10,7 @@ int main()
     a.print("O");
     a.print("P");
   a.print("R");
+    Ascii a = Ascii("banner");
+    a.print("AA");
     return 0;
 }
