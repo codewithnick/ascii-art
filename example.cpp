@@ -2,7 +2,7 @@
 #include "string"
 int main()
 {
-    Ascii a = Ascii("starwar");
+    Ascii a = Ascii("banner");
     a.print("AA");
     return 0;
 }
