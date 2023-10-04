@@ -699,17 +699,18 @@ public:
 
     */
 
-    /*
+    
         char **eight()
         {
-            char **character = getCharGrid();
+           char **character = getCharGrid();
+           character[0][1]=character[0][2]=character[0][3]=character[0][4]=character[0][5]='#';
+           character[3][1]=character[3][2]=character[3][3]=character[3][4]=character[3][5]='#';
+           character[6][1]=character[6][2]=character[6][3]=character[6][4]=character[6][5]='#';
+           character[1][0]=character[2][0]=character[4][0]=character[5][0]='#';
+           character[1][6]=character[2][6]=character[4][6]=character[5][6]='#';
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
+        return character;
         }
-
-    */
 
     /*
         char **nine()
