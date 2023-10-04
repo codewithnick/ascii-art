@@ -579,17 +579,16 @@ public:
         return character;
     }
 
-    /*
-        char **v()
-        {
-            char **character = getCharGrid();
+    char **v()
+    {
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-
-    */
+        char **character = getCharGrid();
+        character[2][0] = character[2][1] = character[2][5] = character[2][6] = character[5][3] = '_';
+        character[3][0] = character[3][2] = character[4][1] = character[5][2] = '\\';
+        character[3][4] = character[3][6] = character[4][5] = character[5][4] = '/';
+        character[4][3] = 'V';
+        return character;
+    }
 
     /*
         char **w()
