@@ -12,7 +12,7 @@ class Fonts
     int char_rows;
     int char_cols;
     int curr_col;
-    std::vector<std::vector<char>> letters;
+    std::vector<std::vector<char> > letters;
 
 protected:
     char **getCharGrid()
@@ -55,7 +55,7 @@ public:
         curr_col += (char_cols + 2);
     }
 
-    std::vector<std::vector<char>> getletters()
+    std::vector<std::vector<char> > getletters()
     {
         return letters;
     }

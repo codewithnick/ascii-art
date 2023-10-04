@@ -6,8 +6,11 @@
 
 class SevenStar : public Fonts
 {
+	static const int rows = 7;
+	static const int cols = 7;
+
 public:
-	SevenStar() : Fonts(ROWS, COLS) {}
+	SevenStar() : Fonts(rows, cols) {}
 
 	char **A()
 	{
