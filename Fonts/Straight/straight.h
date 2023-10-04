@@ -204,16 +204,20 @@ public:
         }
     */
 
-    /*
+    
         char **R()
-        {
-            char **character = getCharGrid();
+    {
+        char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-    */
+        //Enter the character grid in ROWS X COLS
+        character[0][1] = character[0][2] = character[1][1] = character[1][2] ='_';
+        character[1][0] = character[2][0] = '|';
+        character[2][2] = '\\';
+        character[1][3] = ')';
+        
+        return character;
+    }
+    
 
     /*
         char **S()
@@ -248,16 +252,16 @@ public:
         }
     */
 
-    /*
         char **V()
         {
             char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
+        //Enter the character grid in ROWS X COLS
+        character[1][0] = character[2][1] ='\\';
+        character[1][3] = character[2][2] = '/';
+        
+        return character;
         }
-    */
 
     /*
         char **W()
@@ -393,17 +397,15 @@ public:
         }
     */
 
-    /*
         char **i()
         {
             char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
+            character[1][0]='.';
+            character[2][0]='|';
 
             return character;
         }
-
-    */
 
     /*
         char **j()
