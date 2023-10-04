@@ -406,17 +406,16 @@ public:
         }
     */
 
-    /*
-        char **i()
-        {
-            char **character = getCharGrid();
+    char** i()
+	{
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-
-    */
+		char** character = getCharGrid();
+		character[0][1]=character[1][1]=character[2][1]=character[5][1]='_';
+		character[3][2]=character[4][2]=character[5][2]=character[3][0]=character[4][0]=character[5][0]='|';
+		character[1][0]='(';
+		character[1][2]=')';
+		return character;
+	}
 
     
         char **j()
