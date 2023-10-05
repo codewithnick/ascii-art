@@ -209,7 +209,7 @@ namespace ascii
                 font->pushChar(character);
             }
             font->printvector();
-            // font->destroyspace();
+            font->Flush();
         }
     };
 } // namespace ascii
