@@ -5,4 +5,4 @@
 *.o
 .vscode
 .\test.cpp
-.\templates\CharGen
+CharGen
