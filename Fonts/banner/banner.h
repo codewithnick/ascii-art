@@ -88,15 +88,15 @@ public:
     */
 
     /*
-        char **H()
-        {
-            char **character = getCharGrid();
+         char **H()
+         {
+             char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
+             //Enter the character grid in ROWS X COLS
 
-            return character;
-        }
-    */
+             return character;
+         }
+  
 
     /*
         char **I()
@@ -131,16 +131,15 @@ public:
         }
     */
 
-    /*
+    
         char **L()
         {
             char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
+            character[0][0] = character[1][0] = character[2][0] = character[3][0] = character[4][0] = character[5][0] = character[6][0] = character[6][1]  = character[6][2] = character[6][3] = character[6][4] = character[6][5]  = character[6][6] = '#';
 
             return character;
         }
-    */
 
     /*
         char **M()
