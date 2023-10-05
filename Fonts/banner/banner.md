@@ -3,7 +3,7 @@
 For more designs refer to banner at [ascii-generater](https://ascii-generator.site/t/)
 
 ```html
-   #    
+   #
   # #   
  #   #  
 #     # 
@@ -13,7 +13,7 @@ For more designs refer to banner at [ascii-generater](https://ascii-generator.si
 
 ```
 
-```sh
+```
 ######  
 #     # 
 #     # 
@@ -24,7 +24,7 @@ For more designs refer to banner at [ascii-generater](https://ascii-generator.si
 
 ```
 
-```sh
+```
  #####  
 #     # 
 #       
@@ -35,7 +35,7 @@ For more designs refer to banner at [ascii-generater](https://ascii-generator.si
 
 ```
 
-```sh
+```
 ######  
 #     # 
 #     # 
@@ -46,7 +46,7 @@ For more designs refer to banner at [ascii-generater](https://ascii-generator.si
 
 ```
 
-```sh
+```
 ####### 
 #       
 #       
@@ -57,7 +57,7 @@ For more designs refer to banner at [ascii-generater](https://ascii-generator.si
 
 ```
 
-```sh
+```
 ####### 
 #       
 #       
@@ -68,7 +68,7 @@ For more designs refer to banner at [ascii-generater](https://ascii-generator.si
 
 ```
 
-```rb
+```
  #####  
 #     # 
 #       
@@ -79,7 +79,7 @@ For more designs refer to banner at [ascii-generater](https://ascii-generator.si
 
 ```
 
-```sh
+```
 #     # 
 #     # 
 #     # 
@@ -112,7 +112,7 @@ For more designs refer to banner at [ascii-generater](https://ascii-generator.si
 
 ```
 
-```sh
+```
 #    # 
 #   #  
 #  #   
@@ -123,7 +123,7 @@ For more designs refer to banner at [ascii-generater](https://ascii-generator.si
 
 ```
 
-```sh
+```
 #       
 #       
 #       
@@ -156,7 +156,7 @@ For more designs refer to banner at [ascii-generater](https://ascii-generator.si
 
 ```
 
-```sh
+```
 ####### 
 #     # 
 #     # 
@@ -167,7 +167,7 @@ For more designs refer to banner at [ascii-generater](https://ascii-generator.si
 
 ```
 
-```sh
+```
 ######  
 #     # 
 #     # 
@@ -189,7 +189,7 @@ For more designs refer to banner at [ascii-generater](https://ascii-generator.si
 
 ```
 
-```sh
+```
 ######  
 #     # 
 #     # 
