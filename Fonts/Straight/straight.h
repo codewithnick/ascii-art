@@ -105,16 +105,14 @@ public:
         }
     */
 
-    /*
-        char **I()
+    char **I()
         {
             char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
+            character[1][0] = character[2][0] = '|';
 
             return character;
         }
-    */
 
     /*
         char **J()
