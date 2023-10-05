@@ -1,4 +1,8 @@
+*
+!/**/
+!*.*
 *.exe
 *.o
 .vscode
 .\test.cpp
+.\templates\CharGen
