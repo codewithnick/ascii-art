@@ -112,6 +112,18 @@ public:
 		character[2][0]='|';
 		return character;
 	}
+
+
+	char** s()
+	{
+		char** character = getCharGrid();
+
+		character[2][3]=character[2][4]=character[2][5]='_';
+		character[3][2]='/';character[3][4]=character[3][5]='_';character[3][6]='|';
+		character[4][2]='\\';character[4][3]=character[4][4]='_';character[4][6]='\\';
+		character[5][2]='|';character[5][3]=character[5][4]=character[5][5]='_';character[5][6]='/';
+		return character;
+	}
  
 };
 #endif
