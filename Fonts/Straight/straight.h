@@ -551,17 +551,19 @@ public:
 
     */
 
-    /*
-        char **v()
-        {
-            char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
+    char **v()
+    {
+        char **character = getCharGrid();
 
-            return character;
-        }
+        //Enter the character grid in ROWS X COLS
 
-    */
+        character[2][0] = '\\';
+        character[2][1] = '/';
+        return character;
+    }
+
+
 
     /*
         char **w()
