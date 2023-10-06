@@ -105,16 +105,14 @@ public:
         }
     */
 
-    /*
-        char **I()
+    char **I()
         {
             char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
+            character[1][0] = character[2][0] = '|';
 
             return character;
         }
-    */
 
     /*
         char **J()
@@ -261,16 +259,19 @@ public:
         return character;
         }
 
-    /*
+    
         char **W()
         {
             char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
+             character[1][0] = character[1][3] = character[2][0] = character[2][3] = '|';
+            character[1][1] = character[1][2] = ' ';
+            character[2][1] = '/';
+            character[2][2] = '\\';
 
             return character;
         }
-    */
+    
 
     /*
         char **X()
