@@ -122,16 +122,17 @@ public:
         return character;
     }
 
-    /*
-        char **K()
-        {
-            char **character = getCharGrid();
+     char** K()
+	{	
+	
+		char** character = getCharGrid();
+		character[0][6]=character[0][1]=character[0][5]=character[0][6]=character[5][1]=character[5][5]='_';
+		character[1][4]=character[1][6]=character[2][5]=character[2][3]=character[5][6]='/';
+		character[3][5]=character[4][6]=character[4][3]=character[5][4]=character[5][0]='\\';
+		character[1][0]=character[2][0]=character[3][0]=character[4][0]=character[1][2]=character[2][2]=character[4][2]=character[5][2]='|';
+		return character;
+  }
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-    */
 
     
         char **L()
