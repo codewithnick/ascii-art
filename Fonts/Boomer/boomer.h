@@ -491,6 +491,7 @@ public:
         char **n()
         {
             char **character = getCharGrid();
+            
             character[2][1]=character[2][3]=character[2][4]=character[4][3]=character[4][5]=character[4][4]=character[3][3]=character[5][5]=character[5][1]='_';
             character[2][0]=character[2][2]=character[2][5]=character[2][6]=character[3][1]=character[4][1]=character[4][3]=character[4][5]=character[4][3]=' ';
             character[3][0]=character[4][0]=character[4][2]=character[4][4]=character[4][6]=character[5][0]=character[5][2]=character[5][4]=character[5][6]='|';
