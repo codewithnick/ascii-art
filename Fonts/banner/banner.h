@@ -617,17 +617,15 @@ public:
 
     */
 
-    /*
-        char **one()
-        {
-            char **character = getCharGrid();
+    char **one()
+    {
+        char** character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-
-    */
+        character[0][2] = character[1][2] = character[2][2] = character[3][2] = character[4][2] = character[5][2] = character[6][2] = '#';
+        character[6][0] = character[6][1] = character[6][3] = character[6][4] = '#';
+        character[2][0] = character[1][1] = '#';
+        return character;
+    }
 
     /*
         char **two()
