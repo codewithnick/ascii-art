@@ -64,16 +64,56 @@ public:
         return character;
     }
 
-    /*
-        char **D()
+    char **D()
         {
             char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COL
+            character[0][1]= '_';
+character[0][2]= '_';
+character[0][3]= '_';
+character[0][4]= '_';
+character[0][5]= '_';
+character[0][6]= '_';
+
+character[1][0]= '(';
+character[1][1]= '_';
+character[1][4]= '_';
+character[1][5]= '_';
+character[1][7]= '\\';
+
+character[2][2]= ')';
+character[2][4]= ')';
+character[2][6]= '\\';
+character[2][8]= '\\';
+
+character[3][1]= '(';
+character[3][3]= '(';
+character[3][7]= ')';
+character[3][9]= ')';
+
+character[4][2]= ')';
+character[4][4]= ')';
+character[4][7]= ')';
+character[4][9]= ')';
+
+character[5][1]= '/';
+character[5][3]= '/';
+character[5][4]= '_';
+character[5][5]= '_';
+character[5][6]= '/';
+character[5][8]= '/';
+
+character[6][0]= '(';
+character[6][1]= '_';
+character[6][2]= '_';
+character[6][3]= '_';
+character[6][4]= '_';
+character[6][5]= '_';
+character[6][6]= '_';
+character[6][7]= '/';
 
             return character;
         }
-    */
 
     /*
         char **E()
