@@ -565,17 +565,14 @@ public:
 		return character;
 	}
 
-    /*
-        char **t()
-        {
-            char **character = getCharGrid();
-
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-
-    */
+    char **t()
+	{
+		char **character = getCharGrid();
+		character[0][1] = character[2][3] = character[3][2] = character[3][3] = character[4][3] = character[5][2] = character[5][3] = '_';
+		character[1][0] = character[1][2] = character[2][0] = character[2][2] = character[3][0] = character[3][4] = character[4][0] = character[4][2] = character[5][4] = '|';
+        character[5][1]= '\\';
+		return character;
+	}
 
     char **u()
     {
