@@ -179,16 +179,18 @@ public:
         }
     */
 
-    /*
+    
         char **O()
         {
             char **character = getCharGrid();
+
+            character[0][0] = character[0][1] = character[0][2] = character[0][3] = character[0][4] = character[0][5] = character[0][6] = character[1][0] = character[1][6] = character[2][0] = character[2][6] = character[3][0] = character[3][6] = character[4][0] = character[4][6] = character[5][0] = character[5][6] = character[6][0] = character[6][1] = character[6][2] = character[6][3] = character[6][4] = character[6][5] = character[6][6] = '#';
 
             //Enter the character grid in ROWS X COLS
 
             return character;
         }
-    */
+    
 
     /*
         char **P()
