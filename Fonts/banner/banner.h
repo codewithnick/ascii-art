@@ -660,17 +660,14 @@ public:
 
     */
 
-    /*
-        char **four()
+    char **four()
         {
-            char **character = getCharGrid();
-
-            //Enter the character grid in ROWS X COLS
-
+            char** character = getCharGrid();
+            character[0][0] = character[1][0] = character[2][0] = character[3][0] = character[3][1] = character[3][2] = character[3][3] = '#';
+            character[1][5] = character[3][6] = character[3][5] = character[3][4] = '#';
+            character[2][5] = character[4][5] = character[5][5] = character[5][5] = '#';
             return character;
         }
-
-    */
 
     /*
         char **five()
