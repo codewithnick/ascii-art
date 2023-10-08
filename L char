@@ -1,0 +1,7 @@
+#include <iostream>
+
+int main() {
+    
+    std::cout << "\x1B[31m L\x1B[0m" << std::endl; 
+    return 0;
+}
