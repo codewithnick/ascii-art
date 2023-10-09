@@ -774,19 +774,17 @@ public:
     */
 
     // Numbers
-
-    /*
-        char **zero()
+      char **zero()
         {
             char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COL
-
+            character[0][2]=character[0][3]=character[0][4]=character[0][5]=character[1][3]=character[1][4]=character[5][3]=character[5][4]=character[6][2]=character[6][3]=character[6][4]=character[6][5]='_';
+            character[2][0]=character[2][2]=character[3][0]=character[3][2]=character[4][0]=character[4][2]=character[5][0]=character[5][2]='(';
+            character[2][5]=character[2][7]=character[3][5]=character[3][7]=character[4][5]=character[4][7]=character[5][5]=character[5][7]=')';
+            character[1][1]=character[6][6]='/';
+            character[1][6]=character[6][1]='\\';
             return character;
         }
-
-    */
-
     /*
         char **one()
         {
