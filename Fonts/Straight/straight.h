@@ -505,17 +505,16 @@ public:
 
     */
 
-    /*
         char **r()
         {
+            //Enter the character grid in ROWS X COLS
             char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
+            character[0][1] = '_';
+            character[1][0] = '|';
 
             return character;
         }
-
-    */
 
     /*
         char **s()
