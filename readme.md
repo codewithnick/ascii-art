@@ -1,3 +1,20 @@
+[contributors-shield]: https://img.shields.io/github/contributors/codewithnick/ascii-art.svg?style=for-the-badge
+[contributors-url]: https://github.com/codewithnick/ascii-art/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/codewithnick/ascii-art.svg?style=for-the-badge
+[forks-url]: https://github.com/codewithnick/ascii-art/network/members
+[stars-shield]: https://img.shields.io/github/stars/codewithnick/ascii-art.svg?style=for-the-badge
+[stars-url]: https://github.com/codewithnick/ascii-art/stargazers
+[issues-shield]: https://img.shields.io/github/issues/codewithnick/ascii-art.svg?style=for-the-badge
+[issues-url]: https://github.com/codewithnick/ascii-art/issues
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+<div>
+	<br/>
+</div>
+
 <div align="center">
 <img src="./logo (1).png" alt="Logo">
 <br/>
