@@ -115,7 +115,7 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
 
 ### Contributors
 
-<!-- readme: contributors,AnshumanMahato/-,codewithnick/-,vkumar8192449/-,vishu567/-,sachinkumar911/- -start -->
+<!-- readme: contributors,AnshumanMahato/-,contributors,codewithnick/-,contributors,vkumar8192449/-,contributors,vishu567/-,contributors,sachinkumar911/- -start -->
 
 <table>
 <tr>
