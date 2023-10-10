@@ -69,8 +69,15 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
 
 ## Authors
 
+### Collaborators
+
 <!-- readme: collaborators -start -->
 <!-- readme: collaborators -end -->
+
+### Contributors
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
 
 ## Show your support
 
