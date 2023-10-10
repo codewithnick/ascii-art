@@ -391,7 +391,7 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td></tr>
 </table>
-<!-- readme: contributors -end -->
+<!-- readme: AnshumanMahato/-,codewithnick/-,vkumar8192449/-,vishu567/-,sachinkumar911/-,contributors -end -->
 
 ## Show your support
 
