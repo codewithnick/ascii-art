@@ -1,5 +1,3 @@
-
-
 [![Contributors](https://img.shields.io/github/contributors/codewithnick/ascii-art.svg?style=for-the-badge)](https://github.com/codewithnick/ascii-art/graphs/contributors)
 [![Forks](https://img.shields.io/github/forks/codewithnick/ascii-art.svg?style=for-the-badge)](https://github.com/codewithnick/ascii-art/network/members)
 [![Stargazers](https://img.shields.io/github/stars/codewithnick/ascii-art.svg?style=for-the-badge)](https://github.com/codewithnick/ascii-art/stargazers)
@@ -22,6 +20,7 @@
 
 - [Overview](https://github.com/codewithnick/ascii-art#overview)
 - [Usage](https://github.com/codewithnick/ascii-art#Usage)
+
    - [Seven Star](https://github.com/codewithnick/ascii-art#1-Seven-Star)
    - [Boomer](https://github.com/codewithnick/ascii-art#2-Boomer)
    - [Carlos](https://github.com/codewithnick/ascii-art#3-Carlos)
@@ -71,46 +70,7 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
 ## Authors
 
 <!-- readme: collaborators -start -->
-
-<table>
-<tr>
-    <td align="center">
-        <a href="https://github.com/sachinkumar911">
-            <img src="https://avatars.githubusercontent.com/u/115224664?v=4" width="100;" alt="subrajeet-maharana"/>
-            <br />
-            <sub><b>Sachin Kumar</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/vishu567">
-            <img src="https://avatars.githubusercontent.com/u/112263798?v=4" width="100;" alt="vkumar8192449"/>
-            <br />
-            <sub><b>Vishal</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/vkumar8192449">
-            <img src="https://avatars.githubusercontent.com/u/64706066?v=4" width="100;" alt="vkumar8192449"/>
-            <br />
-            <sub><b>Vinay Kumar</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/AnshumanMahato">
-            <img src="https://avatars.githubusercontent.com/u/58422570?v=4" width="100;" alt="AnshumanMahato"/>
-            <br />
-            <sub><b>Anshuman Mahato</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/codewithnick">
-            <img src="https://avatars.githubusercontent.com/u/53932029?v=4" width="100;" alt="vkumar8192449"/>
-            <br />
-            <sub><b>Nikhil Singh</b></sub>
-        </a>
-    </td>
-    </tr>
-</table>
+<!-- readme: collaborators -end -->
 
 ## Show your support
 
