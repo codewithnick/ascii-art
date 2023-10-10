@@ -5,7 +5,7 @@ using namespace ascii;
 
 int main()
 {
-    Ascii a = Ascii(boomer);
-    a.print("h");
+    Ascii a = Ascii(straight);
+    a.print("u");
     return 0;
 }
