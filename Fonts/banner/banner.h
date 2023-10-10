@@ -113,18 +113,14 @@ public:
             return character;
          }
 
-
-    /*
         char **I()
-        {
-            char **character = getCharGrid();
+      {
+        char **character = getCharGrid();
+        character[0][2] = character[0][3] = character[6][2] = character[0][4] = character[6][3] = character[6][4] = character[2][3] = character[1][3] = character[3][3] = character[4][3] = character[5][3] = '#';
+        return character;
+      }
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-    */
-
+    
     /*
         char **J()
         {
