@@ -543,17 +543,18 @@ public:
 
     */
 
-    /*
         char **u()
         {
             char **character = getCharGrid();
 
             //Enter the character grid in ROWS X COLS
+            character[2][0] = '|';
+            character[2][1] = '_';
+            character[2][2] = '|';
 
             return character;
         }
 
-    */
 
 
     char **v()
@@ -569,17 +570,19 @@ public:
 
 
 
-    /*
         char **w()
         {
             char **character = getCharGrid();
 
             //Enter the character grid in ROWS X COLS
+            character[2][0]= '\\';
+            character[2][1]= ')';
+            character[2][2]= '/';
+
 
             return character;
         }
 
-    */
 
         char **x()
         {
