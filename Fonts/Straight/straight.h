@@ -73,17 +73,17 @@ public:
             return character;
         }
 
-    /*
-        char **F()
+char **F() 
         {
             char **character = getCharGrid();
-
-            //Enter the character grid in ROWS X COLS
+            character[0][1] ='_';
+            character[0][2] ='_';
+            character[1][0] ='|';
+            character[1][1] ='_';
+             character[2][0] = '|';
 
             return character;
         }
-    */
-
     /*
         char **G()
         {
