@@ -618,18 +618,15 @@ char **Z()
         }
 
     */
-
-    /*
-        char **z()
+char **z()
         {
             char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
+            character[0][0] ='_';
+            character[1][0] ='/';
+            character[1][1] ='_';
+             return character;
         }
-
-    */
 
     // Numbers
 
