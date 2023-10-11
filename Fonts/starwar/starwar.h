@@ -237,16 +237,24 @@ public:
         }
     */
 
-    /*
+    
         char **R()
         {
             char **character = getCharGrid();
 
             //Enter the character grid in ROWS X COLS
+            character[2][4] =character[1][4] = character[2][4] = character[0][1] = character[0][2] = character[0][3] = character[0][4] = character[0][5] = character[0][6] = character[5][2] = character[5][7] = character[5][8] = character[5][9] = character[5][10] = character[5][11] = '_';
+            character[1][0] = character[2][0] = character[3][0] = character[4][0] = character[5][0] = character[2][8] = character[2][3] = character[5][12] = character[5][3] =  '|';
+            character[4][8] = character[4][9] = character[4][10] = character[4][11] = '-';
+            character[1][7] = character[4][4] = character[4][7] = '\\';
+            character[0][0] = character[5][6] = character[4][12] = '.'; 
+            character[3][7] = '/';
+            character[2][5] = ')';
+            character[5][5] = '`';
 
             return character;
         }
-    */
+    
 
     /*
         char **S()
