@@ -308,16 +308,21 @@ char **N()
         }
     */
 
-    /*
-        char **Z()
+char **Z()
         {
             char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
+            character[0][0] ='_';
+            character[0][1] ='_';
+            character[0][2] ='_';
+            character[1][2] ='/';
+            character[1][1] ='_';
+            character[1][0] =' ';
+            character[2][0] ='/';
+            character[2][1] ='_';
+            character[2][2] ='_';
+             return character;
         }
-    */
 
     // Lowercase
 
