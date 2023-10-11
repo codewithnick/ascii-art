@@ -325,16 +325,18 @@ public:
         }
     */
 
-    /*
+    
         char **b()
         {
             char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
+            character[1][0]=character[2][0]='|';
+            character[1][1]=character[2][1]='_';
+            character[2][2]=')';
 
             return character;
         }
-    */
+    
 
     
     char **c()
