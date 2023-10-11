@@ -6,6 +6,8 @@ using namespace ascii;
 int main()
 {
     Ascii a = Ascii(straight);
-    a.print("F");
+    a.print("Z");
+   Ascii b = Ascii(straight);
+   b.print("F");
     return 0;
 }
