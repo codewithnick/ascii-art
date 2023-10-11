@@ -104,17 +104,17 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/komal7141">
-            <img src="https://avatars.githubusercontent.com/u/75818108?v=4" width="70;" alt="komal7141"/>
-            <br />
-            <sub><b>Komal Sharma</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/NeerajSh-16">
             <img src="https://avatars.githubusercontent.com/u/144585755?v=4" width="70;" alt="NeerajSh-16"/>
             <br />
             <sub><b>Neeraj Sharma</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/komal7141">
+            <img src="https://avatars.githubusercontent.com/u/75818108?v=4" width="70;" alt="komal7141"/>
+            <br />
+            <sub><b>Komal Sharma</b></sub>
         </a>
     </td>
     <td align="center">
@@ -211,13 +211,20 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/gourshabrg">
+            <img src="https://avatars.githubusercontent.com/u/143959353?v=4" width="70;" alt="gourshabrg"/>
+            <br />
+            <sub><b>Ravindra Gour</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
         <a href="https://github.com/XARTAN21">
             <img src="https://avatars.githubusercontent.com/u/124522194?v=4" width="70;" alt="XARTAN21"/>
             <br />
             <sub><b>Ayush Deshmukh</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Raghav354">
             <img src="https://avatars.githubusercontent.com/u/137503421?v=4" width="70;" alt="Raghav354"/>
@@ -252,27 +259,20 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>Md Arif</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/abhay5624">
             <img src="https://avatars.githubusercontent.com/u/77601553?v=4" width="70;" alt="abhay5624"/>
             <br />
             <sub><b>Abhay Kumar Sharma</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/miragearush">
             <img src="https://avatars.githubusercontent.com/u/80736891?v=4" width="70;" alt="miragearush"/>
             <br />
             <sub><b>Arush Kumar</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/gourshabrg">
-            <img src="https://avatars.githubusercontent.com/u/143959353?v=4" width="70;" alt="gourshabrg"/>
-            <br />
-            <sub><b>Ravindra Gour</b></sub>
         </a>
     </td>
     <td align="center">
