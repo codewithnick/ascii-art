@@ -121,16 +121,14 @@ public:
       }
 
     
-    /*
         char **J()
         {
             char **character = getCharGrid();
-
-            //Enter the character grid in ROWS X COLS
+            character[0][6] = character[1][6] = character[2][6] = character[3][6] = character[4][6] = character[5][6] = character[6][5] = character[6][4] = character[6][3] = character[6][2] = character[6][1] = character[5][0] = character[4][0] = '#';
 
             return character;
         }
-    */
+
 
     /*
         char **K()
@@ -164,16 +162,15 @@ public:
         }
 
 
-    /*
+    
         char **N()
         {
             char **character = getCharGrid();
-
-            //Enter the character grid in ROWS X COLS
+            character[0][0] = character[1][0] = character[2][0] = character[3][0] = character[4][0] = character[5][0] = character[6][0] = character[0][6] = character[1][6] = character[2][6] = character[3][6] = character[4][6] = character[5][6] = character[6][6] = character[1][1] = character[2][2] = character[3][3] = character[4][4] = character[5][5] = '#';            
 
             return character;
         }
-    */
+    
 
     
         char **O()
