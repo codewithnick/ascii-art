@@ -340,16 +340,18 @@ char **Z()
         }
     */
 
-    /*
+    
         char **b()
         {
             char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
+            character[1][0]=character[2][0]='|';
+            character[1][1]=character[2][1]='_';
+            character[2][2]=')';
 
             return character;
         }
-    */
+    
 
     
     char **c()
@@ -444,17 +446,18 @@ char **Z()
 
     */
 
-    /*
+    
         char **k()
         {
             char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
+            character[1][0]=character[2][0]='|';
+            character[2][1]='(';
 
             return character;
         }
 
-    */
+    
 
     char **l()
         {
