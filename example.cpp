@@ -7,5 +7,7 @@ int main()
 {
     Ascii a = Ascii(straight);
     a.print("Z");
+   Ascii b = Ascii(straight);
+   b.print("F");
     return 0;
 }
