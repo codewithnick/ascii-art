@@ -648,17 +648,16 @@ char **Z()
 
     */
 
-    /*
-        char **one()
+    char **one()
         {
             char **character = getCharGrid();
 
             //Enter the character grid in ROWS X COLS
+            character[1][2] = '/';
+            character[1][3] = character[2][3] = '|';
 
             return character;
         }
-
-    */
 
     /*
         char **two()
