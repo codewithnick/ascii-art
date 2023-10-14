@@ -785,7 +785,7 @@ public:
         char **eight()
         {
             char **character = getCharGrid();
-            
+
             //Enter the character grid in ROWS X COLS
 
             return character;
