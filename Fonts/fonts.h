@@ -9,14 +9,19 @@
 
 class Fonts
 {
+    int def_rows;
+    int def_cols;
     int char_rows;
     int char_cols;
     int curr_col;
-    std::vector<std::vector<char> > letters;
+    std::vector<std::vector<char>> letters;
 
 protected:
-    char **getCharGrid()
+    char **getCharGrid(int rows = 0, int cols = 0)
     {
+        this->char_rows = rows ? rows : def_rows;
+        this->char_cols = cols ? cols : def_cols;
+
         char **char_grid = new char *[char_rows];
         for (int i = 0; i < char_rows; i++)
         {
@@ -28,13 +33,13 @@ protected:
     }
 
 public:
-    Fonts(int char_rows, int char_cols)
+    Fonts(int def_rows, int def_cols)
     {
-        this->char_rows = char_rows;
-        this->char_cols = char_cols;
+        this->def_rows = def_rows;
+        this->def_cols = def_cols;
 
-        letters.reserve(char_rows);
-        for (int i = 0; i < char_rows; i++)
+        letters.reserve(def_rows);
+        for (int i = 0; i < def_rows; i++)
         {
             letters.emplace_back(100, ' '); // Create rows with 100 spaces each
         }
@@ -45,6 +50,12 @@ public:
     {
         if (!character)
             return;
+
+        while (letters.size() < char_rows)
+        {
+            letters.emplace_back(100, ' ');
+        }
+
         for (int i = 0; i < char_rows; i++)
         {
             for (int j = 0; j < char_cols; j++)
@@ -55,7 +66,7 @@ public:
         curr_col += (char_cols + 2);
     }
 
-    std::vector<std::vector<char> > getletters()
+    std::vector<std::vector<char>> getletters()
     {
         return letters;
     }
