@@ -565,17 +565,17 @@ public:
 
     */
 
-    /*
+    
         char **w()
         {
             char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
+            character[1][0] = character[1][4] = character[2][0] = character[2][4] = character[3][0] = character[3][2] = character[3][4] = character[4][0] = character[4][1] = character[4][3] = character[4][4] = '#';           
 
             return character;
         }
 
-    */
+    
 
     /*
         char **x()
