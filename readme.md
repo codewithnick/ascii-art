@@ -97,17 +97,17 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/Rishisihare90">
-            <img src="https://avatars.githubusercontent.com/u/146431939?v=4" width="70;" alt="Rishisihare90"/>
-            <br />
-            <sub><b>Rishisihare90</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/NeerajSh-16">
             <img src="https://avatars.githubusercontent.com/u/144585755?v=4" width="70;" alt="NeerajSh-16"/>
             <br />
             <sub><b>NeerajSh-16</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Rishisihare90">
+            <img src="https://avatars.githubusercontent.com/u/146431939?v=4" width="70;" alt="Rishisihare90"/>
+            <br />
+            <sub><b>Rishisihare90</b></sub>
         </a>
     </td>
     <td align="center">
