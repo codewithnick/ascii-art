@@ -241,8 +241,8 @@ public:
 
             return character;
         }
+    
     */
-
     
         char **R()
         {
