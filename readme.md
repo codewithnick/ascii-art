@@ -268,17 +268,17 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/Raghav354">
-            <img src="https://avatars.githubusercontent.com/u/137503421?v=4" width="70;" alt="Raghav354"/>
-            <br />
-            <sub><b>Raghavendra Sharma</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/ahmad-kaif">
             <img src="https://avatars.githubusercontent.com/u/113821761?v=4" width="70;" alt="ahmad-kaif"/>
             <br />
             <sub><b>Ahmad Kaif</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Raghav354">
+            <img src="https://avatars.githubusercontent.com/u/137503421?v=4" width="70;" alt="Raghav354"/>
+            <br />
+            <sub><b>Raghavendra Sharma</b></sub>
         </a>
     </td>
     <td align="center">
