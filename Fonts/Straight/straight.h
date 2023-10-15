@@ -528,17 +528,18 @@ public:
 
     */
 
-    /*
+    
         char **t()
         {
             char **character = getCharGrid(ROWS,COLS);
 
-            //Enter the character grid in ROWS X COLS
+            character[1][0]=character[2][0]='|';
+            character[1][1]=character[2][1]='_';
 
             return character;
         }
 
-    */
+    
 
     char **u()
     {
