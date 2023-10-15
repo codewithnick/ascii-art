@@ -1,11 +1,11 @@
 #include "Ascii.h"
 #include "string"
 
-using namespace ascii;
+using namespace ascii;  
 
 int main()
 {
-    Ascii a = Ascii(straight);
-    a.print("p");
+    Ascii a = Ascii(carlos);
+    a.print("A0ZXSQ");
     return 0;
 }
