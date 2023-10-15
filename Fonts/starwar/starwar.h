@@ -722,17 +722,17 @@ public:
         return character;
     }
 
-    /*
-        char **five()
-        {
-            char **character = getCharGrid();
+    char **five()
+    {
+        char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-
-    */
+        character[0][1] = character[0][2] = character[0][3] = character[0][4] = character[0][5] = character[1][2] = character[1][3] = character[1][4] = character[1][5] = character[2][3] = character[2][4] = character[3][1] = character[3][2] = character[3][3] = character[4][1] = character[4][2] = character[4][3] = character[5][1] = character[5][2] = character[5][3] = '_';
+        character[1][0] = character[2][0] = character[3][0] = character[5][0] = character[1][6] = character[2][2] = character[4][6] = '|';
+        character[4][4] = ')';
+        character[3][5] = '\\';
+        character[5][5] = '/';
+        return character;
+    }
 
     /*
         char **six()

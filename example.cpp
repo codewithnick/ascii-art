@@ -6,6 +6,6 @@ using namespace ascii;
 int main()
 {
     Ascii a = Ascii(starwar);
-    a.print("O");
+    a.print("5");
     return 0;
 }
