@@ -900,7 +900,7 @@ public:
     
         char **one()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(7,7);
 
             character[0][3] = character[0][4] = character[0][5] = character[0][6] = character[3][1] = character[6][4] = character[6][5] = '_';
             character[1][2] = character[2][1] = character[3][0] = character[1][6] = character[2][3] = character[3][2] = character[6][3] = '/';
