@@ -531,7 +531,7 @@ public:
     
         char **t()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(3,3);
 
             character[1][0]=character[2][0]='|';
             character[1][1]=character[2][1]='_';
