@@ -734,8 +734,7 @@ public:
 
     */
 
-<<<<<<< HEAD
-    char **six()
+       char **six()
     {
         char **character = getCharGrid();
         character[0][2] = character[0][3] = character[0][4] = character[0][5] = character[1][3] = character[1][4] = character[1][5] = character[2][3] = character[2][4] = character[2][5] = character[3][3] = character[3][4] = character[3][2] = character[5][1] = character[5][2] = character[5][3] = character[5][4] = character[5][5] = character[4][3] = '_';
@@ -750,18 +749,6 @@ public:
 
         return character;
     }
-=======
-    /*
-        char **six()
-        {
-            char **character = getCharGrid(ROWS,COLS);
-
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-    */
->>>>>>> 7c223e56986dd2a63b8cb17a5fe7151e34e37cde
 
     char **seven()
     {
