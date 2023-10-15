@@ -162,7 +162,7 @@ public:
     /*
         char **F()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -238,7 +238,7 @@ public:
     /*
         char **I()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -249,7 +249,7 @@ public:
     /*
         char **J()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -260,7 +260,7 @@ public:
     /*
         char **K()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -271,7 +271,7 @@ public:
     /*
         char **L()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -282,7 +282,7 @@ public:
     /*
         char **M()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -293,7 +293,7 @@ public:
     /*
         char **N()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -304,7 +304,7 @@ public:
     /*
         char **O()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -315,7 +315,7 @@ public:
     /*
         char **P()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -323,40 +323,55 @@ public:
         }
     */
 
-    
-        char **Q()
-        {
-            char **character = getCharGrid();
+    char **Q()
+    {
+        char **character = getCharGrid();
 
+        character[0][3] = '_';
+        character[0][4] = '_';
+        character[0][5] = '_';
+        character[0][6] = '_';
+        character[1][2] = '/';
+        character[1][4] = '_';
+        character[1][5] = '_';
+        character[1][7] = '\\';
 
-                character[0][3]= '_'; character[0][4]= '_'; character[0][5]= '_'; character[0][6]= '_'; 
-                character[1][2]= '/'; character[1][4]= '_'; character[1][5]= '_'; character[1][7]= '\\';
-                
-                character[2][1]= '/'; character[2][3]= '/'; character[2][6]= '\\';
-                character[2][8]= '\\';
-                
-                character[3][0]= '('; character[3][2]= '('; character[3][7]= ')'; character[3][9]= ')'; 
-                character[4][0]= '('; character[4][2]= '('; character[4][5]= '/'; character[4][6]= '\\';
-                character[4][7]= ')'; character[4][9]= ')'; 
-                character[5][1]= '\\';
-                character[5][3]= '\\';
-                character[5][4]= '_'; character[5][5]= '\\';
-                character[5][7]= '\\';
-                character[5][8]= '/'; 
-                character[6][2]= '\\';
-                character[6][3]= '_'; character[6][4]= '_'; character[6][5]= '_'; character[6][6]= '\\';
-                character[6][8]= '\\';
-                character[6][9]= '_'; 
+        character[2][1] = '/';
+        character[2][3] = '/';
+        character[2][6] = '\\';
+        character[2][8] = '\\';
 
+        character[3][0] = '(';
+        character[3][2] = '(';
+        character[3][7] = ')';
+        character[3][9] = ')';
+        character[4][0] = '(';
+        character[4][2] = '(';
+        character[4][5] = '/';
+        character[4][6] = '\\';
+        character[4][7] = ')';
+        character[4][9] = ')';
+        character[5][1] = '\\';
+        character[5][3] = '\\';
+        character[5][4] = '_';
+        character[5][5] = '\\';
+        character[5][7] = '\\';
+        character[5][8] = '/';
+        character[6][2] = '\\';
+        character[6][3] = '_';
+        character[6][4] = '_';
+        character[6][5] = '_';
+        character[6][6] = '\\';
+        character[6][8] = '\\';
+        character[6][9] = '_';
 
-            return character;
-        }
-    
+        return character;
+    }
 
     /*
         char **R()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -365,10 +380,10 @@ public:
     */
 
     char **S()
-        {
-            char **character = getCharGrid();
+    {
+        char **character = getCharGrid();
 
-//Enter the character grid in ROWS X COL
+        // Enter the character grid in ROWS X COL
         character[0][3] = '_';
         character[0][4] = '_';
         character[0][5] = '_';
@@ -406,13 +421,13 @@ public:
         character[6][5] = '_';
         character[6][6] = '/';
 
-            return character;
-        }
+        return character;
+    }
 
     /*
         char **T()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -423,7 +438,7 @@ public:
     /*
         char **U()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -434,7 +449,7 @@ public:
     /*
         char **V()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -445,7 +460,7 @@ public:
     /*
         char **W()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -453,25 +468,25 @@ public:
         }
     */
 
-   char **X()
-        {
-            char **character = getCharGrid();
+    char **X()
+    {
+        char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COL
-            character[0][0]=character[0][3]=character[0][4]=character[0][5]=character[0][6]=character[0][7]=character[0][8]=character[1][2]=character[1][4]=character[1][5]=character[1][7]=character[1][8]=character[2][0]=character[2][2]=character[2][7]=character[3][0]=character[3][1]=character[3][3]=character[3][6]=character[4][0]=character[4][2]=character[4][4]=character[4][5]=character[4][7]=character[5][0]=character[5][1]=character[5][3]=character[5][6]=character[6][0]=character[6][4]=character[6][5]=' ';
-            character[0][1]=character[0][2]=character[0][9]=character[0][8]=character[1][1]=character[1][9]=character[2][5]=character[4][5]=character[5][1]=character[5][9]=character[6][1]=character[6][2]=character[6][8]=character[6][9]='_';
-            character[1][0]=character[6][0]='(';
-            character[1][3]=character[2][2]=character[2][4]=character[3][3]=character[4][7]=character[5][6]=character[5][8]=character[6][7]='\\';
-            character[1][7]=character[2][8]=character[2][6]=character[3][7]=character[4][3]=character[5][2]=character[5][4]=character[6][3]='/';
-            character[1][10]=character[6][10]=')';
+        // Enter the character grid in ROWS X COL
+        character[0][0] = character[0][3] = character[0][4] = character[0][5] = character[0][6] = character[0][7] = character[0][8] = character[1][2] = character[1][4] = character[1][5] = character[1][7] = character[1][8] = character[2][0] = character[2][2] = character[2][7] = character[3][0] = character[3][1] = character[3][3] = character[3][6] = character[4][0] = character[4][2] = character[4][4] = character[4][5] = character[4][7] = character[5][0] = character[5][1] = character[5][3] = character[5][6] = character[6][0] = character[6][4] = character[6][5] = ' ';
+        character[0][1] = character[0][2] = character[0][9] = character[0][8] = character[1][1] = character[1][9] = character[2][5] = character[4][5] = character[5][1] = character[5][9] = character[6][1] = character[6][2] = character[6][8] = character[6][9] = '_';
+        character[1][0] = character[6][0] = '(';
+        character[1][3] = character[2][2] = character[2][4] = character[3][3] = character[4][7] = character[5][6] = character[5][8] = character[6][7] = '\\';
+        character[1][7] = character[2][8] = character[2][6] = character[3][7] = character[4][3] = character[5][2] = character[5][4] = character[6][3] = '/';
+        character[1][10] = character[6][10] = ')';
 
-            return character;
-        }
+        return character;
+    }
 
     /*
         char **Y()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -489,7 +504,6 @@ public:
         character[0][5] = '_';
         character[0][6] = '_';
         character[0][7] = '_';
-        
 
         character[1][0] = '(';
         character[1][1] = '_';
@@ -502,11 +516,9 @@ public:
         character[3][8] = ' ';
         character[1][9] = ')';
 
-
         character[2][5] = '/';
         character[2][8] = '/';
-        
-        
+
         character[3][1] = '_';
         character[3][2] = '_';
         character[3][3] = '_';
@@ -579,7 +591,7 @@ public:
     /*
         char **b()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -590,7 +602,7 @@ public:
     /*
         char **c()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -601,7 +613,7 @@ public:
     /*
         char **d()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -612,7 +624,7 @@ public:
     /*
         char **e()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -623,7 +635,7 @@ public:
     /*
         char **f()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -634,7 +646,7 @@ public:
     /*
         char **g()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -645,7 +657,7 @@ public:
     /*
         char **h()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -656,7 +668,7 @@ public:
     /*
         char **i()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -668,7 +680,7 @@ public:
     /*
         char **j()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -680,7 +692,7 @@ public:
     /*
         char **k()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -692,7 +704,7 @@ public:
     /*
         char **l()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -704,7 +716,7 @@ public:
     /*
         char **m()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -716,7 +728,7 @@ public:
     /*
         char **n()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -728,7 +740,7 @@ public:
     /*
         char **o()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -740,7 +752,7 @@ public:
     /*
         char **p()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -752,7 +764,7 @@ public:
     /*
         char **q()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -764,7 +776,7 @@ public:
     /*
         char **r()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -776,7 +788,7 @@ public:
     /*
         char **s()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -788,7 +800,7 @@ public:
     /*
         char **t()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -800,7 +812,7 @@ public:
     /*
         char **u()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -812,7 +824,7 @@ public:
     /*
         char **v()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -824,7 +836,7 @@ public:
     /*
         char **w()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -836,7 +848,7 @@ public:
     /*
         char **x()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -848,7 +860,7 @@ public:
     /*
         char **y()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -860,7 +872,7 @@ public:
     /*
         char **z()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -870,21 +882,21 @@ public:
     */
 
     // Numbers
-      char **zero()
-        {
-            char **character = getCharGrid();
+    char **zero()
+    {
+        char **character = getCharGrid();
 
-            character[0][2]=character[0][3]=character[0][4]=character[0][5]=character[1][3]=character[1][4]=character[5][3]=character[5][4]=character[6][2]=character[6][3]=character[6][4]=character[6][5]='_';
-            character[2][0]=character[2][2]=character[3][0]=character[3][2]=character[4][0]=character[4][2]=character[5][0]=character[5][2]='(';
-            character[2][5]=character[2][7]=character[3][5]=character[3][7]=character[4][5]=character[4][7]=character[5][5]=character[5][7]=')';
-            character[1][1]=character[6][6]='/';
-            character[1][6]=character[6][1]='\\';
-            return character;
-        }
+        character[0][2] = character[0][3] = character[0][4] = character[0][5] = character[1][3] = character[1][4] = character[5][3] = character[5][4] = character[6][2] = character[6][3] = character[6][4] = character[6][5] = '_';
+        character[2][0] = character[2][2] = character[3][0] = character[3][2] = character[4][0] = character[4][2] = character[5][0] = character[5][2] = '(';
+        character[2][5] = character[2][7] = character[3][5] = character[3][7] = character[4][5] = character[4][7] = character[5][5] = character[5][7] = ')';
+        character[1][1] = character[6][6] = '/';
+        character[1][6] = character[6][1] = '\\';
+        return character;
+    }
     /*
         char **one()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -896,7 +908,7 @@ public:
     /*
         char **two()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -908,7 +920,7 @@ public:
     /*
         char **three()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -920,7 +932,7 @@ public:
     /*
         char **four()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -932,7 +944,7 @@ public:
     /*
         char **five()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -944,7 +956,7 @@ public:
     /*
         char **six()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -956,7 +968,7 @@ public:
     /*
         char **seven()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -968,7 +980,7 @@ public:
     /*
         char **eight()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
@@ -980,7 +992,7 @@ public:
     /*
         char **nine()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COL
 
