@@ -721,7 +721,7 @@ public:
 
     */
 
-    /*char **six()
+    char **six()
     {
         char **character = getCharGrid();
         character[0][2] = character[0][3] = character[0][4] = character[0][5] = character[1][3] = character[1][4] = character[1][5] = character[2][3] = character[2][4] = character[2][5] = character[3][3] = character[3][4] = character[3][2] = character[5][1] = character[5][2] = character[5][3] = character[5][4] = character[5][5] = character[4][3] = '_';
@@ -735,7 +735,7 @@ public:
         character[1][6] = character[3][0] = character[4][0] = character[4][6] = '|';
 
         return character;
-    }*/
+    }
 
     char **seven()
     {
