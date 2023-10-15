@@ -82,16 +82,17 @@ public:
         }
     */
 
-    /*
+    
         char **F()
         {
             char **character = getCharGrid();
 
             //Enter the character grid in ROWS X COLS
-
+            character[0][1] = character[0][2] = character[0][3] = character[0][4] = character[0][5] = character[0][6] = character[0][7] = character[1][4] = character[1][5] = character[1][6] = character[1][7] = character[2][4] = character[2][5] = character[3][4] = character[3][5] = character[5][1] = character[5][2] = '_';
+            character[1][0] = character[2][0] = character[3][0] = character[4][0] = character[5][0] = character[2][3] = character[4][3] = character[5][3] = character[1][8] = character[3][6] = '|';
             return character;
         }
-    */
+    
 
     /*
         char **G()
