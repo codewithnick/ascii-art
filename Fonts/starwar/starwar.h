@@ -331,7 +331,7 @@ public:
     
         char **Y()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(6,13);
 
             //Enter the character grid in ROWS X COLS
             character[0][1] = character[0][2] = character[0][3] = character[0][0] = character[0][8] = character[0][9] = character[0][10] = character[0][11] = character[3][3] = character[3][8] = character[5][5] = character[5][6] = '_';
