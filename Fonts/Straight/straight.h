@@ -37,16 +37,18 @@ public:
         return character;
     }
 
-    /*
+    
         char **C()
         {
-            char **character = getCharGrid(ROWS,COLS);
-
-            //Enter the character grid in ROWS X COLS
+            char **character = getCharGrid(3, 3);
+            
+            character[0][1] = character[0][2] = character[2][1] = character[2][2] = '_';
+            character[1][0] = '/';
+            character[2][0] = '\\';
 
             return character;
         }
-    */
+    
 
     /*
         char **D()
