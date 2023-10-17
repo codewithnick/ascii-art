@@ -104,6 +104,13 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/Harry121199">
+            <img src="https://avatars.githubusercontent.com/u/117886160?v=4" width="70;" alt="Harry121199"/>
+            <br />
+            <sub><b>Harry121199</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/Rishisihare90">
             <img src="https://avatars.githubusercontent.com/u/146431939?v=4" width="70;" alt="Rishisihare90"/>
             <br />
