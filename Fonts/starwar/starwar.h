@@ -353,16 +353,18 @@ public:
 
     // Lowercase
 
-    /*
-        char **a()
-        {
-            char **character = getCharGrid(ROWS,COLS);
 
-            //Enter the character grid in ROWS X COLS
+    char **a()
+    {
+        char **character = getCharGrid(ROWS,COLS);
 
-            return character;
-        }
-    */
+        character[5][0] = character[4][1] = character[3][2] = character[2][3] = character[1][4] = character[5][3] = character[3][5] = '/';
+        character[1][8] = character[2][9] = character[3][10] = character[4][11] = character[5][12] = character[3][7] = character[5][9] = '\\';
+        character[0][5] = character[0][6] = character[0][7] = character[3][6] = character[4][4] = character[4][5] = character[4][6] = character[4][7] = character[4][8] = character[5][1] = character[5][2] = character[5][10] = character[5][11] = '_';
+        character[2][6] = '^';
+
+        return character;
+    }
 
     /*
         char **b()
