@@ -414,17 +414,31 @@ public:
         return character;
     }
 
-    /*
-        char **j()
+    char **j()
+    {
+        char **character = getCharGrid();
+
+        for(int i = 0; i < 3; i++)
         {
-            char **character = getCharGrid(ROWS,COLS);
-
-            //Enter the character grid in ROWS X COLS
-
-            return character;
+            for(int j = 0; j < 3; j++)
+            {
+                if(i == 0 && j == 1)
+                {
+                    character[i][j] = '.';
+                }
+                if (i == 1 && j == 1)
+                {
+                    character[i][j] = '|';
+                }
+                if (i == 2 && j == 1)
+                {
+                    character[i][j] = '/';
+                }
+            }
         }
 
-    */
+        return character;
+    }
 
     char **k()
     {
