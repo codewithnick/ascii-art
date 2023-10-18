@@ -190,8 +190,11 @@ public:
         {
             char **character = getCharGrid(ROWS,COLS);
 
-            //Enter the character grid in ROWS X COLS
-
+        character[1][0] = '|';
+        character[2][1] = '-';
+        character[2][2] = '-';
+        character[3][2] = '|';
+        
             return character;
         }
     */
