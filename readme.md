@@ -132,18 +132,18 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/chengm405">
-            <img src="https://avatars.githubusercontent.com/u/146371159?v=4" width="70;" alt="chengm405"/>
-            <br />
-            <sub><b>chengm405</b></sub>
-        </a>
-    </td></tr>
-<tr>
-    <td align="center">
         <a href="https://github.com/komal7141">
             <img src="https://avatars.githubusercontent.com/u/75818108?v=4" width="70;" alt="komal7141"/>
             <br />
             <sub><b>komal7141</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/chengm405">
+            <img src="https://avatars.githubusercontent.com/u/146371159?v=4" width="70;" alt="chengm405"/>
+            <br />
+            <sub><b>chengm405</b></sub>
         </a>
     </td>
     <td align="center">
