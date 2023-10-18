@@ -132,17 +132,17 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/Rishisihare90">
-            <img src="https://avatars.githubusercontent.com/u/146431939?v=4" width="70;" alt="Rishisihare90"/>
-            <br />
-            <sub><b>Rishisihare90</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/Harry121199">
             <img src="https://avatars.githubusercontent.com/u/117886160?v=4" width="70;" alt="Harry121199"/>
             <br />
             <sub><b>Harry121199</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Rishisihare90">
+            <img src="https://avatars.githubusercontent.com/u/146431939?v=4" width="70;" alt="Rishisihare90"/>
+            <br />
+            <sub><b>Rishisihare90</b></sub>
         </a>
     </td>
     <td align="center">
@@ -210,13 +210,20 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/vishalmishraa">
+            <img src="https://avatars.githubusercontent.com/u/64027486?v=4" width="70;" alt="vishalmishraa"/>
+            <br />
+            <sub><b>vishalmishraa</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
         <a href="https://github.com/Atul-Xalxo">
             <img src="https://avatars.githubusercontent.com/u/144574009?v=4" width="70;" alt="Atul-Xalxo"/>
             <br />
             <sub><b>Atul-Xalxo</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Priyanshu-kr-gupta">
             <img src="https://avatars.githubusercontent.com/u/114975117?v=4" width="70;" alt="Priyanshu-kr-gupta"/>
@@ -229,13 +236,6 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <img src="https://avatars.githubusercontent.com/u/68675142?v=4" width="70;" alt="PranjalKhatri"/>
             <br />
             <sub><b>PranjalKhatri</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/vishalmishraa">
-            <img src="https://avatars.githubusercontent.com/u/64027486?v=4" width="70;" alt="vishalmishraa"/>
-            <br />
-            <sub><b>vishalmishraa</b></sub>
         </a>
     </td>
     <td align="center">
