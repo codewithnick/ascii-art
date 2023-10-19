@@ -366,17 +366,18 @@ public:
         }
     */
 
-    /*
+    
         char **i()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(6,3);
 
-            //Enter the character grid in ROWS X COLS
+            character[0][1] = character[2][1] = character[2][0] = character[3][1] = character[4][1] = character[5][0] = character[5][1] = character[5][0] = character[5][1] = character[5][2] = '#';
+
 
             return character;
         }
 
-    */
+    
 
     /*
         char **j()
@@ -388,7 +389,7 @@ public:
             return character;
         }
 
-    */
+    
 
     /*
         char **k()
