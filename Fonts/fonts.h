@@ -83,6 +83,13 @@ public:
     }
 
     /********************************adding virtual functions********************************/
+    // Virtual functions for space
+    virtual char **space()
+    {
+        std::cout << "space not overridden?" << std::endl;
+        return nullptr;
+    }
+
     // Virtual functions for lowercase letters
     virtual char **a()
     {
