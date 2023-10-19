@@ -416,26 +416,11 @@ public:
 
     char **j()
     {
-        char **character = getCharGrid();
+        char **character = getCharGrid(4, 3);
 
-        for(int i = 0; i < 3; i++)
-        {
-            for(int j = 0; j < 3; j++)
-            {
-                if(i == 0 && j == 1)
-                {
-                    character[i][j] = '.';
-                }
-                if (i == 1 && j == 1)
-                {
-                    character[i][j] = '|';
-                }
-                if (i == 2 && j == 1)
-                {
-                    character[i][j] = '/';
-                }
-            }
-        }
+        character[1][1] = '.';
+        character[2][1] = '|';
+        character[3][1] = '/';
 
         return character;
     }
