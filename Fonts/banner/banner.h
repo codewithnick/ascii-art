@@ -694,5 +694,16 @@ public:
         }
 
     */
+
+    // for space
+     char **space()
+    {
+        char **character = getCharGrid(1,1);
+
+        character[0][0] = ' ';
+
+        return character;
+    }
+    
 };
 #endif
