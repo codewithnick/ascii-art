@@ -206,6 +206,10 @@ namespace ascii
                 else if (c == '9')
                     character = font->nine();
 
+                //for space
+                else if (c == ' ')
+                    character = font->space();
+
                 font->pushChar(character);
             }
             font->printvector();
