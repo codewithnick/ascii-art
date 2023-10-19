@@ -235,16 +235,21 @@ public:
         return character;
     }
 
-    /*
+    
         char **I()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(7,8);
 
             //Enter the character grid in ROWS X COL
+            character[0][2] = character[0][3] = character[0][4] = character[0][5] = character[0][6] = character[1][2] = character[1][6] = character[5][2] = character[5][6] = character[5][7] = character[6][2] = character[6][3] = character[6][4] = character[6][5] = character[6][6] = '_';
+            character[2][3] = character[2][5] = character[3][3] = character[3][5] = character[4][3] = character[4][5] = character[5][3] = character[5][5] = '|';
+            character[1][1] = character[6][7] = '(';
+            character[1][7] = ')';
+            character[6][1] = '/';
 
             return character;
         }
-    */
+    
 
     char **J()
     {
