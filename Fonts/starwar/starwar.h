@@ -805,5 +805,15 @@ public:
         character[2][0] = character[2][6] = character[3][6] = '|';
         return character;
     }
+
+     // for space
+     char **space()
+    {
+        char **character = getCharGrid(1,1);
+
+        character[0][0] = ' ';
+
+        return character;
+    }
 };
 #endif
