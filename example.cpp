@@ -7,5 +7,6 @@ int main()
 {
     Ascii a = Ascii(straight);
     a.print("JLK");
+
     return 0;
 }
