@@ -310,13 +310,20 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/gaurav12devloper">
+            <img src="https://avatars.githubusercontent.com/u/55048950?v=4" width="70;" alt="gaurav12devloper"/>
+            <br />
+            <sub><b>gaurav12devloper</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
         <a href="https://github.com/ahmad-kaif">
             <img src="https://avatars.githubusercontent.com/u/113821761?v=4" width="70;" alt="ahmad-kaif"/>
             <br />
             <sub><b>ahmad-kaif</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Raghav354">
             <img src="https://avatars.githubusercontent.com/u/137503421?v=4" width="70;" alt="Raghav354"/>
@@ -357,13 +364,6 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <img src="https://avatars.githubusercontent.com/u/77601553?v=4" width="70;" alt="abhay5624"/>
             <br />
             <sub><b>abhay5624</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/gaurav12devloper">
-            <img src="https://avatars.githubusercontent.com/u/55048950?v=4" width="70;" alt="gaurav12devloper"/>
-            <br />
-            <sub><b>gaurav12devloper</b></sub>
         </a>
     </td></tr>
 <tr>
