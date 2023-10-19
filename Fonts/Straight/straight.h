@@ -427,7 +427,7 @@ public:
 
     char **k()
     {
-        char **character = getCharGrid();
+        char **character = getCharGrid(4, 3);
 
         character[1][0] = character[2][0] = '|';
         character[2][1] = '(';
