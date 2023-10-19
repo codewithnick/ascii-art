@@ -125,17 +125,17 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/XARTAN21">
-            <img src="https://avatars.githubusercontent.com/u/124522194?v=4" width="70;" alt="XARTAN21"/>
-            <br />
-            <sub><b>XARTAN21</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/komal7141">
             <img src="https://avatars.githubusercontent.com/u/75818108?v=4" width="70;" alt="komal7141"/>
             <br />
             <sub><b>komal7141</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/XARTAN21">
+            <img src="https://avatars.githubusercontent.com/u/124522194?v=4" width="70;" alt="XARTAN21"/>
+            <br />
+            <sub><b>XARTAN21</b></sub>
         </a>
     </td></tr>
 <tr>
