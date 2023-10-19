@@ -116,7 +116,7 @@ public:
         return character;
     }
 
-    /*
+     /*
         char **K()
         {
             char **character = getCharGrid(ROWS,COLS);
@@ -126,6 +126,7 @@ public:
             return character;
         }
     */
+       
 
     char **L()
     {
