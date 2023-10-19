@@ -5,7 +5,7 @@ using namespace ascii;
 
 int main()
 {
-    Ascii a = Ascii(carlos);
-    a.print("J");
+    Ascii a = Ascii(starwar);
+    a.print("3");
     return 0;
 }
