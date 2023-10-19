@@ -412,17 +412,16 @@ public:
         return character;
     }
 
-    /*
-        char **j()
-        {
-            char **character = getCharGrid(ROWS,COLS);
+    char **j()
+    {
+        char **character = getCharGrid(4, 3);
 
-            //Enter the character grid in ROWS X COLS
+        character[1][1] = '.';
+        character[2][1] = '|';
+        character[3][1] = '/';
 
-            return character;
-        }
-
-    */
+        return character;
+    }
 
     char **k()
     {
