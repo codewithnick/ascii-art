@@ -5,7 +5,9 @@ using namespace ascii;
 
 int main()
 {
-    Ascii a = Ascii(carlos);
-    a.print("I");
+
+    Ascii a = Ascii(straight);
+    a.print("JLK");
+
     return 0;
 }
