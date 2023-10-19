@@ -114,27 +114,40 @@ public:
         return character;
     }
 
-    /*
+    
         char **J()
         {
-            char **character = getCharGrid(ROWS,COLS);
-
+            
+            char **character = getCharGrid(3,3);
+            
             //Enter the character grid in ROWS X COLS
+             character[1][0] = character[1][1] = ' ';
+             character[2][0] = character[2][1] = '_';
+             character[2][2] = ')';
+             character[1][2] ='|';
 
             return character;
         }
-    */
+    
 
-    /*
+        
         char **K()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(3,3);
 
             //Enter the character grid in ROWS X COLS
+            
+	         character[1][0] = character[2][0] = '|';
+             character[1][1] = '_';
+             character[1][2] = '/';
+             character[2][2] ='\\';
+             character[2][1] = ' ';
 
             return character;
         }
-    */
+       
+      
+    
 
     char **L()
     {
