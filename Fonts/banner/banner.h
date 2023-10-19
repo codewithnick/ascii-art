@@ -116,16 +116,17 @@ public:
         return character;
     }
 
-     /*
+     
         char **K()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(7,7);
 
             //Enter the character grid in ROWS X COLS
+            character[0][0] = character[0][5] = character[1][0] = character[1][4] = character[2][0] = character[2][3] = character[3][0] = character[3][1] = character[3][2] = character[4][0] = character[4][3] = character[5][0] = character[5][4] = character[6][0] = character[6][5] ='#';
 
             return character;
         }
-    */
+    
        
 
     char **L()
