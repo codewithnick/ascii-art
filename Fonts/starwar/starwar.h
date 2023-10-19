@@ -712,7 +712,7 @@ public:
         return character;
     }
 
-
+    
         char **three()
         {
             char **character = getCharGrid(6,7);
@@ -724,6 +724,7 @@ public:
             character[3][5] = '<';
             character[1][5] = '\\';
             character[5][5] = '/';
+
             return character;
         }
 
