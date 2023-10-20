@@ -11,6 +11,7 @@
 #include "./Fonts/starwar/starwar.h"
 #include "./Fonts/carlos/carlos.h"
 #include "./Fonts/banner/banner.h"
+#include "./Fonts/block/block.h"
 
 namespace ascii
 {
@@ -21,7 +22,8 @@ namespace ascii
         straight,
         starwar,
         carlos,
-        banner
+        banner,
+        block
     };
 
     class Ascii
@@ -60,6 +62,10 @@ namespace ascii
             {
                 // std::cout<<"initialised sevenstar";
                 this->font = new Banner();
+            }
+            else if (fontName == FontName::block)
+            {
+                this->font = new Block();
             }
             else
             {
