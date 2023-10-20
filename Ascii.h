@@ -9,7 +9,7 @@
 #include "./Fonts/Boomer/boomer.h"
 #include "./Fonts/Straight/straight.h"
 #include "./Fonts/starwar/starwar.h"
-#include "./Fonts/Carlos/carlos.h"
+#include "./Fonts/carlos/carlos.h"
 #include "./Fonts/banner/banner.h"
 
 namespace ascii
