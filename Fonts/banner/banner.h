@@ -382,10 +382,10 @@ public:
     
         char **j()
         {
-            char **character = getCharGrid(7,3);
+            char **character = getCharGrid(8,3);
 
             //Enter the character grid in ROWS X COLS
-            character[0][2] = character[2][2] = character[3][2] = character[4][2] = character[5][0] = character[5][2] = character[6][1] = '#';
+            character[1][2] = character[3][2] = character[4][2] = character[5][2] = character[6][0] = character[6][2] = character[7][1] = '#';
 
             return character;
         }
