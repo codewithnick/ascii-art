@@ -5,7 +5,7 @@ using namespace ascii;
 
 int main()
 {
-    Ascii a = Ascii(starwar);
-    a.print("CDEF");
+    Ascii a = Ascii(carlos);
+    a.print("N");
     return 0;
 }
