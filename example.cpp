@@ -5,7 +5,7 @@ using namespace ascii;
 
 int main()
 {
-    Ascii a = Ascii(block);
-    a.print("A");
+    Ascii a = Ascii(banner);
+    a.print("iAcjo");
     return 0;
 }
