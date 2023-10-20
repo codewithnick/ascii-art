@@ -434,29 +434,31 @@ public:
 
     */
 
-    /*
-        char **n()
-        {
-            char **character = getCharGrid(ROWS,COLS);
+    
+    char **n()
+    {
+        char **character = getCharGrid(7,4);
 
-            //Enter the character grid in ROWS X COLS
+        character[3][0] = character[3][1] = character[3][2] = character[4][0] = character[4][3] = character[5][0] = character[5][3] = character[6][0] = character[6][3] = '#';
 
-            return character;
-        }
+        return character;
+    }
 
-    */
+    
 
-    /*
+    
         char **o()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(7,5);
 
             //Enter the character grid in ROWS X COLS
+            character[3][2] = character[3][3] = character[4][1] = character[4][4] = character[5][1] = character[5][4] = character[6][2] = character[6][3] =  '#';
+
 
             return character;
         }
 
-    */
+    
 
     /*
         char **p()
