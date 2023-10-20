@@ -9,8 +9,9 @@
 #include "./Fonts/Boomer/boomer.h"
 #include "./Fonts/Straight/straight.h"
 #include "./Fonts/starwar/starwar.h"
-#include "./Fonts/Carlos/carlos.h"
+#include "./Fonts/carlos/carlos.h"
 #include "./Fonts/banner/banner.h"
+#include "./Fonts/block/block.h"
 
 namespace ascii
 {
@@ -21,7 +22,8 @@ namespace ascii
         straight,
         starwar,
         carlos,
-        banner
+        banner,
+        block
     };
 
     class Ascii
@@ -60,6 +62,10 @@ namespace ascii
             {
                 // std::cout<<"initialised sevenstar";
                 this->font = new Banner();
+            }
+            else if (fontName == FontName::block)
+            {
+                this->font = new Block();
             }
             else
             {
@@ -205,6 +211,10 @@ namespace ascii
                     character = font->eight();
                 else if (c == '9')
                     character = font->nine();
+
+                //for space
+                else if (c == ' ')
+                    character = font->space();
 
                 font->pushChar(character);
             }
