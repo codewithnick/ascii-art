@@ -379,12 +379,13 @@ public:
 
     
 
-    /*
+    
         char **j()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(7,3);
 
             //Enter the character grid in ROWS X COLS
+            character[0][2] = character[2][2] = character[3][2] = character[4][2] = character[5][0] = character[5][2] = character[6][1] = '#';
 
             return character;
         }
