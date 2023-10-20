@@ -427,17 +427,17 @@ public:
 
     */
 
-    /*
-        char **n()
-        {
-            char **character = getCharGrid(ROWS,COLS);
+    
+    char **n()
+    {
+        char **character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
+        character[1][0] = character[1][1] = character[1][2] = character[2][0] = character[2][3] = character[3][0] = character[3][3] = character[4][0] = character[4][3] = '#';
 
-            return character;
-        }
+        return character;
+    }
 
-    */
+    
 
     /*
         char **o()
