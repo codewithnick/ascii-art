@@ -299,7 +299,7 @@ public:
         }
     */
 
-    
+    /*
         char **N()
         {
             char **character = getCharGrid(7,14);
@@ -313,7 +313,7 @@ public:
 
             return character;
         }
-    
+    */
 
     /*
         char **O()
