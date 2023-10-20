@@ -50,20 +50,18 @@ public:
         }
     
 
+    char **D()
+    {
+        char **character = getCharGrid(3,4);
+
+        character[1][4] = '\\';
+        character[2][4] = '/';
+        character[1][0] = character[2][0] = '|';
+        character[0][1] = character[0][2] = character[2][1] = character[2][2] = '_';
+
+        return character;
+    }
     
-        char **D()
-        {
-            char **character = getCharGrid(3,4);
-
-            character[0][0] = character[0][3] = character[1][1] = character[1][2] = ' ';
-            character[0][1] = character[0][2] = character[2][1] = character[2][2] = '_';
-            character[1][0] = character[2][0] = '|';
-            character[1][3] = '\\';
-            character[2][3] = '/';
-
-            return character;
-        }
-
 
     char **E()
     {
