@@ -432,7 +432,7 @@ public:
     {
         char **character = getCharGrid(7,4);
 
-        character[1][0] = character[1][1] = character[1][2] = character[2][0] = character[2][3] = character[3][0] = character[3][3] = character[4][0] = character[4][3] = '#';
+        character[3][0] = character[3][1] = character[3][2] = character[4][0] = character[4][3] = character[5][0] = character[5][3] = character[6][0] = character[6][3] = '#';
 
         return character;
     }
