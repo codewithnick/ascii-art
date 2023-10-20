@@ -430,7 +430,7 @@ public:
     
     char **n()
     {
-        char **character = getCharGrid();
+        char **character = getCharGrid(7,4);
 
         character[1][0] = character[1][1] = character[1][2] = character[2][0] = character[2][3] = character[3][0] = character[3][3] = character[4][0] = character[4][3] = '#';
 
