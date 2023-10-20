@@ -7,7 +7,7 @@ int main()
 {
 
     Ascii a = Ascii(banner);
-    a.print("iAcj");
+    a.print("iAcjo");
 
     return 0;
 }
