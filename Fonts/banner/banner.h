@@ -233,17 +233,16 @@ public:
     }
 
 
-    char **V()
+    /*
+        char **V()
         {
-            char **character = getCharGrid(7,7);
-            character[0][0] = character[1][0] = character[2][0] = character[3][0] = '#';
-            character[0][6] = character[1][6] = character[2][6] = character[3][6] = '#';
-            character[4][1] = character[5][2] = character[6][3] = character[5][4] = character[4][5] ='#';
+            char **character = getCharGrid(ROWS,COLS);
+
+            //Enter the character grid in ROWS X COLS
 
             return character;
         }
-
-
+    */
 
     char **W()
     {
