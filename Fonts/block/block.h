@@ -219,7 +219,7 @@ public:
     
         char **R()
         {
-            char **character = getCharGrid();
+            char **character = getCharGrid(11,20);
 
             //Enter the character grid in ROWS X COLS
             character[0][2] = character[0][3] = character[0][4] = character[0][5] = character[0][6] = character[0][7] = character[0][8] = character[0][9] = character[0][10] = character[0][11] = character[0][12] = character[0][13] = character[0][14] = character[0][15] = character[0][16] = character[0][17] = character[1][3] = character[1][4] = character[1][5] = character[1][6] = character[1][7] = character[1][8] = character[1][9] = character[1][10] = character[1][11] = character[1][12] = character[1][13] = character[1][14] = character[1][15] = character[1][16] = '-';
