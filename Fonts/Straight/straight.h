@@ -294,16 +294,14 @@ public:
     }
 
     
- /*
-        char **X()
-        {
-            char **character = getCharGrid(ROWS,COLS);
-
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-    */
+    char **X()
+    {
+        char **character = getCharGrid(3,3);
+	character[0][0] = character[2][2] = '\';
+	character[0][2] = character[2][0] = '/';
+	character[1][1] = '-';
+        return character;
+    }
     
 
     /*
