@@ -380,16 +380,16 @@ public:
         }
     */
 
-    /*
-        char **e()
-        {
-            char **character = getCharGrid(ROWS,COLS);
-
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-    */
+    
+   char **e()
+   {
+        char **character = getCharGrid(2,2);
+	character[1][0] = '(';
+	character[1][1] = '-';
+	character[0][1] = '_';
+	return character;
+    }
+    
 
     /*
         char **f()
