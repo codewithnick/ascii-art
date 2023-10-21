@@ -306,16 +306,15 @@ public:
     */
     
 
-    /*
-        char **Y()
-        {
-            char **character = getCharGrid(ROWS,COLS);
-
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-    */
+    char **Y()
+    {
+        char **character = getCharGrid(3,3);
+	character[0][0] = '\';
+	character[0][2] = ''/;
+	character[1][1] = '-';
+	character[2][1] = '|';
+        return character;
+     }
 
     char **Z()
     {
