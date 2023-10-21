@@ -293,7 +293,8 @@ public:
         return character;
     }
 
-    /*
+    
+ /*
         char **X()
         {
             char **character = getCharGrid(ROWS,COLS);
@@ -303,6 +304,7 @@ public:
             return character;
         }
     */
+    
 
     /*
         char **Y()
