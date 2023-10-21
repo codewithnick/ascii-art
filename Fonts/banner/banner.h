@@ -522,17 +522,19 @@ public:
 
     */
 
-    /*
-        char **u()
-        {
-            char **character = getCharGrid(ROWS,COLS);
+   char **v()
+{
+    char **character = getCharGrid(7, 3); // Assuming a 7x3 character grid
 
-            //Enter the character grid in ROWS X COLS
+    // Fill the character grid for inverted "v"
+    character[0][0] = character[0][6] = '#';
+    character[1][1] = character[1][5] = '#';
+    character[2][2] = character[2][4] = '#';
+    character[3][3] = '#';
 
-            return character;
-        }
+    return character;
+}
 
-    */
 
 char **v()
 {
