@@ -534,17 +534,22 @@ public:
 
     */
 
-    /*
-        char **v()
-        {
-            char **character = getCharGrid(ROWS,COLS);
+char **v()
+{
+    char **character = getCharGrid(7, 3); // Assuming a 7x3 character grid
 
-            //Enter the character grid in ROWS X COLS
+    // Fill the character grid for "<v>"
+    character[0][1] = character[0][2] = '#';
+    character[1][1] = character[1][2] = '#';
+    character[2][1] = '#';
+    character[3][0] = character[3][1] = character[3][2] = '#';
+    character[4][0] = '#';
+    character[5][0] = '#';
+    character[6][1] = character[6][2] = '#';
 
-            return character;
-        }
+    return character;
+}
 
-    */
 
     char **w()
     {
