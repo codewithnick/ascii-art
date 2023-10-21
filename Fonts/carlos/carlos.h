@@ -1015,17 +1015,31 @@ public:
 
     */
 
-    /*
+    
         char **nine()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(7, 11);
 
-            //Enter the character grid in ROWS X COL
+          character[0][2]= '_'; character[0][3]= '_';
+          character[0][4]= '_'; character[0][5]= '_'; character[0][6]= '_'; 
+          character[1][1]= '/'; character[1][3]= '_'; 
+          character[1][4]= '_'; character[1][7]= '\\';
+          
+           character[2][0]= '('; character[2][2]= '(';
+           character[2][3]= '_'; character[2][4]= '_'; character[2][5]= ')'; character[2][8]= '\\';
+          
+          character[3][1]= '\\';
+          character[3][2]= '_'; character[3][3]= '_'; character[3][4]= '_'; character[3][5]= '_'; character[3][6]= '_'; character[3][9]= ')'; 
+          character[4][7]= ')'; character[4][9]= ')'; 
+          character[5][2]= '_'; character[5][3]= '_'; character[5][4]= '_'; character[5][5]= '_'; character[5][6]= '/'; character[5][8]= '/'; 
+          character[6][1]= '('; character[6][2]= '_'; character[6][3]= '_'; character[6][4]= '_'; character[6][5]= '_'; character[6][6]= '_'; character[6][7]= '/'; 
+
+
 
             return character;
         }
 
-    */
+    
 
     // for space
     char **space()
