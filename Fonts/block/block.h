@@ -216,7 +216,7 @@ public:
         }
     */
 
-    
+    /*
         char **R()
         {
             char **character = getCharGrid();
@@ -235,7 +235,7 @@ public:
             character[4][11] = ')';
             return character;
         }
-    
+    */
 
     /*
         char **S()
