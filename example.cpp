@@ -6,6 +6,6 @@ using namespace ascii;
 int main()
 {
     Ascii a = Ascii(banner);
-    a.print("V");
+    a.print("iAcjo");
     return 0;
 }
