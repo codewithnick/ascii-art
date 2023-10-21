@@ -502,16 +502,18 @@ public:
         return character;
     }
 
-    /*
-        char **Y()
-        {
-            char **character = getCharGrid(ROWS,COLS);
+    char **Y()
+    {
+        char **character = getCharGrid(7, 10);
 
-            //Enter the character grid in ROWS X COL
+        character[0][0] = character[0][1] = character[0][9] = character[0][8] = character[6][4] = character[6][5] = '_';
+        character[1][9] = character[5][5] = '(';
+        character[1][0] = character[5][4] = ')';
+        character[1][2] = character[2][1] = character[2][3] = character[3][2] = character[3][4] = character[4][3] = character[6][6] = '\\';
+        character[1][7] = character[2][8] = character[2][6] = character[3][7] = character[3][5] = character[4][6] = character[6][3] = '/';
 
-            return character;
-        }
-    */
+        return character;
+    }
 
     char **Z()
     {
