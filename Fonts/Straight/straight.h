@@ -520,17 +520,18 @@ public:
         return character;
     }
 
-    /*
-        char **s()
+       char **s()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(2,2);
 
-            //Enter the character grid in ROWS X COLS
+             character[0][1] = '_';
+             character[1][0] = '_';
+             character[1][1] = ')';
 
-            return character;
+             return character;
         }
 
-    */
+    
 
     char **t()
     {
