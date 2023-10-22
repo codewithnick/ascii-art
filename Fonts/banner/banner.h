@@ -497,23 +497,23 @@ public:
 
     */
 
-    /*
+  
         char **v()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(7,5);
 
             //Enter the character grid in ROWS X COLS
+            character[2][0] = character[3][0] = character[4][0] = character[5][1] = character[6][2] = character[5][3] = character[4][4] = character[3][4] = character[2][4] = '#';
 
             return character;
         }
-
-    */
 
     char **w()
     {
         char **character = getCharGrid();
 
-        character[1][0] = character[1][4] = character[2][0] = character[2][4] = character[3][0] = character[3][2] = character[3][4] = character[4][0] = character[4][1] = character[4][3] = character[4][4] = '#';
+        character[1][0] = character[1][4] = character[2][0] = character[2][4] = character[3][0] =
+		character[3][2] = character[3][4] = character[4][0] = character[4][1] = character[4][3] = character[4][4] = '#';
 
         return character;
     }
