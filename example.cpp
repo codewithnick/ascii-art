@@ -6,6 +6,6 @@ using namespace ascii;
 int main()
 {
     Ascii a = Ascii(boomer);
-    a.print("qgpHq");
+    a.print("qgpHhq");
     return 0;
 }
