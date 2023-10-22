@@ -488,14 +488,6 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <sub><b>pronajit</b></sub>
         </a>
     </td></tr>
-<tr>
-    <td align="center">
-        <a href="https://github.com/vaishnavisisodiya">
-            <img src="https://avatars.githubusercontent.com/u/125583860?v=4" width="70;" alt="vaishnavisisodiya"/>
-            <br />
-            <sub><b>vaishnavisisodiya</b></sub>
-        </a>
-    </td></tr>
 </table>
 <!-- readme: contributors,codewithnick/-,vkumar8192449/-,vishu567/-,sachinkumar911/-,AnshumanMahato/- -end -->
 
