@@ -261,6 +261,13 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/12345rams">
+            <img src="https://avatars.githubusercontent.com/u/132057037?v=4" width="70;" alt="12345rams"/>
+            <br />
+            <sub><b>12345rams</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/Anshun352">
             <img src="https://avatars.githubusercontent.com/u/146530516?v=4" width="70;" alt="Anshun352"/>
             <br />
@@ -280,7 +287,8 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>shlok-2003</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/ben-dh3">
             <img src="https://avatars.githubusercontent.com/u/105418802?v=4" width="70;" alt="ben-dh3"/>
@@ -311,6 +319,13 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/ahmad-kaif">
+            <img src="https://avatars.githubusercontent.com/u/113821761?v=4" width="70;" alt="ahmad-kaif"/>
+            <br />
+            <sub><b>ahmad-kaif</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/akashKumar06">
             <img src="https://avatars.githubusercontent.com/u/117292434?v=4" width="70;" alt="akashKumar06"/>
             <br />
@@ -323,7 +338,8 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>ankitkujur15</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/gourshabrg">
             <img src="https://avatars.githubusercontent.com/u/143959353?v=4" width="70;" alt="gourshabrg"/>
@@ -340,6 +356,7 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
     </td></tr>
 <tr>
     <td align="center">
+<<<<<<< HEAD
         <a href="https://github.com/ahmad-kaif">
             <img src="https://avatars.githubusercontent.com/u/113821761?v=4" width="70;" alt="ahmad-kaif"/>
             <br />
@@ -347,6 +364,8 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
+=======
+>>>>>>> 3dea4f000e608db08dd25daacda76ce1a6ab4519
         <a href="https://github.com/Raghav354">
             <img src="https://avatars.githubusercontent.com/u/137503421?v=4" width="70;" alt="Raghav354"/>
             <br />
@@ -380,7 +399,8 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>Arif20484423</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/abhay5624">
             <img src="https://avatars.githubusercontent.com/u/77601553?v=4" width="70;" alt="abhay5624"/>
@@ -430,6 +450,14 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>prateek00077</b></sub>
         </a>
+    </td></tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/Rudra-IITM">
+            <img src="https://avatars.githubusercontent.com/u/120119520?v=4" width="70;" alt="Rudra-IITM"/>
+            <br />
+            <sub><b>Rudra-IITM</b></sub>
+        </a>
     </td>
     <td align="center">
         <a href="https://github.com/VikashBurman">
@@ -451,6 +479,13 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <img src="https://avatars.githubusercontent.com/u/98771979?v=4" width="70;" alt="pronajit"/>
             <br />
             <sub><b>pronajit</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/sandeep131431">
+            <img src="https://avatars.githubusercontent.com/u/146765506?v=4" width="70;" alt="sandeep131431"/>
+            <br />
+            <sub><b>sandeep131431</b></sub>
         </a>
     </td></tr>
 </table>
