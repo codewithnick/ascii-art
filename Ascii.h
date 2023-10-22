@@ -34,19 +34,15 @@ namespace ascii
     {
 
     public:
-        // std::string fontName;
         Fonts *font;
         Ascii(const FontName &fontName)
         {
-            // std::cout<<"initialised ascii";
             if (fontName == FontName::sevenstar)
             {
-                // std::cout<<"initialised sevenstar";
                 this->font = new SevenStar();
             }
             else if (fontName == FontName::boomer)
             {
-                // std::cout<<"initialised sevenstar";
                 this->font = new Boomer();
             }
             else if (fontName == FontName::straight)
@@ -64,7 +60,6 @@ namespace ascii
             }
             else if (fontName == FontName::banner)
             {
-                // std::cout<<"initialised sevenstar";
                 this->font = new Banner();
             }
             else if (fontName == FontName::block)
@@ -88,7 +83,6 @@ namespace ascii
         {
 
             char **character = nullptr;
-            // std::cout<<"printing";
 
             for (int i = 0; i < text.size(); i++)
             {
