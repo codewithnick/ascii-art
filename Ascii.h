@@ -12,6 +12,7 @@
 #include "./Fonts/carlos/carlos.h"
 #include "./Fonts/banner/banner.h"
 #include "./Fonts/block/block.h"
+#include "./Fonts/amongus/amongus.h"
 
 namespace ascii
 {
@@ -23,7 +24,8 @@ namespace ascii
         starwar,
         carlos,
         banner,
-        block
+        block,
+        amongus
     };
 
     class Ascii
@@ -66,6 +68,10 @@ namespace ascii
             else if (fontName == FontName::block)
             {
                 this->font = new Block();
+            }
+            else if (fontName == FontName::amongus)
+            {
+                this->font = new Amongus();
             }
             else
             {
@@ -212,7 +218,7 @@ namespace ascii
                 else if (c == '9')
                     character = font->nine();
 
-                //for space
+                // for space
                 else if (c == ' ')
                     character = font->space();
 
