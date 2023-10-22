@@ -522,42 +522,35 @@ public:
 
     */
 
-   char **v()
-{
-    char **character = getCharGrid(7, 3); // Assuming a 7x3 character grid
+    /*
+        char **u()
+        {
+            char **character = getCharGrid(ROWS,COLS);
 
-    // Fill the character grid for inverted "v"
-    character[0][0] = character[0][6] = '#';
-    character[1][1] = character[1][5] = '#';
-    character[2][2] = character[2][4] = '#';
-    character[3][3] = '#';
+            //Enter the character grid in ROWS X COLS
 
-    return character;
-}
+            return character;
+        }
 
+    */
 
-char **v()
-{
-    char **character = getCharGrid(7, 3); // Assuming a 7x3 character grid
+  
+        char **v()
+        {
+            char **character = getCharGrid(7,5);
 
-    // Fill the character grid for "<v>"
-    character[0][1] = character[0][2] = '#';
-    character[1][1] = character[1][2] = '#';
-    character[2][1] = '#';
-    character[3][0] = character[3][1] = character[3][2] = '#';
-    character[4][0] = '#';
-    character[5][0] = '#';
-    character[6][1] = character[6][2] = '#';
+            //Enter the character grid in ROWS X COLS
+            character[2][0] = character[3][0] = character[4][0] = character[5][1] = character[6][2] = character[5][3] = character[4][4] = character[3][4] = character[2][4] = '#';
 
-    return character;
-}
-
+            return character;
+        }
 
     char **w()
     {
         char **character = getCharGrid();
 
-        character[1][0] = character[1][4] = character[2][0] = character[2][4] = character[3][0] = character[3][2] = character[3][4] = character[4][0] = character[4][1] = character[4][3] = character[4][4] = '#';
+        character[1][0] = character[1][4] = character[2][0] = character[2][4] = character[3][0] =
+		character[3][2] = character[3][4] = character[4][0] = character[4][1] = character[4][3] = character[4][4] = '#';
 
         return character;
     }
