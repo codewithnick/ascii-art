@@ -470,17 +470,18 @@ public:
         return character;
     }
 
-    /*
-        char **m()
-        {
-            char **character = getCharGrid(ROWS,COLS);
+    char **m()
+    {
+        char **character = getCharGrid(7, 11);
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-
-    */
+        character[2][1] = character[2][3] = character[2][4] = character[2][6] = character[2][7] = character[2][8] = character[3][3] = character[3][7] = character[5][1] = character[5][5] = character[5][9] = '_';
+        character[2][0] = character[2][2] = character[2][5] = character[2][9] = character[3][1] = character[4][1] = character[4][3] = character[4][5] = character[4][7] = character[4][9] = character[5][3] = character[5][7] = ' ';
+        character[3][0] = character[4][0] = character[5][0] = character[4][2] = character[5][2] = character[4][4] = character[5][4] = character[4][6] = character[5][6] = character[4][8] = character[5][8] = character[4][10] = character[5][10] = '|';
+        character[3][2] = '\'';
+        character[3][9] = '\\';
+        character[3][5] = '`';
+        return character;
+    }
 
     char **n()
     {
