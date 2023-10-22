@@ -13,6 +13,7 @@
 #include "./Fonts/banner/banner.h"
 #include "./Fonts/block/block.h"
 #include "./Fonts/amongus/amongus.h"
+#include "./Fonts/drpepper/drpepper.h"
 
 namespace ascii
 {
@@ -25,7 +26,8 @@ namespace ascii
         carlos,
         banner,
         block,
-        amongus
+        amongus,
+        drpepper
     };
 
     class Ascii
@@ -72,6 +74,10 @@ namespace ascii
             else if (fontName == FontName::amongus)
             {
                 this->font = new Amongus();
+            }
+            else if (fontName == FontName::drpepper)
+            {
+                this->font = new Drpepper();
             }
             else
             {
