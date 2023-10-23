@@ -6,6 +6,6 @@ using namespace ascii;
 int main()
 {
     Ascii a = Ascii(straight);
-    a.print("7");
+    a.print("a");
     return 0;
 }
