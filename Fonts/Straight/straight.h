@@ -290,16 +290,17 @@ public:
         return character;
     }
 
-    /*
-        char **Y()
+    char **Y()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(3,3);
 
             //Enter the character grid in ROWS X COLS
-
+              character[0][0] =  '\\';
+              character[0][2] = '/';
+              character[1][1] = '-';
+              character[2][1] = '|';
             return character;
         }
-    */
 
     char **Z()
     {
