@@ -440,17 +440,13 @@ public:
 
     */
 
-    /*
         char **r()
         {
-            char **character = getCharGrid(ROWS,COLS);
-
-            //Enter the character grid in ROWS X COLS
-
+            char **character = getCharGrid(7,4);
+            character[3][0] = character[3][1] = character[3][2] = character[4][0] = character[5][0] = character[6][0] = character[4][3] = '#';
             return character;
         }
 
-    */
 
     /*
         char **s()
