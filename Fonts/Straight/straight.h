@@ -366,17 +366,16 @@ public:
         }
     */
 
-    /*
-        char **e()
+   char **e()
         {
             char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COLS
-
+              character[1][1] =  '_';
+              character[2][0] = '(';
+              character[2][1] = '-';
             return character;
         }
-    */
-
     /*
         char **f()
         {
