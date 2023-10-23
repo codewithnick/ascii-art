@@ -310,13 +310,27 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/gourshabrg">
+            <img src="https://avatars.githubusercontent.com/u/143959353?v=4" width="70;" alt="gourshabrg"/>
+            <br />
+            <sub><b>gourshabrg</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/Sangam02">
+            <img src="https://avatars.githubusercontent.com/u/88871936?v=4" width="70;" alt="Sangam02"/>
+            <br />
+            <sub><b>Sangam02</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/12345rams">
             <img src="https://avatars.githubusercontent.com/u/132057037?v=4" width="70;" alt="12345rams"/>
             <br />
             <sub><b>12345rams</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Anshun352">
             <img src="https://avatars.githubusercontent.com/u/146530516?v=4" width="70;" alt="Anshun352"/>
@@ -351,7 +365,8 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>codewithana</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/miragearush">
             <img src="https://avatars.githubusercontent.com/u/80736891?v=4" width="70;" alt="miragearush"/>
@@ -365,8 +380,7 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>som02esh</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/ahmad-kaif">
             <img src="https://avatars.githubusercontent.com/u/113821761?v=4" width="70;" alt="ahmad-kaif"/>
@@ -382,6 +396,13 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/Mystery-glitch">
+            <img src="https://avatars.githubusercontent.com/u/129242366?v=4" width="70;" alt="Mystery-glitch"/>
+            <br />
+            <sub><b>Mystery-glitch</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/RITIK-DEVOLOPER">
             <img src="https://avatars.githubusercontent.com/u/123798093?v=4" width="70;" alt="RITIK-DEVOLOPER"/>
             <br />
@@ -394,12 +415,20 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>ankitkujur15</b></sub>
         </a>
+    </td></tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/sandeep131431">
+            <img src="https://avatars.githubusercontent.com/u/146765506?v=4" width="70;" alt="sandeep131431"/>
+            <br />
+            <sub><b>sandeep131431</b></sub>
+        </a>
     </td>
     <td align="center">
-        <a href="https://github.com/gourshabrg">
-            <img src="https://avatars.githubusercontent.com/u/143959353?v=4" width="70;" alt="gourshabrg"/>
+        <a href="https://github.com/Arif20484423">
+            <img src="https://avatars.githubusercontent.com/u/76733190?v=4" width="70;" alt="Arif20484423"/>
             <br />
-            <sub><b>gourshabrg</b></sub>
+            <sub><b>Arif20484423</b></sub>
         </a>
     </td>
     <td align="center">
@@ -415,20 +444,12 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>Raghav354</b></sub>
         </a>
-    </td></tr>
-<tr>
-    <td align="center">
-        <a href="https://github.com/Sangam02">
-            <img src="https://avatars.githubusercontent.com/u/88871936?v=4" width="70;" alt="Sangam02"/>
-            <br />
-            <sub><b>Sangam02</b></sub>
-        </a>
     </td>
     <td align="center">
-        <a href="https://github.com/sandeep131431">
-            <img src="https://avatars.githubusercontent.com/u/146765506?v=4" width="70;" alt="sandeep131431"/>
+        <a href="https://github.com/mohdadil1">
+            <img src="https://avatars.githubusercontent.com/u/39762134?v=4" width="70;" alt="mohdadil1"/>
             <br />
-            <sub><b>sandeep131431</b></sub>
+            <sub><b>mohdadil1</b></sub>
         </a>
     </td>
     <td align="center">
@@ -444,7 +465,8 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>AryanBakliwal</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/FreemRL">
             <img src="https://avatars.githubusercontent.com/u/66525499?v=4" width="70;" alt="FreemRL"/>
@@ -453,25 +475,17 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/Arif20484423">
-            <img src="https://avatars.githubusercontent.com/u/76733190?v=4" width="70;" alt="Arif20484423"/>
-            <br />
-            <sub><b>Arif20484423</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/hellomohit722">
             <img src="https://avatars.githubusercontent.com/u/146608079?v=4" width="70;" alt="hellomohit722"/>
             <br />
             <sub><b>hellomohit722</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
-        <a href="https://github.com/mohdadil1">
-            <img src="https://avatars.githubusercontent.com/u/39762134?v=4" width="70;" alt="mohdadil1"/>
+        <a href="https://github.com/khalid10906">
+            <img src="https://avatars.githubusercontent.com/u/123804294?v=4" width="70;" alt="khalid10906"/>
             <br />
-            <sub><b>mohdadil1</b></sub>
+            <sub><b>khalid10906</b></sub>
         </a>
     </td>
     <td align="center">
@@ -489,13 +503,6 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/Mystery-glitch">
-            <img src="https://avatars.githubusercontent.com/u/129242366?v=4" width="70;" alt="Mystery-glitch"/>
-            <br />
-            <sub><b>Mystery-glitch</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/NANDANA-S-P">
             <img src="https://avatars.githubusercontent.com/u/79624565?v=4" width="70;" alt="NANDANA-S-P"/>
             <br />
@@ -508,15 +515,15 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>prajjawal007</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/prateek00077">
             <img src="https://avatars.githubusercontent.com/u/147089488?v=4" width="70;" alt="prateek00077"/>
             <br />
             <sub><b>prateek00077</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Rudra-IITM">
             <img src="https://avatars.githubusercontent.com/u/120119520?v=4" width="70;" alt="Rudra-IITM"/>
