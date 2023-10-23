@@ -696,17 +696,23 @@ public:
         return character;
     }
 
-    /*
+    
         char **seven()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(3,4);
 
             //Enter the character grid in ROWS X COLS
+                    character[0][0] = '_';
+        character[0][1] = '_';
+        character[0][2] = '_';
+        character[1][2] = '/';
+        character[2][1] = '/';
+
 
             return character;
         }
 
-    */
+    
 
     char **eight()
     {
