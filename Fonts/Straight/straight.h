@@ -320,17 +320,20 @@ public:
 
     // Lowercase
 
-    /*
+    
         char **a()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(4,4);
 
             //Enter the character grid in ROWS X COLS
+              character[1][1] =  '_';
+              character[2][0] = '(';
+              character[2][1] = '_';
+              character[2][2] = '|';
 
             return character;
         }
-    */
-
+    
     char **b()
     {
         char **character = getCharGrid(3, 3);
