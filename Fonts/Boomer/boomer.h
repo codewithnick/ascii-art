@@ -673,7 +673,7 @@ public:
 
     char **one()
         {
-            char **character = getCharGrid(6,7);
+            char **character = getCharGrid(8,8);
 
             //Enter the character grid in ROWS X COLS
             character[0][0]=character[1][0]=character[2][0]=character[3][0]=character[4][0]=  character[5][0]=  character[6][0]=  character[7][0]=' ';
