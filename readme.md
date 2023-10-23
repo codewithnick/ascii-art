@@ -390,13 +390,6 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
     </td></tr>
 <tr>
     <td align="center">
-        <a href="https://github.com/Mystery-glitch">
-            <img src="https://avatars.githubusercontent.com/u/129242366?v=4" width="70;" alt="Mystery-glitch"/>
-            <br />
-            <sub><b>Mystery-glitch</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/Raghav354">
             <img src="https://avatars.githubusercontent.com/u/137503421?v=4" width="70;" alt="Raghav354"/>
             <br />
@@ -445,7 +438,8 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>Arif20484423</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/hellomohit722">
             <img src="https://avatars.githubusercontent.com/u/146608079?v=4" width="70;" alt="hellomohit722"/>
