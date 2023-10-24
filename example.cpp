@@ -6,6 +6,6 @@ using namespace ascii;
 int main()
 {
     Ascii a = Ascii(amongus);
-    a.print("K");
+    a.print("V");
     return 0;
 }
