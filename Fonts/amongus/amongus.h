@@ -139,16 +139,20 @@ public:
         }
     */
 
-    /*
+    
         char **K()
         {
-            char **character = getCharGrid(ROWS,COLS);
-
+            char **character = getCharGrid(4,6);
+            character[0][1]=character[0][4]=character[4][1]=character[4][4]='_';
+            character[1][0]=character[2][4]=character[4][0]='(';
+            character[1][2]=character[1][5]=character[2][1]=character[4][2]=character[4][5]=')';
+            character[1][3]='/';
+            character[4][3]='\\';
             //Enter the character grid in ROWS X COLS
 
             return character;
         }
-    */
+    
 
     /*
         char **L()
