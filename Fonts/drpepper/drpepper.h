@@ -213,12 +213,12 @@ public:
         char **S()
      {
 
-    char **character = getCharGrid(rows, cols);
-    character[0][1] =character[0][2]=character[1][2]=character[1][1]=character[3][2]=character[3][1]=character[2][1]= '-';
-    character[3][3]=character[1][0]='/';
-    character[1][3]='>';
+    char **character = getCharGrid(4, 5);
+    character[0][1] =character[0][2]=character[1][2]=character[1][1]=character[3][2]=character[3][1]=character[2][1]=character[0][3]=character[1][3]=character[3][3]=character[2][2]= '_';
+    character[3][4]=character[1][0]='/';
+    character[1][4]='>';
     character[3][0]='<';
-    character[2][0]=character[2][3]=char(92);
+    character[2][0]=character[2][4]=char(92);
     return character;
       }
 
