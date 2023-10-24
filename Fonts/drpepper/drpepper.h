@@ -544,17 +544,20 @@ character[1][4] = character[2][3] = character[3][4] = '>';
 
     */
 
-    /*
-        char **v()
+    char **v()
         {
-            char **character = getCharGrid(rows,cols);
+            char **character = getCharGrid(4,5);
 
             //Enter the character grid in ROWS X COLS
+            character[1][1]=character[3][1]=character[3][2]=character[1][3]='_';
+            character[2][0]=character[2][2]=character[2][4]=character[3][0]='|';
+            character[3][3]='/';
 
             return character;
         }
+        
 
-    */
+    
 
     /*
         char **w()
