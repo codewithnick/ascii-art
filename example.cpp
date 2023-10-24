@@ -5,7 +5,7 @@ using namespace ascii;
 
 int main()
 {
-    Ascii a = Ascii(amongus);
-    a.print("V");
+    Ascii font = Ascii(block);
+    font.print("W");
     return 0;
 }
