@@ -594,17 +594,21 @@ public:
         return character;
     }
 
-    /*
+    
         char **y()
         {
-            char **character = getCharGrid(ROWS,COLS);
+        char **character = getCharGrid(3, 2);
 
-            //Enter the character grid in ROWS X COLS
+        // Enter the character grid in ROWS X COLS
+
+        character[1][0] = '\\';
+        character[1][1] = '/';
+        character[2][0] = '/';
 
             return character;
         }
 
-    */
+    
 
   char **z()
         {
