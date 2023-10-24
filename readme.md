@@ -482,6 +482,7 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>FreemRL</b></sub>
         </a>
+
     </td>
     <td align="center">
         <a href="https://github.com/BidyasagarAnupam">
