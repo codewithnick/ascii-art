@@ -88,16 +88,23 @@ public:
         }
     */
 
-    /*
+    
         char **G()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(4,6);
+            character[0][2]=character[0][3]=character[0][4]=character[1][3]=character[1][4]=character[2][3]=character[3][2]=character[3][3]=character[3][4]='_';
+            character[2][0]=character[2][2]='(';
+            character[1][5]=')';
+            character[1][1]=character[3][5]='/';
+            character[3][1]='\\';
+            character[2][4]='-';
+            character[2][5]='.';
 
             //Enter the character grid in ROWS X COLS
 
             return character;
         }
-    */
+     
 
     /*
         char **H()
