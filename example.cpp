@@ -7,5 +7,6 @@ int main()
 {
  Ascii a = Ascii(boomer);
  a.print("1");
+
     return 0;
 }
