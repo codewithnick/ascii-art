@@ -619,7 +619,6 @@ public:
 
     // Numbers
 
-    /*
         char **zero()
         {
             char **character = getCharGrid(4,7);
@@ -633,8 +632,6 @@ public:
 
             return character;
         }
-
-    */
 
     /*
         char **one()
