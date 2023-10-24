@@ -673,15 +673,17 @@ public:
 
     char **one()
         {
-            char **character = getCharGrid(8,8);
+            char **character = getCharGrid(9,9);
+            
+            character[0][1] = character[0][2] = character[0][3] =character[6][0]=character[6][5]=character[7][1]=character[7][2]=character[7][3]=character[7][4]='_';
+            character[1][0]=character[7][5]='/';
+            character[2][0]='`';
+            character[2][1]=character[3][1]=character[4][1]=character[5][1]=character[6][1]='|';
+            character[1][4]=character[2][4]=character[3][4]=character[4][4]=character[5][4]=character[6][4]='|';
+            character[7][0]='\\';
 
-            //Enter the character grid in ROWS X COLS
-            character[0][0]=character[1][0]=character[2][0]=character[3][0]=character[4][0]=  character[5][0]=  character[6][0]=  character[7][0]=' ';
-            character[0][2]=character[7][2]='_';
-            character[1][1]=character[6][3]='/';
-            character[2][1]=character[6][1]='\\';
-            character[3][2]=character[4][2]=character[5][2]='|';
-            character[1][2]=character[2][2]=character[3][2]=character[4][2]=character[5][2]='|';
+
+
 
 
             return character;
