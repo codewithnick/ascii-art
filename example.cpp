@@ -6,6 +6,6 @@ using namespace ascii;
 int main()
 {
     Ascii a = Ascii(banner);
-    a.print("Deedf");
+    a.print("l");
     return 0;
 }
