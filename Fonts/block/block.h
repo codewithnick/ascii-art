@@ -714,17 +714,43 @@ public:
 
     */
 
-    /*
-        char **z()
-        {
-            char **character = getCharGrid();
+    
+        char **createZ() {
+    char **character = (char **)malloc(11 * sizeof(char *));
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
+    for (int i = 0; i < 11; i++) {
+        character[i] = (char *)malloc(20 * sizeof(char));
+        for (int j = 0; j < 20; j++) {
+            character[i][j] = ' '; // Initialize all characters as empty spaces
         }
+    }
+    for (int i = 0; i < 2; i++) {
+        for (int j = 2; j <= 17; j++) {
+            character[i][j] = '-';
+            character[9][j] = '-';
+        }
+    }
+    for (int i = 2; i <= 8; i++) {
+        character[i][17] = '|';
+    }
+    character[0][2] = character[0][3] = character[0][4] = character[0][5] = character[0][6] = character[0][7] = character[0][8] = character[0][9] = character[0][10] = character[0][11] = character[0][12] = character[0][13] = character[0][14] = character[0][15] = character[0][16] = '|';
+    character[1][3] = character[1][4] = character[1][5] = character[1][6] = character[1][7] = character[1][8] = character[1][9] = character[1][10] = character[1][11] = character[1][12] = character[1][13] = character[1][14] = character[1][15] = character[1][16] = '-';
 
-    */
+    character[2][5] = character[2][6] = character[2][7] = character[2][8] = character[2][9] = character[2][10] = character[2][11] = character[2][12] = character[2][13] = '_';
+    character[3][5] = character[3][9] = character[3][10] = character[3][11] = '_';
+    character[4][6] = character[4][8] = '_';
+    character[4][13] = character[5][6] = character[5][9] = character[5][13] = character[6][5] = character[6][13] = '_';
+    character[7][5] = character[7][6] = character[7][7] = character[7][8] = character[7][9] = character[7][10] = character[7][11] = character[7][12] = character[7][13] = '_';
+    character[3][4] = character[3][14] = character[4][7] = character[4][14] = character[5][7] = character[5][12] = character[5][14] = character[6][7] = character[6][14] = '|';
+    character[4][15] = '\\';
+    character[6][5] = '/';
+    character[6][15] = '\\';
+
+    return character;
+}
+
+
+    
 
     // Numbers
 
