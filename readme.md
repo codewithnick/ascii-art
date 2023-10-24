@@ -355,6 +355,13 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/sandeep131431">
+            <img src="https://avatars.githubusercontent.com/u/146765506?v=4" width="70;" alt="sandeep131431"/>
+            <br />
+            <sub><b>sandeep131431</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/Sangam02">
             <img src="https://avatars.githubusercontent.com/u/88871936?v=4" width="70;" alt="Sangam02"/>
             <br />
@@ -381,15 +388,15 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>avi-dey</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Bhargava-1103">
             <img src="https://avatars.githubusercontent.com/u/109221234?v=4" width="70;" alt="Bhargava-1103"/>
             <br />
             <sub><b>Bhargava-1103</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/shlok-2003">
             <img src="https://avatars.githubusercontent.com/u/103599796?v=4" width="70;" alt="shlok-2003"/>
@@ -424,15 +431,15 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>miragearush</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/som02esh">
             <img src="https://avatars.githubusercontent.com/u/106095040?v=4" width="70;" alt="som02esh"/>
             <br />
             <sub><b>som02esh</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Sukriti-Rai">
             <img src="https://avatars.githubusercontent.com/u/144582008?v=4" width="70;" alt="Sukriti-Rai"/>
@@ -466,13 +473,6 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <img src="https://avatars.githubusercontent.com/u/144579619?v=4" width="70;" alt="ankitkujur15"/>
             <br />
             <sub><b>ankitkujur15</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/sandeep131431">
-            <img src="https://avatars.githubusercontent.com/u/146765506?v=4" width="70;" alt="sandeep131431"/>
-            <br />
-            <sub><b>sandeep131431</b></sub>
         </a>
     </td></tr>
 <tr>
