@@ -322,16 +322,18 @@ public:
 
     // Lowercase
 
-    /*
-        char **a()
+  char **a()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(4,4);
 
             //Enter the character grid in ROWS X COLS
+              character[1][1] =  '_';
+              character[2][0] = '(';
+              character[2][1] = '_';
+              character[2][2] = '|';
 
             return character;
         }
-    */
 
     char **b()
     {
@@ -679,18 +681,20 @@ public:
         return character;
     }
 
-    /*
-        char **five()
+   char **five()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(4,4);
 
             //Enter the character grid in ROWS X COLS
+                character[0][1] = '_';
+        character[0][2] = '_';
+        character[1][0] = '|';
+        character[1][1] = '_';
+        character[2][2] = ')';
+        character[2][0] = character[2][1] = '_';
 
             return character;
         }
-
-
-    */
 
     char **six()
     {
