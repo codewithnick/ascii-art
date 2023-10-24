@@ -687,17 +687,21 @@ public:
         return character;
     }
 
-    /*
         char **one()
         {
-            char **character = getCharGrid(ROWS,COLS);
-
-            //Enter the character grid in ROWS X COLS
-
+            char **character = getCharGrid(6,7);
+            
+            character[0][1] = character[0][2] = character[0][3] =character[4][0]=character[4][5]=character[5][1]=character[5][2]=character[5][3]=character[5][4]='_';
+            character[1][0]=character[5][5]='/';
+            character[2][0]='`';
+            character[2][1]=character[3][1]=character[4][1]='|';
+            character[1][4]=character[2][4]=character[3][4]=character[4][4]='|';
+            character[5][0]='\\';
+            
             return character;
         }
 
-    */
+
 
     char **two()
     {
