@@ -375,17 +375,19 @@ public:
         return character;
     }
 
-    /*
+    
         char **l()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(7,3);
 
             //Enter the character grid in ROWS X COLS
+            character[1][0] = character[1][1] = character[2][1] = character[3][1] =
+            character[4][1] = character[5][1] = character[6][0] = character[6][1] = character[6][2] = '#';
 
             return character;
         }
 
-    */
+
 
     char **m()
     {
@@ -428,29 +430,24 @@ public:
 
     
 
-    /*
+   //@$
         char **q()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(8,7);
 
             //Enter the character grid in ROWS X COLS
-
+            character[2][4] = character[2][5] =  character[2][6] = character[3][3] = character[3][6] = character[4][2] = character[4][6] = character[5][3] = character[5][4] = character[5][5] =  character[5][6] = character[6][6] = '#';
             return character;
         }
 
-    */
 
-    /*
         char **r()
         {
-            char **character = getCharGrid(ROWS,COLS);
-
-            //Enter the character grid in ROWS X COLS
-
+            char **character = getCharGrid(7,4);
+            character[3][0] = character[3][1] = character[3][2] = character[4][0] = character[5][0] = character[6][0] = character[4][3] = '#';
             return character;
         }
 
-    */
 
     /*
         char **s()
@@ -508,17 +505,15 @@ public:
         return character;
     }
 
-    /*
         char **x()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(7,4);
 
-            //Enter the character grid in ROWS X COLS
+            character[3][0] = character[3][3] = character[4][1] = character[4][2] = character[5][1] = character[5][2] = character[6][0] = character[6][3] = '#';
 
             return character;
         }
 
-    */
 
     /*
         char **y()
@@ -532,17 +527,14 @@ public:
 
     */
 
-    /*
         char **z()
         {
-            char **character = getCharGrid(ROWS,COLS);
-
-            //Enter the character grid in ROWS X COLS
+            char **character = getCharGrid(7,4);
+            character[3][0] = character[3][1] = character[3][2] = character[3][3] = character[4][2] = character[5][1] = character[6][0] = character[6][1] = character[6][2] = character[6][3] ='#';
 
             return character;
         }
 
-    */
 
     // Numbers
 
