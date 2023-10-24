@@ -6,8 +6,8 @@ For more designs refer to jacky at [ascii-generater](https://ascii-generator.sit
    ____    
   (    )   
   / /\ \   
- ( (__) )  
-  )    (   
+ ( (__) )   
+  )    (
  /  /\  \  
 /__(  )__\ 
    
