@@ -67,16 +67,16 @@ public:
         }
     */
 
-    /*
-        char **F()
-        {
-            char **character = getCharGrid(rows,cols);
+    char **F()
+    {
+        char **character = getCharGrid(4,5);
 
-            //Enter the character grid in ROWS X COLS
+        character[0][1] = character[0][2] = character[0][3] = character[1][2] = character[1][3] = character[2][2] = character[3][1] = '_';
+        character[1][0] = character[2][0] = character[3][0] = character[3][2] = '|';
+        character[1][4] = character[2][3] = '>';
 
-            return character;
-        }
-    */
+        return character;
+    }
 
     /*
         char **G()
