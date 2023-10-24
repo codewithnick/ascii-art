@@ -709,17 +709,19 @@ public:
 
     */
 
-    /*
-        char **seven()
+
+           char **seven()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(4,5);
 
-            //Enter the character grid in ROWS X COLS
-
+            character[0][1]=character[0][2]=character[0][3]=character[1][1]=character[1][2]=character[3][1]='_';
+            character[2][1]=character[2][3]=character[3][2]='/';
+            character[1][0]=character[3][0]='(';
+            character[1][4]=')';
             return character;
         }
 
-    */
+    
 
     
         char **eight()
