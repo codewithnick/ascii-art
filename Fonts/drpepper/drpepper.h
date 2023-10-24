@@ -296,16 +296,14 @@ public:
 
     // Lowercase
 
-    /*
-        char **a()
-        {
-            char **character = getCharGrid(rows,cols);
-
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-    */
+    char **character = getCharGrid(3, 5);
+        character[0][0] = character[0][4] = character[1][3] = ' ';
+character[0][1] = character[0][2] = character[0][3] = character[1][1] = character[2][1] = character[2][2] = character[2][3] = '_';
+character[1][0] = character[2][0] = '<';
+character[1][2] = '>';
+character[1][4] = character[2][4] = '|';
+        return character;
+    }
 
     /*
         char **b()
