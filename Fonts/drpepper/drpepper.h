@@ -97,16 +97,17 @@ public:
         return character;
     }
 
-    char **I()
-    {
-        char **character = getCharGrid(6, 5);
+   
+        char **I()
+        {
+            char **character = getCharGrid(rows,cols);
 
-        character[1][0] = character[1][2] = character[2][0] = character[2][2] = character[3][0] = character[3][2] = '|';
-        character[0][1] = character[3][1] = '_';
+            character[1][0]=character[1][2]=character[2][0]=character[2][2]=character[3][0]=character[3][2]='|';
+character[0][1]=character[3][1]='_';
 
-        return character;
-    }
-
+            return character;
+        }
+    
     /*
         char **J()
         {
