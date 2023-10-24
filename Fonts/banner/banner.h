@@ -375,17 +375,19 @@ public:
         return character;
     }
 
-    /*
+    
         char **l()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(7,3);
 
             //Enter the character grid in ROWS X COLS
+            character[1][0] = character[1][1] = character[2][1] = character[3][1] =
+            character[4][1] = character[5][1] = character[6][0] = character[6][1] = character[6][2] = '#';
 
             return character;
         }
 
-    */
+
 
     char **m()
     {

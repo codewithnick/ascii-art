@@ -354,17 +354,20 @@ public:
         character[1][1] = character[2][1] = '_';
         return character;
     }
-
-    /*
-        char **d()
+    
+    char **d()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(4,4);
 
             //Enter the character grid in ROWS X COLS
+              character[1][2] =  '|';
+              character[1][1] = '_';
+              character[2][0] = '(';
+              character[2][2] = '|';
+              character[2][1] = '_';
 
             return character;
         }
-    */
 
    char **e()
         {
