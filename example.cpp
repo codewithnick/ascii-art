@@ -5,7 +5,7 @@ using namespace ascii;
 
 int main()
 {
-    Ascii a = Ascii(amongus);
-    a.print("Y");
+    Ascii a = Ascii(drpepper);
+    a.print("t");
     return 0;
 }
