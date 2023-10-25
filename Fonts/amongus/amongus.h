@@ -117,7 +117,7 @@ public:
         }
      
 
-        /*char **H()
+        char **H()
         {
             char **character = getCharGrid(4,7);
 
@@ -126,7 +126,7 @@ public:
             character[1][0]=character[1][4]=character[2][5]=character[3][0]= character[3][4]='(';
             character[1][2]=character[1][6]=character[2][1]=character[3][2]= character[3][6]=')';
             return character;
-        }*/
+        }
 
     /*
         char **I()
