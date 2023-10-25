@@ -512,17 +512,12 @@ public:
         }
 
 
-    /*
-        char **y()
+      char **y()
         {
-            char **character = getCharGrid(ROWS,COLS);
-
-            //Enter the character grid in ROWS X COLS
-
+            char **character = getCharGrid(8, 4);
+character[3][0] = character[3][3] = character[4][0] = character[4][3] = character[5][1] = character[5][3] = character[6][2] = character[7][1] = '#';
             return character;
         }
-
-    */
 
         char **z()
         {
