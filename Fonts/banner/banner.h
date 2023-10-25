@@ -459,18 +459,17 @@ public:
             return character;
         }
 
-    /*
         char **t()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(7,4);
 
             //Enter the character grid in ROWS X COLS
-           
+           character[1][1] = character[2][1] = character[3][0] = character[3][1] = character[3][2] = character[4][1] = character[5][1] = character[6][2] = character[6][3] = '#';
 
             return character;
         }
 
-*/
+
     
         char **u()
         {
