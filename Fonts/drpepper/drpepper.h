@@ -300,16 +300,17 @@ character[3][3] = '/';
         }
     */
 
-    /*
+    
         char **Z()
-        {
-            char **character = getCharGrid(rows,cols);
-
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-    */
+    {
+        char **character = getCharGrid(4, 5);
+        character[0][0] = character[1][2] = character[1][3] = character[2][0] = character[2][2] = character[2][4] = ' ';
+        character[0][1] = character[0][2] = character[0][3] = character[0][4] = character[1][1] = character[3][1] = character[3][2] = character[3][3] = '_';
+        character[1][0] = character[3][4] = '|';
+        character[1][4] = character[2][1] = character[2][3] = character[3][0] = '/';
+        return character;
+    }
+    
 
     // Lowercase
 
@@ -645,17 +646,16 @@ character[2][0] = character[2][2] = character[3][0] = character[3][2] = '|';
 
     */
 
-    /*
-        char **one()
-        {
-            char **character = getCharGrid(rows,cols);
+    char **one()
+    {
+        char **character = getCharGrid(4, 3);
+        character[0][0] = character[0][2] = character[1][1] = character[2][1] = ' ';
+character[0][1] = character[3][1] = '_';
+character[1][0] = '/';
+character[1][2] = character[2][0] = character[2][2] = character[3][0] = character[3][2] = '|';
+        return character;
+    }
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-
-    */
 
     /*
         char **two()
@@ -744,18 +744,17 @@ character[2][4] = character[3][0] = '\\';
         return character;
     }
 
-    
-
-    /*
-        char **nine()
-        {
-            char **character = getCharGrid(rows,cols);
-
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-
-    */
+    char **nine()
+    {
+        char **character = getCharGrid(5, 5);
+        character[0][0] = character[0][4] = character[1][1] = character[1][3] = character[2][2] = character[2][3] = character[3][0] = character[3][4] = character[4][0] = character[4][1] = character[4][2] = character[4][3] = character[4][4] = ' ';
+        character[0][1] = character[0][2] = character[0][3] = character[2][1] = character[3][2] = '_';
+        character[1][0] = character[1][4] = '|';
+        character[1][2] = '.';
+        character[2][0] = '`';
+        character[2][4] = character[3][1] = character[3][3] = '/';
+        return character;
+    }
 };
+
 #endif
