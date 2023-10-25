@@ -520,6 +520,13 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
     </td></tr>
 <tr>
     <td align="center">
+        <a href="https://github.com/pris01">
+            <img src="https://avatars.githubusercontent.com/u/70049327?v=4" width="70;" alt="pris01"/>
+            <br />
+            <sub><b>pris01</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/harshvyas-22">
             <img src="https://avatars.githubusercontent.com/u/118657807?v=4" width="70;" alt="harshvyas-22"/>
             <br />
@@ -531,13 +538,6 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <img src="https://avatars.githubusercontent.com/u/137503421?v=4" width="70;" alt="Raghav354"/>
             <br />
             <sub><b>Raghav354</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/pris01">
-            <img src="https://avatars.githubusercontent.com/u/70049327?v=4" width="70;" alt="pris01"/>
-            <br />
-            <sub><b>pris01</b></sub>
         </a>
     </td>
     <td align="center">
