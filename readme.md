@@ -612,6 +612,13 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/ayoitsamishaa">
+            <img src="https://avatars.githubusercontent.com/u/123642534?v=4" width="70;" alt="ayoitsamishaa"/>
+            <br />
+            <sub><b>ayoitsamishaa</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/ShubhamJatavBankai">
             <img src="https://avatars.githubusercontent.com/u/144593198?v=4" width="70;" alt="ShubhamJatavBankai"/>
             <br />

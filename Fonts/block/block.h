@@ -399,7 +399,7 @@ public:
 
         character[2][4] = character[2][5] = character[2][6] = character[2][7] = character[2][12] = character[2][13] = character[2][14] = character[2][15] = character[7][6] = character[7][7] = character[7][12] = character[7][13] = character[3][4] = character[3][15] = character[3][11] = character[3][8] = character[2][11] = character[2][8] = '_';
         character[3][3] = character[3][16] = character[4][5] = character[4][14] = character[5][5] = character[5][14] = character[6][5] = character[6][14] = character[7][5] = character[3][9] = character[3][10] = character[7][14] = character[5][7] = character[5][12] = character[4][7] = character[4][12] = '|';
-        character[5][8] = character[4][9] = character[7][8] = character[6][9] = '//';
+        character[5][8] = character[4][9] = character[7][8] = character[6][9] = '/';
         character[5][11] = character[4][10] = character[7][11] = character[6][10] = '\\';
         
         return character;
