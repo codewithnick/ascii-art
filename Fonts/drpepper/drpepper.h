@@ -102,13 +102,13 @@ character[1][4] = character[2][3] = character[3][4] = '>';
         return character;
     }
 
-    char **I()
+   
+        char **I()
     {
-        char **character = getCharGrid(6, 5);
-
-        character[1][0] = character[1][2] = character[2][0] = character[2][2] = character[3][0] = character[3][2] = '|';
+        char **character = getCharGrid(5, 3);
+        character[0][0] = character[0][2] = character[1][1] = character[2][1] = character[4][0] = character[4][1] = character[4][2] = ' ';
         character[0][1] = character[3][1] = '_';
-
+        character[1][0] = character[1][2] = character[2][0] = character[2][2] = character[3][0] = character[3][2] = '|';
         return character;
     }
 
@@ -122,6 +122,9 @@ character[1][4] = character[2][3] = character[3][4] = '>';
             return character;
         }
     */
+ 
+
+
 
     /*
         char **K()
