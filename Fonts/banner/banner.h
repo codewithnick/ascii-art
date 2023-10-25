@@ -485,15 +485,13 @@ public:
 
     
 
-    char **v()
-    {
-        char **character = getCharGrid(7, 5);
+     char **y()
+        {
+            char **character = getCharGrid(7, 7);
+        character[2][0] = character[2][3] = character[3][0] = character[3][3] = character[4][1] = character[4][3] = character[5][2] = character[6][1] = '#';
+            return character;
+        }
 
-        // Enter the character grid in ROWS X COLS
-        character[2][0] = character[3][0] = character[4][0] = character[5][1] = character[6][2] = character[5][3] = character[4][4] = character[3][4] = character[2][4] = '#';
-
-        return character;
-    }
 
     char **w()
     {
