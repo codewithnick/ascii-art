@@ -485,10 +485,10 @@ public:
 
     
 
-     char **y()
+      char **y()
         {
-            char **character = getCharGrid(7, 7);
-        character[2][0] = character[2][3] = character[3][0] = character[3][3] = character[4][1] = character[4][3] = character[5][2] = character[6][1] = '#';
+            char **character = getCharGrid(8, 7);
+character[3][0] = character[3][3] = character[4][0] = character[4][3] = character[5][1] = character[5][3] = character[6][2] = character[7][1] = '#';
             return character;
         }
 
