@@ -5,7 +5,7 @@ using namespace ascii;
 
 int main()
 {
-    Ascii a = Ascii(drpepper);
-    a.print("t");
+    Ascii i = Ascii(block);
+    i.print("i");
     return 0;
 }
