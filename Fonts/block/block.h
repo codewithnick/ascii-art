@@ -897,17 +897,25 @@ public:
         return character;
     }
 
-    /*
-        char **two()
-        {
-            char **character = getCharGrid();
+    char **two()
+    {
+        char **character = getCharGrid(11, 20);
 
-            //Enter the character grid in ROWS X COLS
+        strcpy(character[0], " .----------------. ");
+        strcpy(character[1], "| .--------------. |");
+        strcpy(character[2], "| |    _____     | |");
+        strcpy(character[3], "| |   / ___ `.   | |");
+        strcpy(character[4], "| |  |_/___) |   | |");
+        strcpy(character[5], "| |   .'____.'   | |");
+        strcpy(character[6], "| |  / /____     | |");
+        strcpy(character[7], "| |  |_______|   | |");
+        strcpy(character[8], "| |              | |");
+        strcpy(character[9], "| '--------------' |");
+        strcpy(character[10], " '----------------' ");
 
-            return character;
-        }
+        return character;
+    }
 
-    */
 
     /*
         char **three()
