@@ -1,5 +1,6 @@
 #ifndef BLOCK_H
 #define BLOCK_H
+#include <string.h>
 #include "../fonts.h"
 
 class Block : public Fonts
@@ -566,17 +567,24 @@ public:
 
     */
 
-    /*
-        char **j()
-        {
-            char **character = getCharGrid();
+    char **j()
+    {
+        char **character = getCharGrid(11, 20);
 
-            //Enter the character grid in ROWS X COLS
+        strcpy(character[0], " .----------------. ");
+        strcpy(character[1], "| .--------------. |");
+        strcpy(character[2], "| |     _____    | |");
+        strcpy(character[3], "| |    |_   _|   | |");
+        strcpy(character[4], "| |      | |     | |");
+        strcpy(character[5], "| |   _  | |     | |");
+        strcpy(character[6], "| |  | |_' |     | |");
+        strcpy(character[7], "| |  `.___.'     | |");
+        strcpy(character[8], "| |              | |");
+        strcpy(character[9], "| '--------------' |");
+        strcpy(character[10], " '----------------' ");
 
-            return character;
-        }
-
-    */
+        return character;
+    }
 
     /*
         char **k()
