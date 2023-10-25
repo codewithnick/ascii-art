@@ -112,17 +112,18 @@ character[1][4] = character[2][3] = character[3][4] = '>';
         return character;
     }
 
-    /*
-        char **J()
-        {
-            char **character = getCharGrid(rows,cols);
+     char **J()
+    {
+        char **character = getCharGrid(6, 10);
+character[1][1] = character[1][3] = character[2][1] = character[2][3] = '|';
+character[2][0] = character[3][1] = character[3][2] = '_';
+character[3][0] = '\\';
+character[3][3] = '/';
+character[3][4] = character[3][5] = character[3][6] = character[3][7] = character[3][8] = ' ';
+character[3][9] = '	';
+        return character;
+    }
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-    */
- 
 
 
 
