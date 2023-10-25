@@ -72,16 +72,7 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
 ### Collaborators
 
 <!-- readme: collaborators -start -->
-<table>
-<tr>
-    <td align="center">
-        <a href="https://github.com/vaishnavisisodiya">
-            <img src="https://avatars.githubusercontent.com/u/125583860?v=4" width="70;" alt="vaishnavisisodiya"/>
-            <br />
-            <sub><b>vaishnavisisodiya</b></sub>
-        </a>
-    </td></tr>
-</table>
+
 <!-- readme: collaborators -end -->
 
 ### Contributors
@@ -501,33 +492,8 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>ankitkujur15</b></sub>
         </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/himanshigupta22">
-            <img src="https://avatars.githubusercontent.com/u/146530350?v=4" width="70;" alt="himanshigupta22"/>
-            <br />
-<<<<<<< HEAD
-            <sub><b>sandeep131431</b></sub>
-        </a>
-    </td></tr>
+  </td>
 <tr>
-    <td align="center">
-        <a href="https://github.com/himanshigupta22">
-            <img src="https://avatars.githubusercontent.com/u/146530350?v=4" width="70;" alt="himanshigupta22"/>
-            <br />
-            <sub><b>himanshigupta22</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/anchaldubey123">
-            <img src="https://avatars.githubusercontent.com/u/146623031?v=4" width="70;" alt="anchaldubey123"/>
-            <br />
-            <sub><b>anchaldubey123</b></sub>
-=======
-            <sub><b>himanshigupta22</b></sub>
->>>>>>> 21ce77b2fb84d06f4e3c016dea0bdf07449cc5c6
-        </a>
-    </td>
     <td align="center">
         <a href="https://github.com/harshvyas-22">
             <img src="https://avatars.githubusercontent.com/u/118657807?v=4" width="70;" alt="harshvyas-22"/>
