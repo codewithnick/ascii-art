@@ -330,7 +330,7 @@ public:
     
         char **P()
         {
-            char **character = getCharGrid(8,8);
+            char **character = getCharGrid(9,9);
 
            character[0][1]=character[0][2]=character[0][3]=character[0][4]=character[0][5]=character[1][3]=character[1][4]=character[2][4]=character[3][4]=character[3][5]=character[6][1]=character[6][2]='_';
            character[1][0]=character[3][0]=character[5][0]=character[5][2]='(';
