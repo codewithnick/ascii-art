@@ -323,16 +323,18 @@ public:
         return character;
     }
 
-    /*
-        char **W()
+     char **W()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(6,18);
 
             //Enter the character grid in ROWS X COLS
+        character[0][0] = character[0][1] = character[0][2] = character[0][3] = character[0][8] = character[0][9] = character[0][14] = character[0][15] = character[0][16] = character[0][17]= character[5][5]= character[5][6]= character[5][11]= character[5][12] = '_';
+        character[1][0] = character[2][1] = character[3][2] = character[4][3] = character[5][4] = character[1][4] = character[2][5]= character[2][11]= character[1][10]= character[4][9]= character[5][10]= '\\';
+        character[1][13] = character[2][12] = character[3][15] = character[4][14] = character[5][13] = character[1][7] = character[2][6]= character[4][8]= character[5][7]= character[1][17]= character[2][16] = '/';
 
             return character;
         }
-    */
+
 
     char **X()
     {
