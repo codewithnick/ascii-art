@@ -26,6 +26,10 @@
   - [Carlos](https://github.com/codewithnick/ascii-art#3-Carlos)
   - [Straight](https://github.com/codewithnick/ascii-art#4-Straight)
   - [Starwar](https://github.com/codewithnick/ascii-art#5-Starwar)
+  - [AmongUs](https://github.com/codewithnick/ascii-art#6-AmongUs)
+  - [Banner](https://github.com/codewithnick/ascii-art#7-Banner)
+  - [DrPepper](https://github.com/codewithnick/ascii-art#8-DrPepper)
+  - [Block](https://github.com/codewithnick/ascii-art#9-Block)
 
 - [Contribution](https://github.com/codewithnick/ascii-art/blob/main/CONTRIBUTING.md)
 - [Reference](https://github.com/codewithnick/ascii-art#Reference)
@@ -61,6 +65,14 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
 ### 4-[Straight](./Fonts/Straight/straight.md)
 
 ### 5-[Starwar](./Fonts/starwar/starwar.md)
+
+### 6-[AmongUs](./Fonts/amongus/amongus.md)
+
+### 7-[Banner](./Fonts/banner/banner.md)
+
+### 8-[DrPepper](./Fonts/drpepper/drpepper.md)
+
+### 9-[Block](./Fonts/block/block.md)
 
 ## Reference
 
@@ -541,13 +553,6 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/Zeref-XXX">
-            <img src="https://avatars.githubusercontent.com/u/72185317?v=4" width="70;" alt="Zeref-XXX"/>
-            <br />
-            <sub><b>Zeref-XXX</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/harshvyas-22">
             <img src="https://avatars.githubusercontent.com/u/118657807?v=4" width="70;" alt="harshvyas-22"/>
             <br />
@@ -560,15 +565,14 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>jlewismith</b></sub>
         </a>
-    </td></tr>
-<tr>
     <td align="center">
         <a href="https://github.com/Raghav354">
             <img src="https://avatars.githubusercontent.com/u/137503421?v=4" width="70;" alt="Raghav354"/>
             <br />
             <sub><b>Raghav354</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/42Abhishek">
             <img src="https://avatars.githubusercontent.com/u/146465745?v=4" width="70;" alt="42Abhishek"/>
@@ -588,6 +592,13 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <img src="https://avatars.githubusercontent.com/u/106430579?v=4" width="70;" alt="AryanBakliwal"/>
             <br />
             <sub><b>AryanBakliwal</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/jaivardhan-bhola">
+            <img src="https://avatars.githubusercontent.com/u/83286825?v=4" width="70;" alt="jaivardhan-bhola"/>
+            <br />
+            <sub><b>jaivardhan-bhola</b></sub>
         </a>
     </td>
     <td align="center">
@@ -639,15 +650,15 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>NANDANA-S-P</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/prajjawal007">
             <img src="https://avatars.githubusercontent.com/u/144593090?v=4" width="70;" alt="prajjawal007"/>
             <br />
             <sub><b>prajjawal007</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/prateek00077">
             <img src="https://avatars.githubusercontent.com/u/147089488?v=4" width="70;" alt="prateek00077"/>
@@ -682,15 +693,15 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>VikashBurman</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/abhishekyadav76">
             <img src="https://avatars.githubusercontent.com/u/132427787?v=4" width="70;" alt="abhishekyadav76"/>
             <br />
             <sub><b>abhishekyadav76</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/pronajit">
             <img src="https://avatars.githubusercontent.com/u/98771979?v=4" width="70;" alt="pronajit"/>
