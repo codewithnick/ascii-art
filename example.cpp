@@ -6,7 +6,7 @@ using namespace ascii;
 int main()
 {
     Ascii a = Ascii(drpepper);
-    a.print("j");
+    a.print("h");
 
     return 0;
 }
