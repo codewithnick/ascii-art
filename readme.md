@@ -195,6 +195,13 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/Gourab-Bistu">
+            <img src="https://avatars.githubusercontent.com/u/144556159?v=4" width="70;" alt="Gourab-Bistu"/>
+            <br />
+            <sub><b>Gourab-Bistu</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/ShubhamJatavBankai">
             <img src="https://avatars.githubusercontent.com/u/144593198?v=4" width="70;" alt="ShubhamJatavBankai"/>
             <br />
@@ -206,13 +213,6 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <img src="https://avatars.githubusercontent.com/u/146371159?v=4" width="70;" alt="chengm405"/>
             <br />
             <sub><b>chengm405</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/Gourab-Bistu">
-            <img src="https://avatars.githubusercontent.com/u/144556159?v=4" width="70;" alt="Gourab-Bistu"/>
-            <br />
-            <sub><b>Gourab-Bistu</b></sub>
         </a>
     </td>
     <td align="center">
