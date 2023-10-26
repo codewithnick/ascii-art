@@ -6,6 +6,6 @@ using namespace ascii;
 int main()
 {
     Ascii a = Ascii(block);
-    a.print("6");
+    a.print("F");
     return 0;
 }
