@@ -511,11 +511,11 @@ public:
     
         char **q()
         {
-            char **character = getCharGrid(3,3);
-            character[0][1]='_';
-            character[1][0]='(';
-            character[1][1]='_';
-            character[1][2]=character[2][2]='|';
+            char **character = getCharGrid(4,4);
+            character[1][2]='_';
+            character[2][1]='(';
+            character[2][2]='_';
+            character[2][3]=character[3][3]='|';
 
             return character;
         }
