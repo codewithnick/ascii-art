@@ -508,17 +508,19 @@ public:
         return character;
     }
 
-    /*
+    
         char **q()
         {
-            char **character = getCharGrid(ROWS,COLS);
-
-            //Enter the character grid in ROWS X COLS
+            char **character = getCharGrid(4,4);
+            character[1][2]='_';
+            character[2][1]='(';
+            character[2][2]='_';
+            character[2][3]=character[3][3]='|';
 
             return character;
         }
 
-    */
+    
 
     char **r()
     {
