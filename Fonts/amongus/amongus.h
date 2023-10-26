@@ -698,16 +698,20 @@ public:
         return character;
     }
 
-    /*
-        char **four()
+     char **four()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(4,6);
+character[0][2]=character[0][3]=character[2][4]=character[2][1]=character[3][3]='_';
+            character[2][0]=character[3][2]='(';
+            character[1][1]='/';
+            character[1][4]='|';
+            character[1][2]='.';
+            character[2][5]=character[3][4]=')';
+            return character;
 
-            //Enter the character grid in ROWS X COLS
 
             return character;
         }
-    */
 
     /*
         char **five()
