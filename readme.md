@@ -26,6 +26,9 @@
   - [Carlos](https://github.com/codewithnick/ascii-art#3-Carlos)
   - [Straight](https://github.com/codewithnick/ascii-art#4-Straight)
   - [Starwar](https://github.com/codewithnick/ascii-art#5-Starwar)
+  - [AmongUs](https://github.com/codewithnick/ascii-art#6-AmongUs)
+  - [Banner](https://github.com/codewithnick/ascii-art#7-Banner)
+  - [DrPepper](https://github.com/codewithnick/ascii-art#8-DrPepper)
 
 - [Contribution](https://github.com/codewithnick/ascii-art/blob/main/CONTRIBUTING.md)
 - [Reference](https://github.com/codewithnick/ascii-art#Reference)
@@ -61,6 +64,12 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
 ### 4-[Straight](./Fonts/Straight/straight.md)
 
 ### 5-[Starwar](./Fonts/starwar/starwar.md)
+
+### 6-[AmongUs](./Fonts/amongus/amongus.md)
+
+### 7-[Banner](./Fonts/banner/banner.md)
+
+### 8-[DrPepper](./Fonts/drpepper/drpepper.md)
 
 ## Reference
 
@@ -724,6 +733,14 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <img src="https://avatars.githubusercontent.com/u/98771979?v=4" width="70;" alt="pronajit"/>
             <br />
             <sub><b>pronajit</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/jaivardhan-bhola">
+            <img src="https://avatars.githubusercontent.com/u/83286825?v=4" width="70;" alt="jaivardhan-bhola"/>
+            <br />
+            <sub><b>jaivardhan-bhola</b></sub>
         </a>
     </td></tr>
 </table>
