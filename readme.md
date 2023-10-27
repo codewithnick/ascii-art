@@ -737,6 +737,13 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>pronajit</b></sub>
         </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/vinaytheprogrammer">
+            <img src="https://avatars.githubusercontent.com/u/49182318?v=4" width="70;" alt="vinaytheprogrammer"/>
+            <br />
+            <sub><b>vinaytheprogrammer</b></sub>
+        </a>
     </td></tr>
 </table>
 <!-- readme: contributors,codewithnick/-,vkumar8192449/-,vishu567/-,sachinkumar911/-,AnshumanMahato/- -end -->
