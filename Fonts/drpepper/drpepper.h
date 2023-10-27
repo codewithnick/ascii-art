@@ -597,29 +597,18 @@ character[2][0] = character[2][2] = character[3][0] = character[3][2] = '|';
 
     */
 
-    /*
-        char **x()
-        {
-            char **character = getCharGrid(rows,cols);
 
-            //Enter the character grid in ROWS X COLS
 
-            return character;
-        }
-
-    */
-
-    /*
-        char **y()
-        {
-            char **character = getCharGrid(rows,cols);
-
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-
-    */
+     char **x()
+    
+    {
+        char **character = getCharGrid(5, 5);
+       character[1][0] = character[1][1] = character[3][2] = '_';
+character[2][0] = character[2][2] = character[3][1] = character[3][3] = character[3][3] = '\\';
+character[2][3] =  
+character[3][0] = '/';
+        return character;
+    }
 
     /*
         char **z()
