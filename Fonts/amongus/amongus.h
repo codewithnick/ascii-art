@@ -743,17 +743,22 @@ character[0][2]=character[0][3]=character[2][4]=character[2][1]=character[3][3]=
 
     */
 
-    /*
+    
         char **six()
         {
             char **character = getCharGrid(ROWS,COLS);
 
             //Enter the character grid in ROWS X COLS
+            character[0][2] = character[2][2] = '_';
+             character[1][1] = character[2][0] =character[3][4]=  '/';
+             character[3][0] = character[2][4] = '\\'; 
+            character[1][3] = ')';
+             character[3][1]= character[3][2]= character[3][3]= '_';
 
             return character;
         }
 
-    */
+    
 
     char **seven()
     {
