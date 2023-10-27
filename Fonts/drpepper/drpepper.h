@@ -284,16 +284,17 @@ character[3][3] = '/';
         return character;
     }
 
-    /*
+    
         char **Y()
         {
-            char **character = getCharGrid(rows,cols);
+            char **character = getCharGrid(4, 5);
 
             //Enter the character grid in ROWS X COLS
+            character[][] = character[][] = character[][]=
 
-            return character;
+                return character;
         }
-    */
+    
 
     
         char **Z()
