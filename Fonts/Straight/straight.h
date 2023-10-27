@@ -381,16 +381,20 @@ public:
               character[2][1] = '-';
             return character;
         }
-    /*
+    
         char **f()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(3,3);
 
             //Enter the character grid in ROWS X COLS
+            character[0][1] = '_';
+            character[1][0] = '(';
+            character[1][1] = '_';
+            character[2][0] = '|';
 
             return character;
         }
-    */
+    
 
     /*
         char **g()
@@ -504,17 +508,19 @@ public:
         return character;
     }
 
-    /*
+    
         char **q()
         {
-            char **character = getCharGrid(ROWS,COLS);
-
-            //Enter the character grid in ROWS X COLS
+            char **character = getCharGrid(4,4);
+            character[1][2]='_';
+            character[2][1]='(';
+            character[2][2]='_';
+            character[2][3]=character[3][3]='|';
 
             return character;
         }
 
-    */
+    
 
     char **r()
     {
