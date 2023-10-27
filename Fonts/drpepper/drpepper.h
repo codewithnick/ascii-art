@@ -187,6 +187,7 @@ character[1][0] = character[1][2] = character[2][0] = character[2][2] = characte
             character[1][0] = character[2][0] = character[3][0] = character[3][2] = '|';
             character[2][4] = '/';
             character[1][4] = '\\';
+            character[1][2] = '.';
 
             return character;
         }
