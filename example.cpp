@@ -6,6 +6,6 @@ using namespace ascii;
 int main()
 {
     Ascii font = Ascii(amongus);
-    font.print("6");
+    font.print("z");
     return 0;
 }
