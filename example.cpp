@@ -7,6 +7,5 @@ int main()
 {
     Ascii a = Ascii(amongus);
     a.print("Q");
-
     return 0;
 }
