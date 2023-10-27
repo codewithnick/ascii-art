@@ -177,16 +177,20 @@ character[1][0] = character[1][2] = character[2][0] = character[2][2] = characte
         }
     */
 
-    /*
+    
         char **P()
         {
-            char **character = getCharGrid(rows,cols);
+            char **character = getCharGrid(4, 5);
 
             //Enter the character grid in ROWS X COLS
+            character[0][1] = character[0][2] = character[0][3] = character[2][3] = character[3][1] = '_';
+            character[1][0] = character[2][0] = character[3][0] = character[3][2] = '|';
+            character[2][4] = '/';
+            character[1][4] = '\\';
 
             return character;
         }
-    */
+    
 
    char **Q()
     {
@@ -237,20 +241,16 @@ character[2][4] = '/';
         return character;
     }
 
-    
+    /*
         char **U()
         {
-            char **character = getCharGrid(4, 5);
+            char **character = getCharGrid(rows,cols);
 
             //Enter the character grid in ROWS X COLS
-            character[0][1] = character[0][3] = character[3][1] = character[3][2] = character[3][3] = '_';
-            character[1][0] = character[1][2] = character[1][4] = character[2][0] = character[2][4] = '|';
-            character[3][0] = '`';
-            character[2][2] = character[3][4] = '\'';
 
             return character;
         }
-    
+    */
 
     
 char **V()
@@ -264,7 +264,7 @@ character[3][3] = '/';
         return character;
     }
 
-        /*
+    /*
         char **W()
         {
             char **character = getCharGrid(rows,cols);
