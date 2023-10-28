@@ -987,7 +987,7 @@ public:
     
         char **seven()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(7,10);
 
             //Enter the character grid in ROWS X COL
             character[0][0] = character[0][1] = character[0][2] = character[0][3] = character[0][4] = character[0][5] = character[0][6] = character[0][7] = character[0][8] ='_', character[0][9] =' ' ;
