@@ -600,6 +600,20 @@ public:
 
             return character;
         }
+
+
+        /*
+        char **d()
+        {
+            char **character = getCharGrid();
+
+            //Enter the character grid in ROWS X COLS
+
+            return character;
+        }
+    */
+    
+
     
 // It is same as E in Ascii-Generator
    char **e()
@@ -621,16 +635,7 @@ public:
             return character;
         }
 
-    /*
-        char **e()
-        {
-            char **character = getCharGrid();
-
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-    */
+    
 
     /*
         char **f()
