@@ -5,7 +5,7 @@ using namespace ascii;
 
 int main()
 {
-    Ascii font = Ascii(block);
-    font.print("c");
+    Ascii font = Ascii(straight);
+    font.print("23");
     return 0;
 }
