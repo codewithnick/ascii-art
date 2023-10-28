@@ -277,7 +277,7 @@ public:
 
      char **Y()
         {
-            char **character = getCharGrid(rows,cols);
+
             char **character = getCharGrid(4, 5);
             //Enter the character grid in ROWS X COLS
             character[0][1] = character[0][3] = character[3][2] = '_';
@@ -517,7 +517,7 @@ character[3][0] = character[3][3] = '/';
         return character;
     }
 
-    */
+
 
     
         char **t()
