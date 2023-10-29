@@ -551,17 +551,19 @@ public:
 
 
 
-    /*
-        char **r()
-        {
-            char **character = getCharGrid(ROWS,COLS);
+   char **r()
+{
+    char **character = getCharGrid(8, 5);
 
-            //Enter the character grid in ROWS X COLS
+    
+     character[2][3]=character[2][1] = character[5][1] =  character[3][3] = '_';
+    character[3][0]=character[4][0] = character[5][0] =character[4][2] = character[5][2] = character[3][4] = '|';
+  character[3][2]='\'';
 
-            return character;
-        }
 
-    */
+
+    return character;
+}
 
     char **s()
     {
