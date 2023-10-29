@@ -554,17 +554,21 @@ public:
 
     */
 
-    /*
+    
         char **p()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(6,7);
 
-            //Enter the character grid in ROWS X COLS
-
+            character[0][1] = character[1][3] = character[2][3] = character[5][1] = character[4][3] = character[4][4] = '_';
+            character[1][0] = character[1][2] = character[2][0] = character[3][0]= character[4][0]= character[5][0]= character[3][2]= character[5][2] = character[3][6] = '|';
+            character[3][4] = ')';
+            character[2][5] = '\\';  
+            character[4][5] = '/';
+            
             return character;
         }
 
-    */
+    
 
     /*
         char **q()
