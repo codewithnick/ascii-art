@@ -502,17 +502,20 @@ public:
 
     */
 
-    /*
+    
         char **r()
         {
             char **character = getCharGrid(rows,cols);
 
-            //Enter the character grid in ROWS X COLS
+        character[1][1] = character[1][3] = character[2][3] = character[3][1] = '_';
+        character[2][0] = character[3][0] = character[3][2] = '|';
+        character[2][4] = '>';
+        character[2][2] = '\'';  
 
             return character;
         }
 
-    */
+    
 
     char **s()
     {
