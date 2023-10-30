@@ -625,17 +625,23 @@ public:
         return character;
     }
 
-    /*
-        char **four()
+    char **four()
+    {
+        char **character = getCharGrid(5, 4);
+        for (int i = 0; i < 4; i++)
         {
-            char **character = getCharGrid(rows,cols);
-
-            //Enter the character grid in ROWS X COLS
-
-            return character;
+            character[0][i] = ' ';
+            character[1][i] = '_';
+            character[2][i] = ' ';
         }
-
-    */
+        character[3][0] = '/';
+        character[3][3] = '|';
+        character[4][0] = '/';
+        character[4][1] = '|';
+        character[4][2] = '|';
+        character[4][3] = '\\';
+        return character;
+    }
 
     /*
         char **five()
