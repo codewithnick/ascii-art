@@ -148,16 +148,19 @@ public:
         return character;
     }
 
-    /*
+    
         char **N()
         {
-            char **character = getCharGrid(rows,cols);
+            char **character = getCharGrid(4,7);
 
             //Enter the character grid in ROWS X COLS
-
+            character[0][0] = character[0][3] = character[0][6] = character[1][1] = character[1][2] = character[1][4] = character[1][5] = character[2][1] = character[2][2] = character[2][3] = character[2][4] = character[2][5] = ' ';
+        character[0][1]  = character[0][3] = character[3][1] = character[3][3]  = '_';
+        character[1][0] = character[2][0] = character[3][0] =character[1][4]=character[2][4]=character[3][4] = '|';
+        character[1][2] = character[3][2] = '\\';
             return character;
         }
-    */
+    
 
     /*
         char **O()
