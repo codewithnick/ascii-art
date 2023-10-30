@@ -768,6 +768,13 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/ManavMehta123">
+            <img src="https://avatars.githubusercontent.com/u/128663812?v=4" width="70;" alt="ManavMehta123"/>
+            <br />
+            <sub><b>ManavMehta123</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/NANDANA-S-P">
             <img src="https://avatars.githubusercontent.com/u/79624565?v=4" width="70;" alt="NANDANA-S-P"/>
             <br />
@@ -780,15 +787,15 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>prajjawal007</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Sunilbehera672">
             <img src="https://avatars.githubusercontent.com/u/144588734?v=4" width="70;" alt="Sunilbehera672"/>
             <br />
             <sub><b>Sunilbehera672</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/abhishekyadav76">
             <img src="https://avatars.githubusercontent.com/u/132427787?v=4" width="70;" alt="abhishekyadav76"/>
