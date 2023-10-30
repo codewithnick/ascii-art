@@ -1037,17 +1037,25 @@ character[5][6] = character[6][8] = '/';
 
     */
 
-    /*
+    
         char **five()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(7,8);
 
-            //Enter the character grid in ROWS X COL
+            character[0][1]='_',character[0][2]='_',character[0][3]='_',character[0][4]='_',character[0][5]='_',character[0][6]='_';
+            character[1][0]='|',character[1][3]='_',character[1][4]='_',character[1][5]='_',character[1][6]='(';
+            character[2][0]='|',character[2][2]='|',character[2][3]='_',character[2][4]='_';
+            character[3][0]='|',character[3][1]='_',character[3][2]='_',character[3][3]='_',character[3][5]='\\';
+            character[4][4]='\\',character[4][6]='\\';
+            character[5][0]='_',character[5][1]='_',character[5][2]='_',character[5][3]='_',character[5][4]='_',character[5][5]=')',character[5][7]=')';
+            character[6][0]=')',character[6][1]='_',character[6][2]='_',character[6][3]='_',character[6][4]='_',character[6][5]='_',character[6][6]='/';
+
+
 
             return character;
         }
 
-    */
+    
 
     
         char **six()
