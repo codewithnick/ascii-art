@@ -514,18 +514,6 @@ public:
 
     */
 
-    /*
-        char **s()
-        {
-            char **character = getCharGrid(rows,cols);
-
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-
-    */
-
     char **s()
     {
         char **character = getCharGrid(5, 5);
@@ -590,6 +578,18 @@ public:
             character[3][0] = '/';
         return character;
     }
+
+    /*
+        char **y()
+        {
+            char **character = getCharGrid(rows,cols);
+
+            //Enter the character grid in ROWS X COLS
+
+            return character;
+        }
+
+    */
 
     
     char **z()
