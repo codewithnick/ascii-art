@@ -591,17 +591,18 @@ public:
         return character;
     }
 
-    /*
-        char **z()
+    
+    char **z()
         {
-            char **character = getCharGrid(rows,cols);
+            char **character = getCharGrid(4,4);
+        character[1][1] = character[3][1] = character[3][2] = character[3][3] = character[1][2] = character[1][3] = '_';
+        character[3][0] = character[2][1] = character[2][3] = '/';
+        character[1][0] = '.';
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
+        return character;
         }
 
-    */
+    
 
     // Numbers
 
