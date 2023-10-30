@@ -275,7 +275,6 @@ public:
 
     char **Y()
     {
-
         char **character = getCharGrid(4, 5);
         // Enter the character grid in ROWS X COLS
         character[0][1] = character[0][3] = character[3][2] = '_';
@@ -354,29 +353,36 @@ public:
             //Enter the character grid in ROWS X COLS
 
             return character;
+        }
     */
 
     /*
+
          char **f()
          {
              char **character = getCharGrid(rows,cols);
 
              //Enter the character grid in ROWS X COLS
 
+
              return character;
          }
      */
 
-    /*
-        char **g()
-        {
-            char **character = getCharGrid(rows,cols);
+    char **g()
+    {
+        char **character = getCharGrid(5, 5);
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-    */
+        // Enter the character grid in ROWS X COLS
+        character[1][1] = character[1][2] = character[1][3] = character[3][1] = character[4][1] = character[4][2] = character[4][3] = character[3][1] = '_';
+        character[2][4] = character[3][4] = '|';
+        character[2][2] = character[3][2] = '.';
+        character[3][0] = '\\';
+        character[2][0] = '/';
+        character[4][0] = '<';
+        character[4][4] = '\'';
+        return character;
+    }
 
     char **h()
     {
@@ -505,6 +511,18 @@ public:
 
     */
 
+    /*
+        char **s()
+        {
+            char **character = getCharGrid(rows,cols);
+
+            //Enter the character grid in ROWS X COLS
+
+            return character;
+        }
+
+    */
+
     char **s()
     {
         char **character = getCharGrid(5, 5);
@@ -581,6 +599,8 @@ public:
         }
 
     */
+
+    // Numbers
 
     char **zero()
     {
