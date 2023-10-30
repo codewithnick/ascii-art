@@ -326,15 +326,14 @@ public:
         return character;
     }
 
-    /*
         char **g()
         {
-            char **character = getCharGrid(7,4);
-
+            char **character = getCharGrid(8,4);
+         character[3][1] = character[3][2] = character[3][3] = character[4][0] = character[4][3] = character[5][1] = character[5][2] = character[6][0] = character[7][1] = character[7][2] = character[7][3] = '#';
 
             return character;
         }
-    */
+    
 
     
         char **h()
