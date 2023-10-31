@@ -467,17 +467,22 @@ public:
         return character;
     }
 
-    /*
+    
         char **m()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(3,4);
 
             //Enter the character grid in ROWS X COLS
+            character[1][1] = '_';
+            character[2][0] = '|';
+            character[2][2] = '|';
+            character[1][2] = '_';
+            character[2][3] = ')';            
 
             return character;
         }
 
-    */
+    
 
     char **n()
     {
