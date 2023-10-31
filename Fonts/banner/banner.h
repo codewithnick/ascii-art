@@ -36,7 +36,7 @@ public:
     char **C()
     {
         char **character = getCharGrid(7, 7);
-        character[0][1] = character[0][2] = character[0][3] = character[0][4] = character[0][5] = character[0][5] = character[1][0] = character[1][6] = character[2][0] = character[3][0] = character[4][0] = character[5][0] = character[5][6] = character[6][1] = character[6][2] = character[6][3] = character[6][4] = character[6][5] = '#';
+        character[0][1] = character[0][2] = character[0][3] = character[0][4] = character[0][5] = character[1][0] = character[1][6] = character[2][0] = character[3][0] = character[4][0] = character[5][0] = character[5][6] = character[6][1] = character[6][2] = character[6][3] = character[6][4] = character[6][5] = '#';
         return character;
     }
 
@@ -264,7 +264,7 @@ public:
     {
         char **character = getCharGrid(7, 7);
 
-        character[0][0] = character[0][1] = character[0][2] = character[0][3] = character[0][4] = character[0][5] = character[0][6] = character[6][0] = character[6][1] = character[6][2] = character[6][3] = character[6][4] = character[6][5] = character[6][6] = character[0][3] = character[1][5] = character[2][4] = character[3][3] = character[4][2] = character[5][1] = '#';
+        character[0][0] = character[0][1] = character[0][2] = character[0][3] = character[0][4] = character[0][5] = character[0][6] = character[6][0] = character[6][1] = character[6][2] = character[6][3] = character[6][4] = character[6][5] = character[6][6] = character[1][5] = character[2][4] = character[3][3] = character[4][2] = character[5][1] = '#';
 
         return character;
     }
@@ -348,7 +348,7 @@ public:
     {
         char **character = getCharGrid(7, 3);
 
-        character[1][1] = character[3][1] = character[3][0] = character[4][1] = character[5][1] = character[6][0] = character[6][1] = character[6][0] = character[6][1] = character[6][2] = '#';
+        character[1][1] = character[3][1] = character[3][0] = character[4][1] = character[5][1] = character[6][0] = character[6][1] = character[6][2] = '#';
 
         return character;
     }
@@ -577,9 +577,10 @@ character[0][2] = character[0][3] = character[0][4] = character[1][1] = characte
     char **four()
     {
         char **character = getCharGrid();
-        character[0][0] = character[1][0] = character[2][0] = character[3][0] = character[3][1] = character[3][2] = character[3][3] = '#';
-        character[1][5] = character[3][6] = character[3][5] = character[3][4] = '#';
-        character[2][5] = character[4][5] = character[5][5] = character[5][5] = '#';
+        character[0][0] = character[1][0] = character[2][0] = character[3][0] = '#';
+        character[1][5] = character[2][5] = character[3][5] = '#';
+        character[4][1] = character[4][2] = character[4][3] = character[4][4] = character[4][5] = character[4][6] = '#';
+        character[5][5] = character[6][5] = '#';
         return character;
     }
 
