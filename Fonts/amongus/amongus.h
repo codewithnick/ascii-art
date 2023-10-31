@@ -413,7 +413,7 @@ public:
         return character;
     }
 
-    /*
+    
         char **g()
         {
             char **character = getCharGrid(4,7);
@@ -428,7 +428,7 @@ public:
 
             return character;
         }
-    */
+    
 
     /*
     char **h()
