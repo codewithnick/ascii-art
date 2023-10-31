@@ -9,24 +9,24 @@
 
 class Fonts
 {
-    int def_rows;
-    int def_cols;
-    int char_rows;
-    int char_cols;
-    int curr_col;
+    unsigned int def_rows;
+    unsigned int def_cols;
+    unsigned int char_rows;
+    unsigned int char_cols;
+    unsigned int curr_col;
     std::vector<std::vector<char> > letters;
 
 protected:
-    char **getCharGrid(int rows = 0, int cols = 0)
+    char **getCharGrid(unsigned int rows = 0, unsigned int cols = 0)
     {
         this->char_rows = rows ? rows : def_rows;
         this->char_cols = cols ? cols : def_cols;
 
         char **char_grid = new char *[char_rows];
-        for (int i = 0; i < char_rows; i++)
+        for (unsigned int i = 0; i < char_rows; i++)
         {
             char_grid[i] = new char[char_cols];
-            for (int j = 0; j < char_cols; j++)
+            for (unsigned int j = 0; j < char_cols; j++)
                 char_grid[i][j] = ' ';
         }
         return char_grid;
@@ -56,9 +56,9 @@ public:
             letters.emplace_back(100, ' ');
         }
 
-        for (int i = 0; i < char_rows; i++)
+        for (unsigned int i = 0; i < char_rows; i++)
         {
-            for (int j = 0; j < char_cols; j++)
+            for (unsigned int j = 0; j < char_cols; j++)
             {
                 letters[i][j + curr_col] = character[i][j];
             }
@@ -72,9 +72,9 @@ public:
     }
     void printvector()
     {
-        for (int i = 0; i < letters.size(); i++)
+        for (unsigned int i = 0; i < letters.size(); i++)
         {
-            for (int j = 0; j < letters[0].size(); j++)
+            for (unsigned int j = 0; j < letters[0].size(); j++)
             {
                 std::cout << letters[i][j];
             }
