@@ -469,7 +469,7 @@ public:
         character[2][1] = character[4][1] = character[6][1] = character[6][3] = character[5][8] = character[5][9] = character[2][6] = character[2][8] = ')';
         character[0][1] = character[0][2] = character[0][3] = character[0][4] = character[0][5] = character[0][6] = '_';
         character[1][4] = character[1][5] = character[2][4] = character[2][5] = character[3][5] = character[3][6] = character[4][8] = character[5][7] = character[6][2] = character[6][6] = character[6][7] = '_';
-        character[1][7] = character[4][3] = character[5][4] = character[6][5] = character[4][5] = character[5][6] = character[1][7] = '\\';
+        character[1][7] = character[4][3] = character[5][4] = character[6][5] = character[4][5] = character[5][6] = '\\';
         character[3][7] = character[6][8] = '/';
 
         return character;
