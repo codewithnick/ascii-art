@@ -6,6 +6,6 @@ using namespace ascii;
 int main()
 {
     Ascii font = Ascii(drpepper);
-    font.print("5");
+    font.print("6");
     return 0;
 }
