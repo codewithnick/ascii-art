@@ -831,6 +831,13 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <sub><b>abhishekyadav76</b></sub>
         </a>
     </td></tr>
+    <td align="center">
+        <a href="https://github.com/adripo">
+            <img src="https://avatars.githubusercontent.com/u/26493496?v=4" width="70;" alt="adripo"/>
+            <br />
+            <sub><b>adripo</b></sub>
+        </a>
+    </td></tr>
 </table>
 <!-- readme: contributors,codewithnick/-,vkumar8192449/-,vishu567/-,sachinkumar911/-,AnshumanMahato/- -end -->
 
