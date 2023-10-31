@@ -80,16 +80,19 @@ public:
         return character;
     }
 
-    /*
-        char **G()
-        {
-            char **character = getCharGrid(rows,cols);
+    char **G()
+    {
+        char **character = getCharGrid(4, 6);
 
-            //Enter the character grid in ROWS X COLS
 
-            return character;
-        }
-    */
+        strcpy(character[0], " ___");
+        strcpy(character[1], "/  _>");
+        strcpy(character[2], "| <_/\\");
+        strcpy(character[3], "`____/");
+
+
+        return character;
+    }
 
     char **H()
     {
