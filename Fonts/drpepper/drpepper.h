@@ -446,17 +446,21 @@ public:
         return character;
     }
 
-    /*
+    
         char **m()
         {
-            char **character = getCharGrid(rows,cols);
+            char **character = getCharGrid(4,7);
 
             //Enter the character grid in ROWS X COLS
-
+            character[1][0]='.';
+            character[1][1]=character[1][3]=character[1][5]=character[3][1]=character[3][3]=character[3][5]='_';
+            character[2][0]=character[3][0]=character[2][6]=character[3][6]=character[3][2]=character[3][4]=character[3][0]=character[3][6]='|';
+            character[2][2]=character[2][4]='\'';
+            
             return character;
         }
 
-    */
+    
 
     char **n()
     {
