@@ -30,6 +30,7 @@
   - [Banner](https://github.com/codewithnick/ascii-art#7-Banner)
   - [DrPepper](https://github.com/codewithnick/ascii-art#8-DrPepper)
   - [Block](https://github.com/codewithnick/ascii-art#9-Block)
+  - [Small](https://github.com/codewithnick/ascii-art#10-Small)
 
 - [Contribution](https://github.com/codewithnick/ascii-art/blob/main/CONTRIBUTING.md)
 - [Reference](https://github.com/codewithnick/ascii-art#Reference)
@@ -73,6 +74,8 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
 ### 8-[DrPepper](./Fonts/drpepper/drpepper.md)
 
 ### 9-[Block](./Fonts/block/block.md)
+
+### 10-[Small](./Fonts/small/small.md)
 
 ## Reference
 
