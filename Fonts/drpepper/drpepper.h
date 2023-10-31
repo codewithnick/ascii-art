@@ -668,7 +668,7 @@ public:
    
         char **five()
         {
-            char **character = getCharGrid(6,5);
+            char **character = getCharGrid(4,5);
 
             character[0][1] = character[0][2] = character[0][3]=character[1][2]=character[1][3]=character[2][1]=character[2][2]=character[3][1]=character[3][2]=character[3][3]='_';
 
