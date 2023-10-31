@@ -14,6 +14,7 @@
 #include "./Fonts/block/block.h"
 #include "./Fonts/amongus/amongus.h"
 #include "./Fonts/drpepper/drpepper.h"
+#include "./Fonts/small/small.h"
 
 namespace ascii
 {
@@ -27,7 +28,8 @@ namespace ascii
         banner,
         block,
         amongus,
-        drpepper
+        drpepper,
+        small
     };
 
     class Ascii
@@ -73,6 +75,10 @@ namespace ascii
             else if (fontName == FontName::drpepper)
             {
                 this->font = new Drpepper();
+            }
+            else if (fontName == FontName::small)
+            {
+                this->font = new Small();
             }
             else
             {
