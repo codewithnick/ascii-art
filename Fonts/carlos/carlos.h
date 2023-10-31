@@ -1074,17 +1074,18 @@ character[5][6] = character[6][8] = '/';
             return character;
         }
 
-    /*
-        char **four()
+   char **four()
         {
-            char **character = getCharGrid(ROWS,COLS);
+            char **character = getCharGrid(7,11);
 
-            //Enter the character grid in ROWS X COL
+            character[0][2] = character[0][6] = character[2][3] = character[2][4] = character[2][8] = character[2][9] = character[2][10] = character[3][2] = character[3][3] = character[3][4] = character[3][8] = character[3][9] = character[6][5] = character[6][6] = character[6][7] = '_';
+            character[1][1] = character[1][3] = character[1][5] = character[6][4] = '/';
+            character[1][7] = character[3][1] = character[6][8] = '\\';
+            character[2][0] = character[2][2] = character[2][7] = character[3][10] = character[4][7] = character[5][7] = '(';
+            character[2][5] = character[4][5] = character[5][5] = ')';
 
             return character;
         }
-
-    */
 
     
         char **five()
