@@ -478,17 +478,22 @@ public:
         return character;
     }
 
-    /*
-        char **p()
+    
+    char **p()
         {
-            char **character = getCharGrid(rows,cols);
+            char **character = getCharGrid(5, 5);
 
-            //Enter the character grid in ROWS X COLS
+        // Enter the character grid in ROWS X COLS
+        character[1][1] = character[1][2] = character[3][3] = character[1][3] = character[4][1] = '_';
+        character[2][0] = character[4][0] = character[4][2] = character[3][0] = '|';
+        character[2][2] = '.';
+        character[2][4] = '\';
+        character[3][4] = '/';
 
-            return character;
+        return character;
         }
 
-    */
+    
 
     /*
         char **q()
