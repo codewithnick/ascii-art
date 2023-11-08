@@ -430,16 +430,20 @@ public:
         }
     
 
-    /*
+    
     char **h()
     {
-        char **character = getCharGrid(ROWS,COLS);
+        char **character = getCharGrid(4,7);
 
         //Enter the character grid in ROWS X COLS
 
+        character[0][1] = character[0][5]= character[1][3]= character[2][3]=character[3][5] = character[3][1]='_';
+        character[1][0] = character[1][4] =character[3][0] = character[3][4] = character[2][5]='(';
+        character[1][6] = character[1][2] = character[3][2] = character[3][6] = character[2][1] = ')';
+
         return character;
     }
-*/
+
         char **i()
         {
             char **character = getCharGrid(4,6);
