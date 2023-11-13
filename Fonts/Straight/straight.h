@@ -395,16 +395,18 @@ public:
         return character;
     }
 
-    /*
-        char **g()
-        {
-            char **character = getCharGrid(ROWS,COLS);
+    char **g()
+    {
+        char **character = getCharGrid(4, 3);
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-    */
+        // Enter the character grid in ROWS X COLS
+        character[1][1] = character[2][1] = character[3][0] = '_';
+        character[2][2] = ')';
+        character[2][0] = '(';
+        character[3][1]='/';
+        return character;
+    
+    }
 
     char **h()
     {
