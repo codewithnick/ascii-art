@@ -90,7 +90,7 @@ namespace ascii
 
             char **character = nullptr;
 
-            for (int i = 0; i < text.size(); i++)
+            for (size_t i = 0; i < text.size(); i++)
             {
                 char c = text[i];
 
