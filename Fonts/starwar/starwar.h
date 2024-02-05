@@ -272,16 +272,20 @@ public:
         return character;
     }
 
-    /*
-        char **S()
-        {
-            char **character = getCharGrid(ROWS,COLS);
+    char **S()
+    {
+        char **character = getCharGrid(6,9);
 
-            //Enter the character grid in ROWS X COLS
+        // Enter the character grid in ROWS X COLS
+        character[0][1] = character[0][2] = character[0][3] = character[0][4] = character[0][5] = character[0][6] = character[0][7] = character[0][8] = '_';
+        character[1][0] = character[2][0] = character[3][0] = character[4][0] = character[5][0] = '|';
+        character[1][8] = character[2][8] = character[3][8] = character[4][8] = character[5][8] = '|';
+        character[1][0] = character[1][1] = character[1][2] = character[1][3] = character[1][4] = character[1][5] = character[1][6] = character[1][7] = character[1][8] = '|';
+        character[2][8] = character[3][8] = character[4][8] = character[5][8] = '|';
+        character[5][1] = character[5][2] = character[5][3] = character[5][4] = character[5][5] = character[5][6] = character[5][7] = character[5][8] = '_';
 
-            return character;
-        }
-    */
+        return character;
+    }
 
     char **T()
     {
