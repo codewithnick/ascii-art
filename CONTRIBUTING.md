@@ -9,7 +9,6 @@ Please consider the following :
 1. Fork it!
 2. Open an issue, if it does not already exist (Example: Add char 'A' in DrPepper Font) and ask to get assigned.
 3. Add your new features
-
    - To add a new font visit [here](#add-a-new-font)
    - To add a new character visit [here](#add-a-new-char-in-a-font)
 4. Update README.md (if needed)
