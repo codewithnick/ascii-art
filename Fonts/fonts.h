@@ -7,6 +7,10 @@
 #include <string>
 #include <iostream>
 
+// Alias
+using vvc = std::vector<std::vector<char>>;
+
+
 class Fonts
 {
     unsigned int def_rows;
@@ -14,22 +18,15 @@ class Fonts
     unsigned int char_rows;
     unsigned int char_cols;
     unsigned int curr_col;
-    std::vector<std::vector<char> > letters;
+    vvc letters;
 
 protected:
-    char **getCharGrid(unsigned int rows = 0, unsigned int cols = 0)
+    auto getCharGrid(unsigned int rows = 0, unsigned int cols = 0)
     {
         this->char_rows = rows ? rows : def_rows;
         this->char_cols = cols ? cols : def_cols;
 
-        char **char_grid = new char *[char_rows];
-        for (unsigned int i = 0; i < char_rows; i++)
-        {
-            char_grid[i] = new char[char_cols];
-            for (unsigned int j = 0; j < char_cols; j++)
-                char_grid[i][j] = ' ';
-        }
-        return char_grid;
+        return vvc (char_rows, std::vector<char>(char_cols, ' '));
     }
 
 public:
@@ -46,11 +43,9 @@ public:
         curr_col = 0;
     }
 
-    void pushChar(char **character)
+    void pushChar(std::vector<std::vector<char>> character)
     {
-        if (!character)
-            return;
-
+        
         while (letters.size() < char_rows)
         {
             letters.emplace_back(100, ' ');
@@ -70,6 +65,7 @@ public:
     {
         return letters;
     }
+
     void printvector()
     {
         for (unsigned int i = 0; i < letters.size(); i++)
@@ -84,334 +80,325 @@ public:
 
     /********************************adding virtual functions********************************/
     // Virtual functions for space
-    virtual char **space()
+    virtual vvc space()
     {
         std::cout << "space not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
 
     // Virtual functions for lowercase letters
-    virtual char **a()
+    virtual vvc a()
     {
         std::cout << "a not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **b()
+    virtual vvc b()
     {
         std::cout << "b not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **c()
+    virtual vvc c()
     {
         std::cout << "c not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **d()
+    virtual vvc d()
     {
         std::cout << "d not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **e()
+    virtual vvc e()
     {
         std::cout << "e not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **f()
+    virtual vvc f()
     {
         std::cout << "f not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **g()
+    virtual vvc g()
     {
         std::cout << "g not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **h()
+    virtual vvc h()
     {
         std::cout << "h not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **i()
+    virtual vvc i()
     {
         std::cout << "i not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **j()
+    virtual vvc j()
     {
         std::cout << "j not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **k()
+    virtual vvc k()
     {
         std::cout << "k not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **l()
+    virtual vvc l()
     {
         std::cout << "l not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **m()
+    virtual vvc m()
     {
         std::cout << "m not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **n()
+    virtual vvc n()
     {
         std::cout << "n not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **o()
+    virtual vvc o()
     {
         std::cout << "o not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **p()
+    virtual vvc p()
     {
         std::cout << "p not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **q()
+    virtual vvc q()
     {
         std::cout << "q not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **r()
+    virtual vvc r()
     {
         std::cout << "r not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **s()
+    virtual vvc s()
     {
         std::cout << "s not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **t()
+    virtual vvc t()
     {
         std::cout << "t not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **u()
+    virtual vvc u()
     {
         std::cout << "u not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **v()
+    virtual vvc v()
     {
         std::cout << "v not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **w()
+    virtual vvc w()
     {
         std::cout << "w not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **x()
+    virtual vvc x()
     {
         std::cout << "x not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **y()
+    virtual vvc y()
     {
         std::cout << "y not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **z()
+    virtual vvc z()
     {
         std::cout << "z not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
 
     // Virtual functions for uppercase letters
-    virtual char **A()
+    virtual vvc A()
     {
         std::cout << "A not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **B()
+    virtual vvc B()
     {
         std::cout << "B not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **C()
+    virtual vvc C()
     {
         std::cout << "C not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **D()
+    virtual vvc D()
     {
         std::cout << "D not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **E()
+    virtual vvc E()
     {
         std::cout << "E not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **F()
+    virtual vvc F()
     {
         std::cout << "F not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **G()
+    virtual vvc G()
     {
         std::cout << "G not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **H()
+    virtual vvc H()
     {
         std::cout << "H not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **I()
+    virtual vvc I()
     {
         std::cout << "I not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **J()
+    virtual vvc J()
     {
         std::cout << "J not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **K()
+    virtual vvc K()
     {
         std::cout << "K not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **L()
+    virtual vvc L()
     {
         std::cout << "L not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **M()
+    virtual vvc M()
     {
         std::cout << "M not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **N()
+    virtual vvc N()
     {
         std::cout << "N not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **O()
+    virtual vvc O()
     {
         std::cout << "O not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **P()
+    virtual vvc P()
     {
         std::cout << "P not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **Q()
+    virtual vvc Q()
     {
         std::cout << "Q not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **R()
+    virtual vvc R()
     {
         std::cout << "R not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **S()
+    virtual vvc S()
     {
         std::cout << "S not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **T()
+    virtual vvc T()
     {
         std::cout << "T not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **U()
+    virtual vvc U()
     {
         std::cout << "U not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **V()
+    virtual vvc V()
     {
         std::cout << "V not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **W()
+    virtual vvc W()
     {
         std::cout << "W not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **X()
+    virtual vvc X()
     {
         std::cout << "X not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **Y()
+    virtual vvc Y()
     {
         std::cout << "Y not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **Z()
+    virtual vvc Z()
     {
         std::cout << "Z not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **zero()
+    virtual vvc zero()
     {
         std::cout << "Zero not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **one()
+    virtual vvc one()
     {
         std::cout << "One not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **two()
+    virtual vvc two()
     {
         std::cout << "Two not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **three()
+    virtual vvc three()
     {
         std::cout << "Three not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **four()
+    virtual vvc four()
     {
         std::cout << "Four not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **five()
+    virtual vvc five()
     {
         std::cout << "Five not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **six()
+    virtual vvc six()
     {
         std::cout << "Six not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **seven()
+    virtual vvc seven()
     {
         std::cout << "Seven not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **eight()
+    virtual vvc eight()
     {
         std::cout << "Eight not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-    virtual char **nine()
+    virtual vvc nine()
     {
         std::cout << "Nine not overridden?" << std::endl;
-        return nullptr;
+        return vvc();
     }
-
     /********************************done adding virtual functions********************************/
-    void destroyspace()
-    {
-        letters.clear();
-    }
-    ~Fonts()
-    {
-        destroyspace();
-    }
 };
 #endif

@@ -4,17 +4,18 @@
 #define ASCII_H
 
 #include <string>
+#include<memory>
 #include "./Fonts/fonts.h"
-#include "./Fonts/SevenStar/sevenstar.h"
-#include "./Fonts/Boomer/boomer.h"
+//#include "./Fonts/SevenStar/sevenstar.h"
+//#include "./Fonts/Boomer/boomer.h"
 #include "./Fonts/Straight/straight.h"
-#include "./Fonts/starwar/starwar.h"
-#include "./Fonts/carlos/carlos.h"
-#include "./Fonts/banner/banner.h"
-#include "./Fonts/block/block.h"
-#include "./Fonts/amongus/amongus.h"
-#include "./Fonts/drpepper/drpepper.h"
-#include "./Fonts/small/small.h"
+//#include "./Fonts/starwar/starwar.h"
+//#include "./Fonts/carlos/carlos.h"
+//#include "./Fonts/banner/banner.h"
+//#include "./Fonts/block/block.h"
+//#include "./Fonts/amongus/amongus.h"
+//#include "./Fonts/drpepper/drpepper.h"
+//#include "./Fonts/small/small.h"
 
 namespace ascii
 {
@@ -36,50 +37,49 @@ namespace ascii
     {
 
     public:
-        Fonts *font;
+        std::unique_ptr<Fonts> font;
         Ascii(const FontName &fontName)
         {
-            if (fontName == FontName::sevenstar)
+            //if (fontName == FontName::sevenstar)
+            //{
+            //    this->font = new SevenStar();
+            //}
+            //else if (fontName == FontName::boomer)
+            //{
+            //    this->font = new Boomer();
+            //}
+            if (fontName == FontName::straight)
             {
-                this->font = new SevenStar();
+                this->font.reset(new Straight());
             }
-            else if (fontName == FontName::boomer)
-            {
-                this->font = new Boomer();
-            }
-            else if (fontName == FontName::straight)
-            {
-
-                this->font = new Straight();
-            }
-            else if (fontName == FontName::starwar)
-            {
-                this->font = new Starwar();
-            }
-            else if (fontName == FontName::carlos)
-            {
-                this->font = new Carlos();
-            }
-            else if (fontName == FontName::banner)
-            {
-                this->font = new Banner();
-            }
-            else if (fontName == FontName::block)
-            {
-                this->font = new Block();
-            }
-            else if (fontName == FontName::amongus)
-            {
-                this->font = new Amongus();
-            }
-            else if (fontName == FontName::drpepper)
-            {
-                this->font = new Drpepper();
-            }
-            else if (fontName == FontName::small)
-            {
-                this->font = new Small();
-            }
+            //else if (fontName == FontName::starwar)
+            //{
+            //    this->font = new Starwar();
+            //}
+            //else if (fontName == FontName::carlos)
+            //{
+            //    this->font = new Carlos();
+            //}
+            //else if (fontName == FontName::banner)
+            //{
+            //    this->font = new Banner();
+            //}
+            //else if (fontName == FontName::block)
+            //{
+            //    this->font = new Block();
+            //}
+            //else if (fontName == FontName::amongus)
+            //{
+            //    this->font = new Amongus();
+            //}
+            //else if (fontName == FontName::drpepper)
+            //{
+            //    this->font = new Drpepper();
+            //}
+            //else if (fontName == FontName::small)
+            //{
+            //    this->font = new Small();
+            //}
             else
             {
                 exit(500);
@@ -87,8 +87,7 @@ namespace ascii
         }
         void print(const std::string &text)
         {
-
-            char **character = nullptr;
+            vvc character;
 
             for (size_t i = 0; i < text.size(); i++)
             {
@@ -231,7 +230,6 @@ namespace ascii
                 font->pushChar(character);
             }
             font->printvector();
-            // font->destroyspace();
         }
     };
 } // namespace ascii
