@@ -8,7 +8,7 @@
 #include <iostream>
 
 // Alias
-using vvc = std::vector<std::vector<char>>;
+using vs = std::vector<std::string>;
 
 
 class Fonts
@@ -18,7 +18,7 @@ class Fonts
     unsigned int char_rows;
     unsigned int char_cols;
     unsigned int curr_col;
-    vvc letters;
+    vs letters;
 
 protected:
     auto getCharGrid(unsigned int rows = 0, unsigned int cols = 0)
@@ -26,7 +26,7 @@ protected:
         this->char_rows = rows ? rows : def_rows;
         this->char_cols = cols ? cols : def_cols;
 
-        return vvc (char_rows, std::vector<char>(char_cols, ' '));
+        return vs (char_rows, std::string(char_cols, ' '));
     }
 
 public:
@@ -43,12 +43,20 @@ public:
         curr_col = 0;
     }
 
-    void pushChar(std::vector<std::vector<char>> character)
+    void pushChar(vs character)
     {
+        if(character.empty()) return;
         
-        while (letters.size() < char_rows)
-        {
-            letters.emplace_back(100, ' ');
+        // Add empty rows, all with the same lenght 
+        while(letters.size() < char_rows)
+            letters.emplace_back(std::string(letters[0].size(), ' '));
+
+        // Space needed to add the new character (if it is negative there is no need)
+        int needed = 2 + curr_col + character[0].size() - letters[0].size();
+
+        if(needed > 0){
+            for(auto& row : letters)
+                row.resize(needed + row.size());
         }
 
         for (unsigned int i = 0; i < char_rows; i++)
@@ -61,7 +69,7 @@ public:
         curr_col += (char_cols + 2);
     }
 
-    std::vector<std::vector<char> > getletters()
+    vs getletters()
     {
         return letters;
     }
@@ -70,334 +78,330 @@ public:
     {
         for (unsigned int i = 0; i < letters.size(); i++)
         {
-            for (unsigned int j = 0; j < letters[0].size(); j++)
-            {
-                std::cout << letters[i][j];
-            }
-            std::cout << std::endl;
+          std::cout << letters[i] << std::endl;
         }
     }
 
     /********************************adding virtual functions********************************/
     // Virtual functions for space
-    virtual vvc space()
+    virtual vs space()
     {
         std::cout << "space not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
 
     // Virtual functions for lowercase letters
-    virtual vvc a()
+    virtual vs a()
     {
         std::cout << "a not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc b()
+    virtual vs b()
     {
         std::cout << "b not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc c()
+    virtual vs c()
     {
         std::cout << "c not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc d()
+    virtual vs d()
     {
         std::cout << "d not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc e()
+    virtual vs e()
     {
         std::cout << "e not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc f()
+    virtual vs f()
     {
         std::cout << "f not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc g()
+    virtual vs g()
     {
         std::cout << "g not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc h()
+    virtual vs h()
     {
         std::cout << "h not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc i()
+    virtual vs i()
     {
         std::cout << "i not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc j()
+    virtual vs j()
     {
         std::cout << "j not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc k()
+    virtual vs k()
     {
         std::cout << "k not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc l()
+    virtual vs l()
     {
         std::cout << "l not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc m()
+    virtual vs m()
     {
         std::cout << "m not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc n()
+    virtual vs n()
     {
         std::cout << "n not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc o()
+    virtual vs o()
     {
         std::cout << "o not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc p()
+    virtual vs p()
     {
         std::cout << "p not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc q()
+    virtual vs q()
     {
         std::cout << "q not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc r()
+    virtual vs r()
     {
         std::cout << "r not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc s()
+    virtual vs s()
     {
         std::cout << "s not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc t()
+    virtual vs t()
     {
         std::cout << "t not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc u()
+    virtual vs u()
     {
         std::cout << "u not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc v()
+    virtual vs v()
     {
         std::cout << "v not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc w()
+    virtual vs w()
     {
         std::cout << "w not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc x()
+    virtual vs x()
     {
         std::cout << "x not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc y()
+    virtual vs y()
     {
         std::cout << "y not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc z()
+    virtual vs z()
     {
         std::cout << "z not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
 
     // Virtual functions for uppercase letters
-    virtual vvc A()
+    virtual vs A()
     {
         std::cout << "A not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc B()
+    virtual vs B()
     {
         std::cout << "B not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc C()
+    virtual vs C()
     {
         std::cout << "C not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc D()
+    virtual vs D()
     {
         std::cout << "D not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc E()
+    virtual vs E()
     {
         std::cout << "E not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc F()
+    virtual vs F()
     {
         std::cout << "F not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc G()
+    virtual vs G()
     {
         std::cout << "G not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc H()
+    virtual vs H()
     {
         std::cout << "H not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc I()
+    virtual vs I()
     {
         std::cout << "I not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc J()
+    virtual vs J()
     {
         std::cout << "J not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc K()
+    virtual vs K()
     {
         std::cout << "K not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc L()
+    virtual vs L()
     {
         std::cout << "L not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc M()
+    virtual vs M()
     {
         std::cout << "M not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc N()
+    virtual vs N()
     {
         std::cout << "N not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc O()
+    virtual vs O()
     {
         std::cout << "O not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc P()
+    virtual vs P()
     {
         std::cout << "P not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc Q()
+    virtual vs Q()
     {
         std::cout << "Q not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc R()
+    virtual vs R()
     {
         std::cout << "R not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc S()
+    virtual vs S()
     {
         std::cout << "S not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc T()
+    virtual vs T()
     {
         std::cout << "T not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc U()
+    virtual vs U()
     {
         std::cout << "U not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc V()
+    virtual vs V()
     {
         std::cout << "V not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc W()
+    virtual vs W()
     {
         std::cout << "W not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc X()
+    virtual vs X()
     {
         std::cout << "X not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc Y()
+    virtual vs Y()
     {
         std::cout << "Y not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc Z()
+    virtual vs Z()
     {
         std::cout << "Z not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc zero()
+    virtual vs zero()
     {
         std::cout << "Zero not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc one()
+    virtual vs one()
     {
         std::cout << "One not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc two()
+    virtual vs two()
     {
         std::cout << "Two not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc three()
+    virtual vs three()
     {
         std::cout << "Three not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc four()
+    virtual vs four()
     {
         std::cout << "Four not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc five()
+    virtual vs five()
     {
         std::cout << "Five not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc six()
+    virtual vs six()
     {
         std::cout << "Six not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc seven()
+    virtual vs seven()
     {
         std::cout << "Seven not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc eight()
+    virtual vs eight()
     {
         std::cout << "Eight not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
-    virtual vvc nine()
+    virtual vs nine()
     {
         std::cout << "Nine not overridden?" << std::endl;
-        return vvc();
+        return vs();
     }
     /********************************done adding virtual functions********************************/
 };

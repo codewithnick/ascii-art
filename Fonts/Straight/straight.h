@@ -13,9 +13,9 @@ public:
 
     // Uppercase
 
-    vvc A()
+    vs A()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[1][1] = character[2][0] = '/';
@@ -25,9 +25,9 @@ public:
         return character;
     }
 
-    vvc B()
+    vs B()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[0][0] = character[0][3] = ' ';
@@ -38,9 +38,9 @@ public:
         return character;
     }
 
-    vvc C()
+    vs C()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
         character[0][0] = character[1][1] = character[1][2] = character[1][3] = character[0][3] = character[2][3] = ' ';
         character[0][1] = character[0][2] = '_';
         character[1][0] = '/';
@@ -49,9 +49,9 @@ public:
         return character;
     }
 
-    vvc D()
+    vs D()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         character[0][0] = character[0][3] = character[1][1] = character[1][2] = ' ';
         character[0][1] = character[0][2] = character[2][1] = character[2][2] = '_';
@@ -62,9 +62,9 @@ public:
         return character;
     }
 
-    vvc E()
+    vs E()
     {
-        vvc character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         // Enter the character grid in ROWS X COLS
         character[0][1] = character[0][2] = '_';
@@ -74,9 +74,9 @@ public:
         return character;
     }
 
-    vvc F()
+    vs F()
     {
-        vvc character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         // Enter the character grid in ROWS X COLS
         character[1][0] = character[2][0] = '|';
@@ -85,9 +85,9 @@ public:
         return character;
     }
 
-    vvc G()
+    vs G()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         character[0][1] = character[0][2] = character[1][2] = character[2][1] = character[2][2] = '_';
         character[1][0] = '/';
@@ -97,9 +97,9 @@ public:
         return character;
     }
 
-    vvc H()
+    vs H()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[1][0] = character[1][3] = '|';
@@ -109,19 +109,19 @@ public:
         return character;
     }
 
-    vvc I()
+    vs I()
     {
-        vvc character = getCharGrid(3, 1);
+        vs character = getCharGrid(3, 1);
 
         character[1][0] = character[2][0] = '|';
 
         return character;
     }
 
-    vvc J()
+    vs J()
     {
 
-        vvc character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         // Enter the character grid in ROWS X COLS
         character[1][0] = character[1][1] = ' ';
@@ -132,9 +132,9 @@ public:
         return character;
     }
 
-    vvc K()
+    vs K()
     {
-        vvc character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         // Enter the character grid in ROWS X COLS
 
@@ -147,9 +147,9 @@ public:
         return character;
     }
 
-    vvc L()
+    vs L()
     {
-        vvc character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         /*// Enter the character grid in ROWS X COLS*/
         character[1][0] = character[2][0] = '|';
@@ -158,9 +158,9 @@ public:
         return character;
     }
 
-    vvc M()
+    vs M()
     {
-        vvc character = getCharGrid(2, 4);
+        vs character = getCharGrid(2, 4);
 
         character[0][0] = character[1][0] = character[0][3] = character[1][3] = '|';
         character[0][1] = '\\';
@@ -169,9 +169,9 @@ public:
         return character;
     }
 
-    vvc N()
+    vs N()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         character[1][0] = '|';
         character[1][1] = '\\';
@@ -185,18 +185,18 @@ public:
         return character;
     }
 
-    vvc O()
+    vs O()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
         character[0][1] = character[0][2] = character[2][1] = character[2][2] = '_';
         character[1][0] = character[2][3] = '/';
         character[2][0] = character[1][3] = '\\';
         return character;
     }
 
-    vvc P()
+    vs P()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[0][0] = ' ', character[0][1] = character[0][2] = '_';
@@ -206,9 +206,9 @@ public:
         return character;
     }
 
-    vvc Q()
+    vs Q()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         character[0][1] = character[0][2] = character[2][1] = '_';
         character[1][0] = character[2][3] = '/';
@@ -217,9 +217,9 @@ public:
         return character;
     }
 
-    vvc R()
+    vs R()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[0][1] = character[0][2] = character[1][1] = character[1][2] = '_';
@@ -230,9 +230,9 @@ public:
         return character;
     }
 
-    vvc S()
+    vs S()
     {
-        vvc character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
         character[1][1] = character[0][1] = character[0][2] = character[2][0] = character[2][1] = '_';
         character[1][0] = '(';
         character[2][2] = ')';
@@ -240,18 +240,18 @@ public:
         return character;
     }
 
-    vvc T()
+    vs T()
     {
-        vvc character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
         character[0][0] = character[0][1] = character[0][2] = '_';
         character[1][1] = character[2][1] = '|';
 
         return character;
     }
 
-    vvc U()
+    vs U()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[1][0] = character[2][3] = '/';
@@ -261,9 +261,9 @@ public:
         return character;
     }
 
-    vvc V()
+    vs V()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[1][0] = character[2][1] = '\\';
@@ -272,9 +272,9 @@ public:
         return character;
     }
 
-    vvc W()
+    vs W()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         character[1][0] = character[1][3] = character[2][0] = character[2][3] = '|';
         character[1][1] = character[1][2] = ' ';
@@ -284,19 +284,19 @@ public:
         return character;
     }
 
-    vvc X()
+    vs X()
     {
-        vvc character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
         character[0][0] = character[2][2] = '\\';
         character[0][2] = character[2][0] = '/';
         character[1][1] = '-';
         return character;
     }
 
-    vvc Y()
+    vs Y()
     {
 
-        vvc character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
         character[0][0] = '\\';
         character[0][2] = '/';
         character[1][1] = '-';
@@ -305,9 +305,9 @@ public:
         return character;
     }
 
-    vvc Z()
+    vs Z()
     {
-        vvc character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         character[0][0] = '_';
         character[0][1] = '_';
@@ -323,9 +323,9 @@ public:
 
     // Lowercase
 
-    vvc a()
+    vs a()
     {
-        vvc character = getCharGrid(4, 4);
+        vs character = getCharGrid(4, 4);
 
         // Enter the character grid in ROWS X COLS
         character[1][1] = '_';
@@ -336,9 +336,9 @@ public:
         return character;
     }
 
-    vvc b()
+    vs b()
     {
-        vvc character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         character[1][0] = character[2][0] = '|';
         character[1][1] = character[2][1] = '_';
@@ -347,9 +347,9 @@ public:
         return character;
     }
 
-    vvc c()
+    vs c()
     {
-        vvc character = getCharGrid(3, 2);
+        vs character = getCharGrid(3, 2);
 
         // Enter the character grid in ROWS X COLS
         character[1][0] = ' ';
@@ -358,9 +358,9 @@ public:
         return character;
     }
 
-    vvc d()
+    vs d()
     {
-        vvc character = getCharGrid(4, 4);
+        vs character = getCharGrid(4, 4);
 
         // Enter the character grid in ROWS X COLS
         character[1][2] = '|';
@@ -372,9 +372,9 @@ public:
         return character;
     }
 
-    vvc e()
+    vs e()
     {
-        vvc character = getCharGrid(ROWS, COLS);
+        vs character = getCharGrid(ROWS, COLS);
 
         // Enter the character grid in ROWS X COLS
         character[1][1] = '_';
@@ -383,9 +383,9 @@ public:
         return character;
     }
 
-    vvc f()
+    vs f()
     {
-        vvc character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         // Enter the character grid in ROWS X COLS
         character[0][1] = '_';
@@ -396,9 +396,9 @@ public:
         return character;
     }
 
-    vvc g()
+    vs g()
     {
-        vvc character = getCharGrid(4, 3);
+        vs character = getCharGrid(4, 3);
 
         // Enter the character grid in ROWS X COLS
         character[1][1] = character[2][1] = character[3][0] = '_';
@@ -409,9 +409,9 @@ public:
     
     }
 
-    vvc h()
+    vs h()
     {
-        vvc character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         // Enter the character grid in ROWS X COLS
         character[1][0] = '|';
@@ -422,9 +422,9 @@ public:
         return character;
     }
 
-    vvc i()
+    vs i()
     {
-        vvc character = getCharGrid(3, 1);
+        vs character = getCharGrid(3, 1);
 
         character[1][0] = '.';
         character[2][0] = '|';
@@ -432,9 +432,9 @@ public:
         return character;
     }
 
-    vvc j()
+    vs j()
     {
-        vvc character = getCharGrid(4, 2);
+        vs character = getCharGrid(4, 2);
 
         character[1][1] = '.';
         character[2][1] = '|';
@@ -443,9 +443,9 @@ public:
         return character;
     }
 
-    vvc k()
+    vs k()
     {
-        vvc character = getCharGrid(3, 2);
+        vs character = getCharGrid(3, 2);
 
         character[1][0] = character[2][0] = '|';
         character[2][1] = '(';
@@ -453,9 +453,9 @@ public:
         return character;
     }
 
-    vvc l()
+    vs l()
     {
-        vvc character = getCharGrid(3, 1);
+        vs character = getCharGrid(3, 1);
 
         // Enter the character grid in ROWS X COLS
         character[1][0] = '|';
@@ -465,9 +465,9 @@ public:
     }
 
     
-        vvc m()
+        vs m()
         {
-            vvc character = getCharGrid(3,4);
+            vs character = getCharGrid(3,4);
 
             //Enter the character grid in ROWS X COLS
             character[1][1] = '_';
@@ -481,9 +481,9 @@ public:
 
     
 
-    vvc n()
+    vs n()
     {
-        vvc character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         // Enter the character grid in ROWS X COLS
         character[1][1] = '_';
@@ -493,9 +493,9 @@ public:
         return character;
     }
 
-    vvc o()
+    vs o()
     {
-        vvc character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         character[1][1] = character[2][1] = '_';
         character[2][0] = '(';
@@ -504,9 +504,9 @@ public:
         return character;
     }
 
-    vvc p()
+    vs p()
     {
-        vvc character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         character[1][0] = character[2][0] = '|';
         character[0][1] = character[1][1] = '_';
@@ -514,9 +514,9 @@ public:
         return character;
     }
 
-    vvc q()
+    vs q()
     {
-        vvc character = getCharGrid(4, 4);
+        vs character = getCharGrid(4, 4);
         character[1][2] = '_';
         character[2][1] = '(';
         character[2][2] = '_';
@@ -525,10 +525,10 @@ public:
         return character;
     }
 
-    vvc r()
+    vs r()
     {
         // Enter the character grid in ROWS X COLS
-        vvc character = getCharGrid(2, 2);
+        vs character = getCharGrid(2, 2);
 
         character[0][1] = '_';
         character[1][0] = '|';
@@ -536,9 +536,9 @@ public:
         return character;
     }
 
-    vvc s()
+    vs s()
     {
-        vvc character = getCharGrid(2, 2);
+        vs character = getCharGrid(2, 2);
 
         character[0][1] = '_';
         character[1][0] = '_';
@@ -547,9 +547,9 @@ public:
         return character;
     }
 
-    vvc t()
+    vs t()
     {
-        vvc character = getCharGrid(3, 2);
+        vs character = getCharGrid(3, 2);
 
         character[1][0] = character[2][0] = '|';
         character[1][1] = character[2][1] = '_';
@@ -557,9 +557,9 @@ public:
         return character;
     }
 
-    vvc u()
+    vs u()
     {
-        vvc character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         // Enter the character grid in ROWS X COLS
         character[2][0] = '|';
@@ -569,9 +569,9 @@ public:
         return character;
     }
 
-    vvc v()
+    vs v()
     {
-        vvc character = getCharGrid(3, 2);
+        vs character = getCharGrid(3, 2);
 
         // Enter the character grid in ROWS X COLS
 
@@ -580,9 +580,9 @@ public:
         return character;
     }
 
-    vvc w()
+    vs w()
     {
-        vvc character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         // Enter the character grid in ROWS X COLS
         character[2][0] = '\\';
@@ -592,9 +592,9 @@ public:
         return character;
     }
 
-    vvc x()
+    vs x()
     {
-        vvc character = getCharGrid(3, 2);
+        vs character = getCharGrid(3, 2);
 
         // Enter the character grid in ROWS X COLS
         character[2][0] = ')';
@@ -603,9 +603,9 @@ public:
         return character;
     }
 
-    vvc y()
+    vs y()
     {
-        vvc character = getCharGrid(3, 2);
+        vs character = getCharGrid(3, 2);
 
         // Enter the character grid in ROWS X COLS
 
@@ -616,9 +616,9 @@ public:
         return character;
     }
 
-    vvc z()
+    vs z()
     {
-        vvc character = getCharGrid(4, 4);
+        vs character = getCharGrid(4, 4);
 
         character[1][1] = '_';
         character[2][1] = '/';
@@ -629,9 +629,9 @@ public:
 
     // Numbers
 
-    vvc zero()
+    vs zero()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
         character[0][0] = character[0][3] = character[1][1] = character[1][2] = ' ';
         character[0][1] = character[0][2] = character[2][1] = character[2][2] = '_';
         character[1][0] = character[2][3] = character[1][3] = character[2][0] = '|';
@@ -639,9 +639,9 @@ public:
         return character;
     }
 
-    vvc one()
+    vs one()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[1][2] = '/';
@@ -650,9 +650,9 @@ public:
         return character;
     }
 
-    vvc two()
+    vs two()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[0][1] = character[0][2] = character[2][2] = character[2][3] = character[1][2] = '_';
@@ -662,9 +662,9 @@ public:
         return character;
     }
 
-    vvc three()
+    vs three()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[0][1] = character[0][2] = character[2][1] = character[2][2] = character[1][2] = '_';
@@ -674,9 +674,9 @@ public:
         return character;
     }
 
-    vvc four()
+    vs four()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
         character[0][0] = character[0][1] = character[0][2] = character[0][3] = ' ';
         character[1][1] = character[1][2] = '_';
         character[1][0] = character[1][3] = character[2][3] = '|';
@@ -684,9 +684,9 @@ public:
         return character;
     }
 
-    vvc five()
+    vs five()
     {
-        vvc character = getCharGrid(4, 4);
+        vs character = getCharGrid(4, 4);
 
         // Enter the character grid in ROWS X COLS
         character[0][1] = '_';
@@ -699,9 +699,9 @@ public:
         return character;
     }
 
-    vvc six()
+    vs six()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         character[0][1] = character[0][2] = character[1][1] = character[1][2] = character[2][1] = character[2][2] = '_';
         character[1][0] = '/';
@@ -711,9 +711,9 @@ public:
         return character;
     }
 
-    vvc seven()
+    vs seven()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[0][0] = '_';
@@ -725,9 +725,9 @@ public:
         return character;
     }
 
-    vvc eight()
+    vs eight()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         character[0][1] = character[0][2] = character[1][1] = character[1][2] = character[2][1] = character[2][2] = '_';
         character[1][0] = character[2][0] = '(';
@@ -736,9 +736,9 @@ public:
         return character;
     }
 
-    vvc nine()
+    vs nine()
     {
-        vvc character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         character[0][1] = character[0][2] = character[1][1] = character[1][2] = character[2][1] = character[2][2] = '_';
         character[1][0] = '(';
@@ -749,9 +749,9 @@ public:
     }
 
     // for space
-    vvc space()
+    vs space()
     {
-        vvc character = getCharGrid(1, 1);
+        vs character = getCharGrid(1, 1);
 
         character[0][0] = ' ';
 
