@@ -2,19 +2,20 @@
 #define STRAIGHT_H
 #include "../fonts.h"
 
+
 class Straight : public Fonts
 {
-    static const int rows = 3;
-    static const int cols = 4;
+    static const int ROWS = 3;
+    static const int COLS = 4;
 
 public:
-    Straight() : Fonts(rows, cols) {}
+    Straight() : Fonts(ROWS, COLS) {}
 
     // Uppercase
 
-    char **A()
+    vs A()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[1][1] = character[2][0] = '/';
@@ -24,9 +25,9 @@ public:
         return character;
     }
 
-    char **B()
+    vs B()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[0][0] = character[0][3] = ' ';
@@ -37,9 +38,9 @@ public:
         return character;
     }
 
-    char **C()
+    vs C()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
         character[0][0] = character[1][1] = character[1][2] = character[1][3] = character[0][3] = character[2][3] = ' ';
         character[0][1] = character[0][2] = '_';
         character[1][0] = '/';
@@ -48,9 +49,9 @@ public:
         return character;
     }
 
-    char **D()
+    vs D()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         character[0][0] = character[0][3] = character[1][1] = character[1][2] = ' ';
         character[0][1] = character[0][2] = character[2][1] = character[2][2] = '_';
@@ -61,9 +62,9 @@ public:
         return character;
     }
 
-    char **E()
+    vs E()
     {
-        char **character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         // Enter the character grid in ROWS X COLS
         character[0][1] = character[0][2] = '_';
@@ -73,9 +74,9 @@ public:
         return character;
     }
 
-    char **F()
+    vs F()
     {
-        char **character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         // Enter the character grid in ROWS X COLS
         character[1][0] = character[2][0] = '|';
@@ -84,9 +85,9 @@ public:
         return character;
     }
 
-    char **G()
+    vs G()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         character[0][1] = character[0][2] = character[1][2] = character[2][1] = character[2][2] = '_';
         character[1][0] = '/';
@@ -96,9 +97,9 @@ public:
         return character;
     }
 
-    char **H()
+    vs H()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[1][0] = character[1][3] = '|';
@@ -108,19 +109,19 @@ public:
         return character;
     }
 
-    char **I()
+    vs I()
     {
-        char **character = getCharGrid(3, 1);
+        vs character = getCharGrid(3, 1);
 
         character[1][0] = character[2][0] = '|';
 
         return character;
     }
 
-    char **J()
+    vs J()
     {
 
-        char **character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         // Enter the character grid in ROWS X COLS
         character[1][0] = character[1][1] = ' ';
@@ -131,9 +132,9 @@ public:
         return character;
     }
 
-    char **K()
+    vs K()
     {
-        char **character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         // Enter the character grid in ROWS X COLS
 
@@ -146,20 +147,20 @@ public:
         return character;
     }
 
-    char **L()
+    vs L()
     {
-        char **character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
-        // Enter the character grid in ROWS X COLS
+        /*// Enter the character grid in ROWS X COLS*/
         character[1][0] = character[2][0] = '|';
         character[2][1] = character[2][2] = '_';
 
         return character;
     }
 
-    char **M()
+    vs M()
     {
-        char **character = getCharGrid(2, 4);
+        vs character = getCharGrid(2, 4);
 
         character[0][0] = character[1][0] = character[0][3] = character[1][3] = '|';
         character[0][1] = '\\';
@@ -168,9 +169,9 @@ public:
         return character;
     }
 
-    char **N()
+    vs N()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         character[1][0] = '|';
         character[1][1] = '\\';
@@ -184,18 +185,18 @@ public:
         return character;
     }
 
-    char **O()
+    vs O()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
         character[0][1] = character[0][2] = character[2][1] = character[2][2] = '_';
         character[1][0] = character[2][3] = '/';
         character[2][0] = character[1][3] = '\\';
         return character;
     }
 
-    char **P()
+    vs P()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[0][0] = ' ', character[0][1] = character[0][2] = '_';
@@ -205,9 +206,9 @@ public:
         return character;
     }
 
-    char **Q()
+    vs Q()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         character[0][1] = character[0][2] = character[2][1] = '_';
         character[1][0] = character[2][3] = '/';
@@ -216,9 +217,9 @@ public:
         return character;
     }
 
-    char **R()
+    vs R()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[0][1] = character[0][2] = character[1][1] = character[1][2] = '_';
@@ -229,9 +230,9 @@ public:
         return character;
     }
 
-    char **S()
+    vs S()
     {
-        char **character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
         character[1][1] = character[0][1] = character[0][2] = character[2][0] = character[2][1] = '_';
         character[1][0] = '(';
         character[2][2] = ')';
@@ -239,18 +240,18 @@ public:
         return character;
     }
 
-    char **T()
+    vs T()
     {
-        char **character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
         character[0][0] = character[0][1] = character[0][2] = '_';
         character[1][1] = character[2][1] = '|';
 
         return character;
     }
 
-    char **U()
+    vs U()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[1][0] = character[2][3] = '/';
@@ -260,9 +261,9 @@ public:
         return character;
     }
 
-    char **V()
+    vs V()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[1][0] = character[2][1] = '\\';
@@ -271,9 +272,9 @@ public:
         return character;
     }
 
-    char **W()
+    vs W()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         character[1][0] = character[1][3] = character[2][0] = character[2][3] = '|';
         character[1][1] = character[1][2] = ' ';
@@ -283,19 +284,19 @@ public:
         return character;
     }
 
-    char **X()
+    vs X()
     {
-        char **character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
         character[0][0] = character[2][2] = '\\';
         character[0][2] = character[2][0] = '/';
         character[1][1] = '-';
         return character;
     }
 
-    char **Y()
+    vs Y()
     {
 
-        char **character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
         character[0][0] = '\\';
         character[0][2] = '/';
         character[1][1] = '-';
@@ -304,9 +305,9 @@ public:
         return character;
     }
 
-    char **Z()
+    vs Z()
     {
-        char **character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         character[0][0] = '_';
         character[0][1] = '_';
@@ -322,9 +323,9 @@ public:
 
     // Lowercase
 
-    char **a()
+    vs a()
     {
-        char **character = getCharGrid(4, 4);
+        vs character = getCharGrid(4, 4);
 
         // Enter the character grid in ROWS X COLS
         character[1][1] = '_';
@@ -335,9 +336,9 @@ public:
         return character;
     }
 
-    char **b()
+    vs b()
     {
-        char **character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         character[1][0] = character[2][0] = '|';
         character[1][1] = character[2][1] = '_';
@@ -346,9 +347,9 @@ public:
         return character;
     }
 
-    char **c()
+    vs c()
     {
-        char **character = getCharGrid(3, 2);
+        vs character = getCharGrid(3, 2);
 
         // Enter the character grid in ROWS X COLS
         character[1][0] = ' ';
@@ -357,9 +358,9 @@ public:
         return character;
     }
 
-    char **d()
+    vs d()
     {
-        char **character = getCharGrid(4, 4);
+        vs character = getCharGrid(4, 4);
 
         // Enter the character grid in ROWS X COLS
         character[1][2] = '|';
@@ -371,9 +372,9 @@ public:
         return character;
     }
 
-    char **e()
+    vs e()
     {
-        char **character = getCharGrid(ROWS, COLS);
+        vs character = getCharGrid(ROWS, COLS);
 
         // Enter the character grid in ROWS X COLS
         character[1][1] = '_';
@@ -382,9 +383,9 @@ public:
         return character;
     }
 
-    char **f()
+    vs f()
     {
-        char **character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         // Enter the character grid in ROWS X COLS
         character[0][1] = '_';
@@ -395,9 +396,9 @@ public:
         return character;
     }
 
-    char **g()
+    vs g()
     {
-        char **character = getCharGrid(4, 3);
+        vs character = getCharGrid(4, 3);
 
         // Enter the character grid in ROWS X COLS
         character[1][1] = character[2][1] = character[3][0] = '_';
@@ -408,9 +409,9 @@ public:
     
     }
 
-    char **h()
+    vs h()
     {
-        char **character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         // Enter the character grid in ROWS X COLS
         character[1][0] = '|';
@@ -421,9 +422,9 @@ public:
         return character;
     }
 
-    char **i()
+    vs i()
     {
-        char **character = getCharGrid(3, 1);
+        vs character = getCharGrid(3, 1);
 
         character[1][0] = '.';
         character[2][0] = '|';
@@ -431,9 +432,9 @@ public:
         return character;
     }
 
-    char **j()
+    vs j()
     {
-        char **character = getCharGrid(4, 2);
+        vs character = getCharGrid(4, 2);
 
         character[1][1] = '.';
         character[2][1] = '|';
@@ -442,9 +443,9 @@ public:
         return character;
     }
 
-    char **k()
+    vs k()
     {
-        char **character = getCharGrid(3, 2);
+        vs character = getCharGrid(3, 2);
 
         character[1][0] = character[2][0] = '|';
         character[2][1] = '(';
@@ -452,9 +453,9 @@ public:
         return character;
     }
 
-    char **l()
+    vs l()
     {
-        char **character = getCharGrid(3, 1);
+        vs character = getCharGrid(3, 1);
 
         // Enter the character grid in ROWS X COLS
         character[1][0] = '|';
@@ -464,9 +465,9 @@ public:
     }
 
     
-        char **m()
+        vs m()
         {
-            char **character = getCharGrid(3,4);
+            vs character = getCharGrid(3,4);
 
             //Enter the character grid in ROWS X COLS
             character[1][1] = '_';
@@ -480,9 +481,9 @@ public:
 
     
 
-    char **n()
+    vs n()
     {
-        char **character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         // Enter the character grid in ROWS X COLS
         character[1][1] = '_';
@@ -492,9 +493,9 @@ public:
         return character;
     }
 
-    char **o()
+    vs o()
     {
-        char **character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         character[1][1] = character[2][1] = '_';
         character[2][0] = '(';
@@ -503,9 +504,9 @@ public:
         return character;
     }
 
-    char **p()
+    vs p()
     {
-        char **character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         character[1][0] = character[2][0] = '|';
         character[0][1] = character[1][1] = '_';
@@ -513,9 +514,9 @@ public:
         return character;
     }
 
-    char **q()
+    vs q()
     {
-        char **character = getCharGrid(4, 4);
+        vs character = getCharGrid(4, 4);
         character[1][2] = '_';
         character[2][1] = '(';
         character[2][2] = '_';
@@ -524,10 +525,10 @@ public:
         return character;
     }
 
-    char **r()
+    vs r()
     {
         // Enter the character grid in ROWS X COLS
-        char **character = getCharGrid(2, 2);
+        vs character = getCharGrid(2, 2);
 
         character[0][1] = '_';
         character[1][0] = '|';
@@ -535,9 +536,9 @@ public:
         return character;
     }
 
-    char **s()
+    vs s()
     {
-        char **character = getCharGrid(2, 2);
+        vs character = getCharGrid(2, 2);
 
         character[0][1] = '_';
         character[1][0] = '_';
@@ -546,9 +547,9 @@ public:
         return character;
     }
 
-    char **t()
+    vs t()
     {
-        char **character = getCharGrid(3, 2);
+        vs character = getCharGrid(3, 2);
 
         character[1][0] = character[2][0] = '|';
         character[1][1] = character[2][1] = '_';
@@ -556,9 +557,9 @@ public:
         return character;
     }
 
-    char **u()
+    vs u()
     {
-        char **character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         // Enter the character grid in ROWS X COLS
         character[2][0] = '|';
@@ -568,9 +569,9 @@ public:
         return character;
     }
 
-    char **v()
+    vs v()
     {
-        char **character = getCharGrid(3, 2);
+        vs character = getCharGrid(3, 2);
 
         // Enter the character grid in ROWS X COLS
 
@@ -579,9 +580,9 @@ public:
         return character;
     }
 
-    char **w()
+    vs w()
     {
-        char **character = getCharGrid(3, 3);
+        vs character = getCharGrid(3, 3);
 
         // Enter the character grid in ROWS X COLS
         character[2][0] = '\\';
@@ -591,9 +592,9 @@ public:
         return character;
     }
 
-    char **x()
+    vs x()
     {
-        char **character = getCharGrid(3, 2);
+        vs character = getCharGrid(3, 2);
 
         // Enter the character grid in ROWS X COLS
         character[2][0] = ')';
@@ -602,9 +603,9 @@ public:
         return character;
     }
 
-    char **y()
+    vs y()
     {
-        char **character = getCharGrid(3, 2);
+        vs character = getCharGrid(3, 2);
 
         // Enter the character grid in ROWS X COLS
 
@@ -615,9 +616,9 @@ public:
         return character;
     }
 
-    char **z()
+    vs z()
     {
-        char **character = getCharGrid(4, 4);
+        vs character = getCharGrid(4, 4);
 
         character[1][1] = '_';
         character[2][1] = '/';
@@ -628,9 +629,9 @@ public:
 
     // Numbers
 
-    char **zero()
+    vs zero()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
         character[0][0] = character[0][3] = character[1][1] = character[1][2] = ' ';
         character[0][1] = character[0][2] = character[2][1] = character[2][2] = '_';
         character[1][0] = character[2][3] = character[1][3] = character[2][0] = '|';
@@ -638,9 +639,9 @@ public:
         return character;
     }
 
-    char **one()
+    vs one()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[1][2] = '/';
@@ -649,9 +650,9 @@ public:
         return character;
     }
 
-    char **two()
+    vs two()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[0][1] = character[0][2] = character[2][2] = character[2][3] = character[1][2] = '_';
@@ -661,9 +662,9 @@ public:
         return character;
     }
 
-    char **three()
+    vs three()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[0][1] = character[0][2] = character[2][1] = character[2][2] = character[1][2] = '_';
@@ -673,9 +674,9 @@ public:
         return character;
     }
 
-    char **four()
+    vs four()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
         character[0][0] = character[0][1] = character[0][2] = character[0][3] = ' ';
         character[1][1] = character[1][2] = '_';
         character[1][0] = character[1][3] = character[2][3] = '|';
@@ -683,9 +684,9 @@ public:
         return character;
     }
 
-    char **five()
+    vs five()
     {
-        char **character = getCharGrid(4, 4);
+        vs character = getCharGrid(4, 4);
 
         // Enter the character grid in ROWS X COLS
         character[0][1] = '_';
@@ -698,9 +699,9 @@ public:
         return character;
     }
 
-    char **six()
+    vs six()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         character[0][1] = character[0][2] = character[1][1] = character[1][2] = character[2][1] = character[2][2] = '_';
         character[1][0] = '/';
@@ -710,9 +711,9 @@ public:
         return character;
     }
 
-    char **seven()
+    vs seven()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         // Enter the character grid in ROWS X COLS
         character[0][0] = '_';
@@ -724,9 +725,9 @@ public:
         return character;
     }
 
-    char **eight()
+    vs eight()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         character[0][1] = character[0][2] = character[1][1] = character[1][2] = character[2][1] = character[2][2] = '_';
         character[1][0] = character[2][0] = '(';
@@ -735,9 +736,9 @@ public:
         return character;
     }
 
-    char **nine()
+    vs nine()
     {
-        char **character = getCharGrid(3, 4);
+        vs character = getCharGrid(3, 4);
 
         character[0][1] = character[0][2] = character[1][1] = character[1][2] = character[2][1] = character[2][2] = '_';
         character[1][0] = '(';
@@ -748,9 +749,9 @@ public:
     }
 
     // for space
-    char **space()
+    vs space()
     {
-        char **character = getCharGrid(1, 1);
+        vs character = getCharGrid(1, 1);
 
         character[0][0] = ' ';
 

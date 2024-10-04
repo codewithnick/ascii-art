@@ -4,6 +4,7 @@
 #define ASCII_H
 
 #include <string>
+#include <memory>
 #include "./Fonts/fonts.h"
 #include "./Fonts/SevenStar/sevenstar.h"
 #include "./Fonts/Boomer/boomer.h"
@@ -36,49 +37,48 @@ namespace ascii
     {
 
     public:
-        Fonts *font;
+        std::unique_ptr<Fonts> font;
         Ascii(const FontName &fontName)
         {
             if (fontName == FontName::sevenstar)
             {
-                this->font = new SevenStar();
+                this->font.reset(new SevenStar());
             }
             else if (fontName == FontName::boomer)
             {
-                this->font = new Boomer();
+                this->font.reset(new Boomer());
             }
             else if (fontName == FontName::straight)
             {
-
-                this->font = new Straight();
+                this->font.reset(new Straight());
             }
             else if (fontName == FontName::starwar)
             {
-                this->font = new Starwar();
+                this->font.reset(new Starwar());
             }
             else if (fontName == FontName::carlos)
             {
-                this->font = new Carlos();
+                this->font.reset(new Carlos());
             }
             else if (fontName == FontName::banner)
             {
-                this->font = new Banner();
+                this->font.reset(new Banner());
             }
             else if (fontName == FontName::block)
             {
-                this->font = new Block();
+                this->font.reset(new Block());
             }
             else if (fontName == FontName::amongus)
             {
-                this->font = new Amongus();
+                this->font.reset(new Amongus());
             }
             else if (fontName == FontName::drpepper)
             {
-                this->font = new Drpepper();
+                this->font.reset(new Drpepper());
             }
             else if (fontName == FontName::small)
             {
-                this->font = new Small();
+                this->font.reset(new Small());
             }
             else
             {
@@ -87,8 +87,7 @@ namespace ascii
         }
         void print(const std::string &text)
         {
-
-            char **character = nullptr;
+            vs character;
 
             for (size_t i = 0; i < text.size(); i++)
             {
@@ -231,7 +230,6 @@ namespace ascii
                 font->pushChar(character);
             }
             font->printvector();
-            // font->destroyspace();
         }
     };
 } // namespace ascii
