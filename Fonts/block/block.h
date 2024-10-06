@@ -404,16 +404,24 @@ public:
         return character;
     }
 
-    /*
-        vs U()
-        {
-            vs character = getCharGrid();
+    vs U()
+    {
+        vs character = getCharGrid(11, 20);
 
-            //Enter the character grid in ROWS X COLS
+        character[0] = " .----------------. ";
+        character[1] = "| .--------------. |";
+        character[2] = "| | _____  _____ | |";
+        character[3] = "| ||_   _||_   _|| |";
+        character[4] = "| |  | |    | |  | |";
+        character[5] = "| |  | '    ' |  | |";
+        character[6] = "| |   \\ `--' /   | |";
+        character[7] = "| |    `.__.'    | |";
+        character[8] = "| |              | |";
+        character[9] = "| '--------------' |";
+        character[10] = " '----------------' ";
 
-            return character;
-        }
-    */
+        return character;
+    }
 
     vs V()
     {
