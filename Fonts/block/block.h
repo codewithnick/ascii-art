@@ -549,7 +549,7 @@ character[4][11]=character[4][13]=character[5][10]=character[5][12]='/';
             character[10] = " '----------------' ";
 
             return character;
-        }
+        };
     
 
     
