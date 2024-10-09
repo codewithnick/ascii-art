@@ -602,7 +602,7 @@ character[4][11]=character[4][13]=character[5][10]=character[5][12]='/';
 
     
     vs d()
-    {
+    { 
         vs character = getCharGrid(11, 20);
 
       character[0] = " .----------------. ";
@@ -614,9 +614,9 @@ character[4][11]=character[4][13]=character[5][10]=character[5][12]='/';
       character[6] = "| |  _| |___,' ) | |";
       character[7] = "| | |________,'  | |";
       character[8] = "| |              | |";
-      character[9] = "| '--------------' |";
-      character[10] =" '----------------' ";
-
+      character[9] = "| '..............' |";
+      character[10] ="'..................' ";
+      
         return character;
     }
 
