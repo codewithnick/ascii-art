@@ -161,17 +161,17 @@ public:
             return character;
         }
     
+    vs O()
+    {
+        vs character = getCharGrid(4, 6);
 
-    /*
-        vs O()
-        {
-            vs character = getCharGrid(rows,cols);
+        character[0] = " ___ ";
+        character[1] = "| . |";
+        character[2] = "| | |";
+        character[3] = "`___'";
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-    */
+        return character;
+    }
 
     vs P()
     {
