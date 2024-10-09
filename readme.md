@@ -742,6 +742,13 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/nakul-py">
+            <img src="https://avatars.githubusercontent.com/u/173621577?v=4" width="70;" alt="nakul-py"/>
+            <br />
+            <sub><b>nakul-py</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/adripo">
             <img src="https://avatars.githubusercontent.com/u/26493496?v=4" width="70;" alt="adripo"/>
             <br />
@@ -768,15 +775,15 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>jaivardhan-bhola</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Yordaniss">
             <img src="https://avatars.githubusercontent.com/u/68282006?v=4" width="70;" alt="Yordaniss"/>
             <br />
             <sub><b>Yordaniss</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/verma-divyanshu-git">
             <img src="https://avatars.githubusercontent.com/u/96394150?v=4" width="70;" alt="verma-divyanshu-git"/>
@@ -811,27 +818,20 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>42Abhishek</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/vinaytheprogrammer">
             <img src="https://avatars.githubusercontent.com/u/49182318?v=4" width="70;" alt="vinaytheprogrammer"/>
             <br />
             <sub><b>vinaytheprogrammer</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/prungoose">
             <img src="https://avatars.githubusercontent.com/u/128612146?v=4" width="70;" alt="prungoose"/>
             <br />
             <sub><b>prungoose</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/nakul-py">
-            <img src="https://avatars.githubusercontent.com/u/173621577?v=4" width="70;" alt="nakul-py"/>
-            <br />
-            <sub><b>nakul-py</b></sub>
         </a>
     </td>
     <td align="center">
