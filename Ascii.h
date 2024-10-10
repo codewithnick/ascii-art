@@ -85,6 +85,12 @@ namespace ascii
                 exit(500);
             }
         }
+
+        void reset()
+        {
+            font->resetMatrix();
+        }
+
         void print(const std::string &text)
         {
             vs character;
@@ -230,6 +236,7 @@ namespace ascii
                 font->pushChar(character);
             }
             font->printvector();
+            font->resetMatrix();
         }
     };
 } // namespace ascii
