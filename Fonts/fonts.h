@@ -82,6 +82,16 @@ public:
         }
     }
 
+    void resetMatrix()
+    {
+        letters.clear();
+        letters.reserve(def_rows);
+        for(unsigned int i = 0; i < def_rows; i++) {
+            letters.emplace_back(100, ' ');
+        }
+        curr_col = 0;
+    }
+
     /********************************adding virtual functions********************************/
     // Virtual functions for space
     virtual vs space()
