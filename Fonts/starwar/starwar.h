@@ -272,16 +272,27 @@ public:
         return character;
     }
 
-    /*
-        vs S()
-        {
-            vs character = getCharGrid(ROWS,COLS);
+    
+    vs S()
+    {
+        vs character = getCharGrid(6,13);
 
-            //Enter the character grid in ROWS X COLS
+        //Enter the character grid in ROWS X COLS
+        character[0][12] = character[4][0] = '.';
+        character[0][5] = character[0][6] = character[0][7] = character[0][8] = character[0][9] = character[0][10] = character[0][11] = character[5][1] = character[5][2] = character[5][3] = character[5][4] = character[5][5] = character[5][6] = character[5][7] = '_';
+        character[1][4] = character[5][8] = '/';
+        character[1][12] = character[2][3] = character[4][9] = character[5][0] = '|';
+        character[2][7] = '(';
+        character[2][8] = character[2][9] = character[2][10] = character[2][11] = character[4][1] = character[4][2] = character[4][3] = character[4][4] = '-';
+        character[2][12] = '`';
+        character[3][4] = character[3][8] = '\\';
+        character[4][5] = ')';
 
-            return character;
-        }
-    */
+        
+
+        return character;
+    }
+    
 
     vs T()
     {
