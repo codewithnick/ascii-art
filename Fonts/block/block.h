@@ -754,7 +754,7 @@ character[4][11]=character[4][13]=character[5][10]=character[5][12]='/';
            character[3] = "| | |_  ||_  _|  | |";
            character[4] = "| |   | |_/ /    | |";
            character[5] = "| |   |  __'.    | |";
-           character[6] = "| |  _| |  \ \_  | |";
+           character[6] = "| |  _| |  \\ \\_  | |";
            character[7] = "| | |____||____| | |";
            character[8] = "| |              | |";
            character[9] = "| '--------------' |";
