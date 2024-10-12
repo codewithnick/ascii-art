@@ -791,17 +791,27 @@ character[4][11]=character[4][13]=character[5][10]=character[5][12]='/';
 
     */
 
-    /*
+    
         vs o()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(11, 20);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = " .----------------. ";
+            character[1] = "| .--------------. |";
+            character[2] = "| |     ____     | |";
+            character[3] = "| |   .'    `.   | |";
+            character[4] = "| |  /  .--.  \\  | |";
+            character[5] = "| |  | |    | |  | |";
+            character[6] = "| |  \\  `--'  /  | |";
+            character[7] = "| |   `.____.'   | |";
+            character[8] = "| |              | |";
+            character[9] = "| '--------------' |";
+            character[10]= " '----------------' ";
 
             return character;
         }
 
-    */
+    
 
     /*
         vs p()
