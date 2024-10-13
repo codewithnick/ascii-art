@@ -190,6 +190,13 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/nakul-py">
+            <img src="https://avatars.githubusercontent.com/u/173621577?v=4" width="70;" alt="nakul-py"/>
+            <br />
+            <sub><b>nakul-py</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/sakshidewangan">
             <img src="https://avatars.githubusercontent.com/u/148685066?v=4" width="70;" alt="sakshidewangan"/>
             <br />
@@ -209,27 +216,20 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <br />
             <sub><b>PRIYANSHU210021</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/im0vishal">
             <img src="https://avatars.githubusercontent.com/u/127092820?v=4" width="70;" alt="im0vishal"/>
             <br />
             <sub><b>im0vishal</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/XARTAN21">
             <img src="https://avatars.githubusercontent.com/u/124522194?v=4" width="70;" alt="XARTAN21"/>
             <br />
             <sub><b>XARTAN21</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/nakul-py">
-            <img src="https://avatars.githubusercontent.com/u/173621577?v=4" width="70;" alt="nakul-py"/>
-            <br />
-            <sub><b>nakul-py</b></sub>
         </a>
     </td>
     <td align="center">
