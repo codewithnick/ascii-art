@@ -16,6 +16,7 @@
 #include "./Fonts/amongus/amongus.h"
 #include "./Fonts/drpepper/drpepper.h"
 #include "./Fonts/small/small.h"
+#include "./Fonts/3d-diagonal/3d-diagonal.h"
 
 namespace ascii
 {
@@ -30,7 +31,8 @@ namespace ascii
         block,
         amongus,
         drpepper,
-        small
+        small,
+        threeD_diagonal
     };
 
     class Ascii
@@ -80,11 +82,16 @@ namespace ascii
             {
                 this->font.reset(new Small());
             }
+            else if (fontName == FontName::threeD_diagonal)
+            {
+                this->font.reset(new ThreeD_Diagonal());
+            }
             else
             {
                 exit(500);
             }
         }
+        
 
         void reset()
         {
