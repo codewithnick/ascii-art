@@ -91,6 +91,7 @@ namespace ascii
                 exit(500);
             }
         }
+        
 
         void reset()
         {
