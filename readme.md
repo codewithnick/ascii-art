@@ -168,20 +168,13 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/nakul-py">
-            <img src="https://avatars.githubusercontent.com/u/173621577?v=4" width="70;" alt="nakul-py"/>
-            <br />
-            <sub><b>nakul-py</b></sub>
-        </a>
-    </td></tr>
-<tr>
-    <td align="center">
         <a href="https://github.com/alucard017">
             <img src="https://avatars.githubusercontent.com/u/76940364?v=4" width="70;" alt="alucard017"/>
             <br />
             <sub><b>alucard017</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/rishavr920">
             <img src="https://avatars.githubusercontent.com/u/59284650?v=4" width="70;" alt="rishavr920"/>
@@ -194,6 +187,13 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
             <img src="https://avatars.githubusercontent.com/u/146431939?v=4" width="70;" alt="Rishisihare90"/>
             <br />
             <sub><b>Rishisihare90</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/nakul-py">
+            <img src="https://avatars.githubusercontent.com/u/173621577?v=4" width="70;" alt="nakul-py"/>
+            <br />
+            <sub><b>nakul-py</b></sub>
         </a>
     </td>
     <td align="center">
