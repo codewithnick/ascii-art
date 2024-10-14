@@ -351,16 +351,16 @@ public:
         return character;
     }
 
-    /*
-        vs e()
-        {
-            vs character = getCharGrid(rows,cols);
+    vs e()
+    {
+        vs character = getCharGrid(3, 6);
 
-            //Enter the character grid in ROWS X COLS
+        character[0] = " ___ ";
+        character[1] = "/ ._>";
+        character[2] = "\\___.";
 
-            return character;
-        }
-    */
+        return character;
+    }
 
  vs f()
     {
