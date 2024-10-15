@@ -1,3 +1,9 @@
+## Font Limitation:
+
+> **Note**: The "block" font does not support lowercase letters. Additionally, certain characters like "G" may appear incomplete or incorrect due to limitations in the font's design or rendering process. This happens because the "block" font is primarily designed for uppercase letters and numbers, and its structure may not accommodate all characters equally well.
+
+---
+
 ## How characters look like:-
 
 For more designs refer to jacky at [ascii-generater](https://ascii-generator.site/t/)
