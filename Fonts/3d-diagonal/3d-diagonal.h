@@ -18,21 +18,20 @@ public:
         vs character = getCharGrid(12, 17);
 
         character[0] = "    ,---,          ";
-        character[1] = "   '  .' \\        ";  
-        character[2] = "  /  ;    '.       "; 
-        character[3] = " :  :       \\     "; 
-        character[4] = " :  |   /\\   \\   "; 
-        character[5] = " |  :  ' ;.   :    "; 
+        character[1] = "   '  .' \\        ";
+        character[2] = "  /  ;    '.       ";
+        character[3] = " :  :       \\     ";
+        character[4] = " :  |   /\\   \\   ";
+        character[5] = " |  :  ' ;.   :    ";
         character[6] = " |  |  ;/  \\   \\ ";
         character[7] = " '  :  | \\  \\ ,' ";
         character[8] = " |  |  '  '--'     ";
-        character[9] = " |  :  :           "; 
-        character[10]= " |  | ,'           "; 
-        character[11]= " `--''             ";   
+        character[9] = " |  :  :           ";
+        character[10] = " |  | ,'           ";
+        character[11] = " `--''             ";
 
         return character;
     }
-
 
     /*
         vs B()
@@ -66,17 +65,26 @@ public:
             return character;
         }
     */
+    vs E()
+    {
+        vs character = getCharGrid(12, 17);
 
-    /*
-        vs E()
-        {
-            vs character = getCharGrid();
+        character[0] = "    ,---,.         ";
+        character[1] = "  ,'  .' |         ";
+        character[2] = ",---.'   |         ";
+        character[3] = "|   |   .'         ";
+        character[4] = ":   :  |-,         ";
+        character[5] = ":   |  ;/|         ";
+        character[6] = "|   :   .'         ";
+        character[7] = "|   |  |-,         ";
+        character[8] = "'   :  ;/|         ";
+        character[9] = "|   |    |         ";
+        character[10] = "|   :   .'         ";
+        character[11] = "|   | ,'           ";
+        character[12] = "`----'             ";
 
-            //Enter the character grid in ROWS X COLS
-
-            return character;
-        }
-    */
+        return character;
+    }
 
     /*
         vs F()
