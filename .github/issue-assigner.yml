@@ -1,7 +1,7 @@
 # Remove or comment the line from yml if you don't need that feature
 
 # The name of bot you would like to be mentioned by users. {name} will be replaced by the below name
-name: "issue-assigner"
+name: "ASCII_BOT"
 
 ######################## Issue assignment ########################
 
@@ -37,7 +37,7 @@ unassigned-comment: "You have been unassigned to this issue successfully."
 ######################## Issue Opened ########################
 
 # If the user who opened issue is NOT a maintainer of the repo
-issue-opener-not-maintainer: "Thank you for opening this issue. Maintainers will check and approve if seems to be useful."
+issue-opener-not-maintainer: "Thank you for opening this issue. You can wait for a discusssion with maintainers or Comment '@{name} claim' to get this issue assigned or '@{name} abandon' to get this issue unassigned."
 
 # If the user who opened issue IS a maintainer of the repo
 issue-opener-is-maintainer: "Comment '@{name} claim' to get this issue assigned or '@{name} abandon' to get this issue unassigned."
