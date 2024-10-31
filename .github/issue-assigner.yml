@@ -1,0 +1,43 @@
+# Remove or comment the line from yml if you don't need that feature
+
+# The name of bot you would like to be mentioned by users. {name} will be replaced by the below name
+name: "ASCII_BOT"
+
+######################## Issue assignment ########################
+
+# Prompt entered by user to request assign the issue to him/her
+assign-prompt: "@{name} claim" # For example, @issue-assigner claim
+
+# Comment from bot if the issue got already assigned to the user requesting
+issue-already-assigned: "You have already been assigned to this issue."
+
+# Maximum number of assignees for an issue
+max-assignees: 1
+
+# Maximum number of assignees reached for the requested issue
+max-assignees-reached: "Sorry, maximum limit for assignees in this issue has reached. Please check other issues or contact a maintainer."
+
+# Maximum number of open issues a user can have assigned at a time in the repo
+max-issues-for-user: 4
+
+# If all OK, the comment from bot to tell that issue got assigned
+assigned-comment: "This issue has been successfully assigned to you! 🚀"
+
+######################## Issue un-assignment ########################
+
+# Prompt entered by user to request un-assignment of the issue to him/her
+unassign-prompt: "@{name} abandon"
+
+# If the issue was already not assigned to the user
+issue-was-not-assigned: "You were not assigned to this issue."
+
+# If criteria is matched, the issue will get un-assigned
+unassigned-comment: "You have been unassigned to this issue successfully."
+
+######################## Issue Opened ########################
+
+# If the user who opened issue is NOT a maintainer of the repo
+issue-opener-not-maintainer: "Thank you for opening this issue. You can wait for a discusssion with maintainers or Comment '@{name} claim' to get this issue assigned or '@{name} abandon' to get this issue unassigned."
+
+# If the user who opened issue IS a maintainer of the repo
+issue-opener-is-maintainer: "Comment '@{name} claim' to get this issue assigned or '@{name} abandon' to get this issue unassigned."

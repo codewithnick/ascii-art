@@ -1,20 +1,18 @@
 #ifndef SEVENSTAR_H
 #define SEVENSTAR_H
-#define ROWS 7
-#define COLS 7
 #include "../fonts.h"
 
 class SevenStar : public Fonts
 {
-	static const int rows = 7;
-	static const int cols = 7;
+	static const int ROWS = 7;
+	static const int COLS = 7;
 
 public:
-	SevenStar() : Fonts(rows, cols) {}
+	SevenStar() : Fonts(ROWS, COLS) {}
 
-	char **A()
+	vs A()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 
 		for (int i = 0; i < 7; i++)
 		{
@@ -60,9 +58,9 @@ public:
 
 		return character;
 	}
-	char **B()
+	vs B()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -94,9 +92,9 @@ public:
 		}
 		return character;
 	}
-	char **C()
+	vs C()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -145,9 +143,9 @@ public:
 		}
 		return character;
 	}
-	char **D()
+	vs D()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -170,9 +168,9 @@ public:
 		}
 		return character;
 	}
-	char **E()
+	vs E()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -210,9 +208,9 @@ public:
 		return character;
 	}
 
-	char **F()
+	vs F()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -244,9 +242,9 @@ public:
 		return character;
 	}
 
-	char **G()
+	vs G()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -287,9 +285,9 @@ public:
 		return character;
 	}
 
-	char **H()
+	vs H()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -312,9 +310,9 @@ public:
 		return character;
 	}
 
-	char **I()
+	vs I()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -336,9 +334,9 @@ public:
 		}
 		return character;
 	}
-	char **J()
+	vs J()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -379,9 +377,9 @@ public:
 		return character;
 	}
 
-	char **K()
+	vs K()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -422,9 +420,9 @@ public:
 		return character;
 	}
 
-	char **L()
+	vs L()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -443,9 +441,9 @@ public:
 		return character;
 	}
 
-	char **M()
+	vs M()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -493,9 +491,9 @@ public:
 		return character;
 	}
 
-	char **N()
+	vs N()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -541,9 +539,9 @@ public:
 		}
 		return character;
 	}
-	char **O()
+	vs O()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -569,9 +567,9 @@ public:
 		return character;
 	}
 
-	char **P()
+	vs P()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -610,9 +608,9 @@ public:
 		return character;
 	}
 
-	char **Q()
+	vs Q()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -654,9 +652,9 @@ public:
 		return character;
 	}
 
-	char **R()
+	vs R()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -690,9 +688,9 @@ public:
 		return character;
 	}
 
-	char **S()
+	vs S()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -748,9 +746,9 @@ public:
 		return character;
 	}
 
-	char **T()
+	vs T()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -774,9 +772,9 @@ public:
 		return character;
 	}
 
-	char **U()
+	vs U()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -802,9 +800,9 @@ public:
 		return character;
 	}
 
-	char **V()
+	vs V()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -842,9 +840,9 @@ public:
 		return character;
 	}
 
-	char **W()
+	vs W()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -884,9 +882,9 @@ public:
 		return character;
 	}
 
-	char **X()
+	vs X()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -918,9 +916,9 @@ public:
 		}
 		return character;
 	}
-	char **Y()
+	vs Y()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 
@@ -955,9 +953,9 @@ public:
 		return character;
 	}
 
-	char **Z()
+	vs Z()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1013,9 +1011,9 @@ public:
 		return character;
 	}
 	// small letter
-	char **a()
+	vs a()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1060,9 +1058,9 @@ public:
 		return character;
 	}
 
-	char **b()
+	vs b()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1094,9 +1092,9 @@ public:
 		}
 		return character;
 	}
-	char **c()
+	vs c()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1145,9 +1143,9 @@ public:
 		}
 		return character;
 	}
-	char **d()
+	vs d()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1170,9 +1168,9 @@ public:
 		}
 		return character;
 	}
-	char **e()
+	vs e()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1210,9 +1208,9 @@ public:
 		return character;
 	}
 
-	char **f()
+	vs f()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1244,9 +1242,9 @@ public:
 		return character;
 	}
 
-	char **g()
+	vs g()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1287,9 +1285,9 @@ public:
 		return character;
 	}
 
-	char **h()
+	vs h()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1312,9 +1310,9 @@ public:
 		return character;
 	}
 
-	char **i()
+	vs i()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1336,9 +1334,9 @@ public:
 		}
 		return character;
 	}
-	char **j()
+	vs j()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1379,9 +1377,9 @@ public:
 		return character;
 	}
 
-	char **k()
+	vs k()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1422,9 +1420,9 @@ public:
 		return character;
 	}
 
-	char **l()
+	vs l()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1443,9 +1441,9 @@ public:
 		return character;
 	}
 
-	char **m()
+	vs m()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1493,9 +1491,9 @@ public:
 		return character;
 	}
 
-	char **n()
+	vs n()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1541,9 +1539,9 @@ public:
 		}
 		return character;
 	}
-	char **o()
+	vs o()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1569,9 +1567,9 @@ public:
 		return character;
 	}
 
-	char **p()
+	vs p()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1610,9 +1608,9 @@ public:
 		return character;
 	}
 
-	char **q()
+	vs q()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1654,9 +1652,9 @@ public:
 		return character;
 	}
 
-	char **r()
+	vs r()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1690,9 +1688,9 @@ public:
 		return character;
 	}
 
-	char **s()
+	vs s()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1748,9 +1746,9 @@ public:
 		return character;
 	}
 
-	char **t()
+	vs t()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1774,9 +1772,9 @@ public:
 		return character;
 	}
 
-	char **u()
+	vs u()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1802,9 +1800,9 @@ public:
 		return character;
 	}
 
-	char **v()
+	vs v()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1842,9 +1840,9 @@ public:
 		return character;
 	}
 
-	char **w()
+	vs w()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1884,9 +1882,9 @@ public:
 		return character;
 	}
 
-	char **x()
+	vs x()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -1918,9 +1916,9 @@ public:
 		}
 		return character;
 	}
-	char **y()
+	vs y()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 
@@ -1955,9 +1953,9 @@ public:
 		return character;
 	}
 
-	char **z()
+	vs z()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -2014,9 +2012,9 @@ public:
 	}
 
 	// digits
-	char **zero()
+	vs zero()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -2061,9 +2059,9 @@ public:
 		return character;
 	}
 
-	char **one()
+	vs one()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -2093,9 +2091,9 @@ public:
 		}
 		return character;
 	}
-	char **two()
+	vs two()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -2154,9 +2152,9 @@ public:
 		return character;
 	}
 
-	char **three()
+	vs three()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -2194,9 +2192,9 @@ public:
 		return character;
 	}
 
-	char **four()
+	vs four()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -2241,9 +2239,9 @@ public:
 		return character;
 	}
 
-	char **five()
+	vs five()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -2295,9 +2293,9 @@ public:
 		return character;
 	}
 
-	char **six()
+	vs six()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -2342,9 +2340,9 @@ public:
 		return character;
 	}
 
-	char **seven()
+	vs seven()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -2382,9 +2380,9 @@ public:
 		return character;
 	}
 
-	char **eight()
+	vs eight()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -2408,9 +2406,9 @@ public:
 		return character;
 	}
 
-	char **nine()
+	vs nine()
 	{
-		char **character = getCharGrid();
+		vs character = getCharGrid();
 		for (int i = 0; i < 7; i++)
 		{
 			for (int j = 0; j < 7; j++)
@@ -2463,9 +2461,9 @@ public:
 	}
 
 	 // for space
-     char **space()
+     vs space()
     {
-        char **character = getCharGrid(1,1);
+        vs character = getCharGrid(1,1);
 
         character[0][0] = ' ';
 

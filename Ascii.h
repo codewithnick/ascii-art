@@ -4,13 +4,19 @@
 #define ASCII_H
 
 #include <string>
+#include <memory>
 #include "./Fonts/fonts.h"
 #include "./Fonts/SevenStar/sevenstar.h"
 #include "./Fonts/Boomer/boomer.h"
 #include "./Fonts/Straight/straight.h"
 #include "./Fonts/starwar/starwar.h"
-#include "./Fonts/Carlos/carlos.h"
+#include "./Fonts/carlos/carlos.h"
 #include "./Fonts/banner/banner.h"
+#include "./Fonts/block/block.h"
+#include "./Fonts/amongus/amongus.h"
+#include "./Fonts/drpepper/drpepper.h"
+#include "./Fonts/small/small.h"
+#include "./Fonts/3d-diagonal/3d-diagonal.h"
 
 namespace ascii
 {
@@ -21,58 +27,82 @@ namespace ascii
         straight,
         starwar,
         carlos,
-        banner
+        banner,
+        block,
+        amongus,
+        drpepper,
+        small,
+        threeD_diagonal
     };
 
     class Ascii
     {
 
     public:
-        // std::string fontName;
-        Fonts *font;
+        std::unique_ptr<Fonts> font;
         Ascii(const FontName &fontName)
         {
-            // std::cout<<"initialised ascii";
             if (fontName == FontName::sevenstar)
             {
-                // std::cout<<"initialised sevenstar";
-                this->font = new SevenStar();
+                this->font.reset(new SevenStar());
             }
             else if (fontName == FontName::boomer)
             {
-                // std::cout<<"initialised sevenstar";
-                this->font = new Boomer();
+                this->font.reset(new Boomer());
             }
             else if (fontName == FontName::straight)
             {
-
-                this->font = new Straight();
+                this->font.reset(new Straight());
             }
             else if (fontName == FontName::starwar)
             {
-                this->font = new Starwar();
+                this->font.reset(new Starwar());
             }
             else if (fontName == FontName::carlos)
             {
-                this->font = new Carlos();
+                this->font.reset(new Carlos());
             }
             else if (fontName == FontName::banner)
             {
-                // std::cout<<"initialised sevenstar";
-                this->font = new Banner();
+                this->font.reset(new Banner());
+            }
+            else if (fontName == FontName::block)
+            {
+                this->font.reset(new Block());
+            }
+            else if (fontName == FontName::amongus)
+            {
+                this->font.reset(new Amongus());
+            }
+            else if (fontName == FontName::drpepper)
+            {
+                this->font.reset(new Drpepper());
+            }
+            else if (fontName == FontName::small)
+            {
+                this->font.reset(new Small());
+            }
+            else if (fontName == FontName::threeD_diagonal)
+            {
+                this->font.reset(new ThreeD_Diagonal());
             }
             else
             {
                 exit(500);
             }
         }
+        
+
+        void reset()
+        {
+            font->resetMatrix();
+        }
+
         void print(const std::string &text)
         {
+            vs character;
 
-            char **character = nullptr;
-            // std::cout<<"printing";
-
-            for (int i = 0; i < text.size(); i++)
+            for (size_t i = 0; i < text.size(); i++)
             {
                 char c = text[i];
 
@@ -206,14 +236,14 @@ namespace ascii
                 else if (c == '9')
                     character = font->nine();
 
-                //for space
+                // for space
                 else if (c == ' ')
                     character = font->space();
 
                 font->pushChar(character);
             }
             font->printvector();
-            // font->destroyspace();
+            font->resetMatrix();
         }
     };
 } // namespace ascii
