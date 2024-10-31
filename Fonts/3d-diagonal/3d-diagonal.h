@@ -78,16 +78,28 @@ public:
     }
 
 
-    /*
-        vs D()
-        {
-            vs character = getCharGrid();
 
-            //Enter the character grid in ROWS X COLS
+    vs D()
+    {
+        vs character = getCharGrid(13, 16);
 
-            return character;
-        }
-    */
+        character[0]  = "    ,---,       ";
+        character[1]  = "  .'  .' `\\     ";
+        character[2]  = ",---.'     \\    ";
+        character[3]  = "|   |  .`\\  |   ";
+        character[4]  = ":   : |  '  |   ";
+        character[5]  = "|   ' '  ;  :   ";
+        character[6]  = "'   | ;  .  |   ";
+        character[7]  = "|   | :  |  '   ";
+        character[8]  = "'   : | /  ;    ";
+        character[9]  = "|   | '` ,/     ";
+        character[10] = ";   :  .'       ";
+        character[11] = "|   ,.'         ";
+        character[12] = "'---'           ";
+
+        return character;
+    }
+
 
     
         vs E()
