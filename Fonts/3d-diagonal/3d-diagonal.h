@@ -55,6 +55,7 @@ public:
         return character;
     }
 
+
     /*
         vs C()
         {
