@@ -156,16 +156,28 @@ public:
         }
     */
 
-    /*
+    
         vs L()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(13, 14);
 
-            //Enter the character grid in ROWS X COLS
+            character[0]  = "   ,--,       ";
+            character[1]  = ",---.'|       ";
+            character[2]  = "|   | :       ";
+            character[3]  = ":   : |       ";
+            character[4]  = "|   ' :       ";
+            character[5]  = ";   ; '       ";
+            character[6]  = "'   | |__     ";
+            character[7]  = "|   | :.'|    ";
+            character[8]  = "'   :    ;    ";
+            character[9]  = "|   |  ./     ";
+            character[10] = ";   : ;       ";
+            character[11] = "|   ,/        ";
+            character[12] = "'---'         ";
 
             return character;
         }
-    */
+    
 
     /*
         vs M()
