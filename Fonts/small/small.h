@@ -24,16 +24,20 @@ public:
         return character;
     }
 
-    /*
+ 
         vs B()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 7);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "  ___  ";
+            character[1] = " | _ ) ";
+            character[2] = " | _ \\ ";
+            character[3] = " |___/ ";
+            character[4] = "       ";
 
             return character;
         }
-    */
+
 
     /*
         vs C()
