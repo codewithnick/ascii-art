@@ -27,13 +27,13 @@ public:
  
         vs B()
         {
-            vs character = getCharGrid(5, 7);
+            vs character = getCharGrid(5, 5);
 
-            character[0] = "  ___  ";
-            character[1] = " | _ ) ";
-            character[2] = " | _ \\ ";
-            character[3] = " |___/ ";
-            character[4] = "       ";
+            character[0] = " ___  ";
+            character[1] = "| _ ) ";
+            character[2] = "| _ \\";
+            character[3] = "|___/";
+            character[4] = "     ";
 
             return character;
         }
@@ -42,13 +42,13 @@ public:
     
         vs C()
         {
-            vs character = getCharGrid(5, 7);
+            vs character = getCharGrid(5, 6);
 
-            character[0] = "  ___  ";
-            character[1] = " / __| ";
-            character[2] = "| (__  ";
-            character[3] = " \\___| ";
-            character[4] = "       ";
+            character[0] = "  ___ ";
+            character[1] = " / __|";
+            character[2] = "| (__ ";
+            character[3] = " \\___|";
+            character[4] = "      ";
 
             return character;
         }
@@ -57,13 +57,13 @@ public:
     
         vs D()
         {
-            vs character = getCharGrid(5,7);
+            vs character = getCharGrid(5,6);
 
-            character[0] = "  ___  ";
-            character[1] = " |   \\ ";
-            character[2] = " | |) |";
-            character[3] = " |___/ ";
-            character[4] = "       ";
+            character[0] = " ___  ";
+            character[1] = "|   \\ ";
+            character[2] = "| |) |";
+            character[3] = "|___/ ";
+            character[4] = "      ";
 
             return character;
         }
@@ -72,13 +72,13 @@ public:
     
         vs E()
         {
-            vs character = getCharGrid(5, 7);
+            vs character = getCharGrid(5, 5);
 
-            character[0] = "  ___  ";
-            character[1] = " | __| ";
-            character[2] = " | _|  ";
-            character[3] = " |___| ";
-            character[4] = "       ";
+            character[0] = " ___ ";
+            character[1] = "| __|";
+            character[2] = "| _| ";
+            character[3] = "|___|";
+            character[4] = "     ";
 
             return character;
         }
@@ -87,13 +87,13 @@ public:
     
         vs F()
         {
-            vs character = getCharGrid(5, 6);
+            vs character = getCharGrid(5, 5);
 
-            character[0] = "  ___  ";
-            character[1] = " | __| ";
-            character[2] = " | _|  ";
-            character[3] = " |_|   ";
-            character[4] = "       ";
+            character[0] = " ___ ";
+            character[1] = "| __|";
+            character[2] = "| _| ";
+            character[3] = "|_|  ";
+            character[4] = "     ";
 
             return character;
         }
@@ -102,13 +102,13 @@ public:
     
         vs G()
         {
-            vs character = getCharGrid(5, 7);
+            vs character = getCharGrid(5, 6);
 
-            character[0] = "  ___  ";
-            character[1] = " / __| ";
-            character[2] = "| (_ | ";
-            character[3] = " \\___| ";
-            character[4] = "       ";
+            character[0] = "  ___ ";
+            character[1] = " / __|";
+            character[2] = "| (_ |";
+            character[3] = " \\___|";
+            character[4] = "      ";
 
             return character;
         }
@@ -117,13 +117,13 @@ public:
     
         vs H()
         {
-            vs character = getCharGrid(5, 7);
+            vs character = getCharGrid(5, 6);
 
-            character[0] = " _  _  ";
-            character[1] = "| || | ";
-            character[2] = "| __ | ";
-            character[3] = "|_||_| ";
-            character[4] = "       ";
+            character[0] = " _  _ ";
+            character[1] = "| || |";
+            character[2] = "| __ |";
+            character[3] = "|_||_|";
+            character[4] = "      ";
 
             return character;
         }
@@ -132,13 +132,13 @@ public:
     
         vs I()
         {
-            vs character = getCharGrid(5, 7);
+            vs character = getCharGrid(5, 5);
 
-            character[0] = "  ___  ";
-            character[1] = " |_ _| ";
-            character[2] = "  | |  ";
-            character[3] = " |___| ";
-            character[4] = "       ";
+            character[0] = " ___ ";
+            character[1] = "|_ _|";
+            character[2] = " | | ";
+            character[3] = "|___|";
+            character[4] = "     ";
 
             return character;
         }
@@ -147,13 +147,13 @@ public:
     
         vs J()
         {
-            vs character = getCharGrid(5, 7);
+            vs character = getCharGrid(5, 6);
 
-            character[0] = "    _  ";
-            character[1] = " _ | | ";
-            character[2] = "| || | ";
-            character[3] = " \\__/  ";
-            character[4] = "       ";
+            character[0] = "    _ ";
+            character[1] = " _ | |";
+            character[2] = "| || |";
+            character[3] = " \\__/ ";
+            character[4] = "      ";
 
             return character;
         }
@@ -162,13 +162,13 @@ public:
     
         vs K()
         {
-            vs character = getCharGrid(5, 7);
+            vs character = getCharGrid(5, 6);
 
-            character[0] = " _  __ ";
-            character[1] = "| |/ / ";
-            character[2] = "| ' <  ";
-            character[3] = "|_|\\_\\ ";
-            character[4] = "       ";
+            character[0] = " _  __";
+            character[1] = "| |/ /";
+            character[2] = "| ' < ";
+            character[3] = "|_|\\_\\";
+            character[4] = "      ";
 
             return character;
         }
@@ -177,13 +177,13 @@ public:
     
         vs L()
         {
-            vs character = getCharGrid(5, 7);
+            vs character = getCharGrid(5, 6);
 
-            character[0] = " _     ";
-            character[1] = "| |    ";
-            character[2] = "| |__  ";
-            character[3] = "|____| ";
-            character[4] = "       ";
+            character[0] = " _    ";
+            character[1] = "| |   ";
+            character[2] = "| |__ ";
+            character[3] = "|____|";
+            character[4] = "      ";
 
             return character;
         }
@@ -207,13 +207,13 @@ public:
     
         vs N()
         {
-            vs character = getCharGrid(5, 7);
+            vs character = getCharGrid(5, 6);
 
-            character[0] = " _  _  ";
-            character[1] = "| \\| | ";
-            character[2] = "| .` | ";
-            character[3] = "|_|\\_| ";
-            character[4] = "       ";
+            character[0] = " _  _ ";
+            character[1] = "| \\| |";
+            character[2] = "| .` |";
+            character[3] = "|_|\\_|";
+            character[4] = "      ";
 
             return character;
         }
@@ -237,13 +237,13 @@ public:
     
         vs P()
         {
-            vs character = getCharGrid(5, 7);
+            vs character = getCharGrid(5, 5);
 
-            character[0] = " ___   ";
-            character[1] = "| _ \\  ";
-            character[2] = "|  _/  ";
-            character[3] = "|_|    ";
-            character[4] = "       ";
+            character[0] = " ___ ";
+            character[1] = "| _ \\";
+            character[2] = "|  _/";
+            character[3] = "|_|  ";
+            character[4] = "     ";
 
             return character;
         }
@@ -267,13 +267,13 @@ public:
     
         vs R()
         {
-            vs character = getCharGrid(5, 7);
+            vs character = getCharGrid(5, 5);
 
-            character[0] = " ___   ";
-            character[1] = "| _ \\  ";
-            character[2] = "|   /  ";
-            character[3] = "|_|_\\  ";
-            character[4] = "       ";
+            character[0] = " ___ ";
+            character[1] = "| _ \\";
+            character[2] = "|   /";
+            character[3] = "|_|_\\";
+            character[4] = "     ";
 
             return character;
         }
@@ -282,13 +282,13 @@ public:
     
         vs S()
         {
-            vs character = getCharGrid(5, 7);
+            vs character = getCharGrid(5, 5);
 
-            character[0] = " ___   ";
-            character[1] = "/ __|  ";
-            character[2] = "\\__ \\  ";
-            character[3] = "|___/  ";
-            character[4] = "       ";
+            character[0] = " ___ ";
+            character[1] = "/ __|";
+            character[2] = "\\__ \\";
+            character[3] = "|___/";
+            character[4] = "     ";
 
             return character;
         }
@@ -357,13 +357,13 @@ public:
     
         vs X()
         {
-            vs character = getCharGrid(5, 7);
+            vs character = getCharGrid(5, 6);
 
-            character[0] = "__  __ ";
-            character[1] = "\\ \\/ / ";
-            character[2] = " >  <  ";
-            character[3] = "/_/\\_\\ ";
-            character[4] = "       ";
+            character[0] = "__  __";
+            character[1] = "\\ \\/ /";
+            character[2] = " >  < ";
+            character[3] = "/_/\\_\\";
+            character[4] = "      ";
 
             return character;
         }
@@ -387,13 +387,13 @@ public:
     
         vs Z()
         {
-            vs character = getCharGrid(5, 7);
+            vs character = getCharGrid(5, 5);
 
-            character[0] = " ____  ";
-            character[1] = "|_  /  ";
-            character[2] = " / /   ";
-            character[3] = "/___|  ";
-            character[4] = "       ";
+            character[0] = " ____";
+            character[1] = "|_  /";
+            character[2] = " / / ";
+            character[3] = "/___|";
+            character[4] = "     ";
 
             return character;
         }
@@ -831,9 +831,9 @@ public:
 
     vs space()
     {
-        vs character = getCharGrid(1, 1);
+        vs character = getCharGrid(1, 2);
 
-        character[0][0] = ' ';
+        character[0] = "  ";
 
         return character;
     }
