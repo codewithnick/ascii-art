@@ -401,309 +401,412 @@ public:
 
     // Lowercase
 
-    /*
+    
         vs a()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 6);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "      ";
+            character[1] = " __ _ ";
+            character[2] = "/ _` |";
+            character[3] = "\\__,_|";
+            character[4] = "      ";
 
             return character;
         }
-    */
+    
 
-    /*
+    
         vs b()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 6);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = " _    ";
+            character[1] = "| |__ ";
+            character[2] = "| '_ \\";
+            character[3] = "|_.__/";
+            character[4] = "      ";
 
             return character;
         }
-    */
+    
 
-    /*
+    
         vs c()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 4);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "    ";
+            character[1] = " __ ";
+            character[2] = "/ _|";
+            character[3] = "\\__|";
+            character[4] = "    ";
 
             return character;
         }
-    */
+    
 
-    /*
+    
         vs d()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 6);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "    _ ";
+            character[1] = " __| |";
+            character[2] = "/ _` |";
+            character[3] = "\\__,_|";
+            character[4] = "      ";
 
             return character;
         }
-    */
+    
 
-    /*
+    
         vs e()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 5);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "      ";
+            character[1] = " ___ ";
+            character[2] = "/ -_)";
+            character[3] = "\\___|";
+            character[4] = "     ";
 
             return character;
         }
-    */
+    
 
-    /*
+    
         vs f()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 5);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "  __ ";
+            character[1] = " / _|";
+            character[2] = "|  _|";
+            character[3] = "|_|  ";
+            character[4] = "     ";
 
             return character;
         }
-    */
+    
 
-    /*
+    
         vs g()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 6);
 
-            //Enter the character grid in ROWS X COLS
-
+            character[0] = "      ";
+            character[1] = " __ _ ";
+            character[2] = "/ _` |";
+            character[3] = "\\__, |";
+            character[4] = "|___/ ";
+            
             return character;
         }
-    */
+    
 
-    /*
+    
         vs h()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 6);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = " _    ";
+            character[1] = "| |_  ";
+            character[2] = "| ' \\ ";
+            character[3] = "|_||_|";
+            character[4] = "      ";
 
             return character;
         }
-    */
+    
 
-    /*
+    
         vs i()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 3);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = " _ ";
+            character[1] = "(_)";
+            character[2] = "| |";
+            character[3] = "|_|";
+            character[4] = "   ";
 
             return character;
         }
 
-    */
+    
 
-    /*
         vs j()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 5);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "   _ ";
+            character[1] = "  (_)";
+            character[2] = "  | |";
+            character[3] = " _/ |";
+            character[4] = "|__/ ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+  
         vs k()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 5);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = " _   ";
+            character[1] = "| |__";
+            character[2] = "| / /";
+            character[3] = "|_\\_\\";
+            character[4] = "     ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs l()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 3);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = " _ ";
+            character[1] = "| |";
+            character[2] = "| |";
+            character[3] = "|_|";
+            character[4] = "   ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs m()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 7);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "       ";
+            character[1] = " _ __  ";
+            character[2] = "| '  \\ ";
+            character[3] = "|_|_|_|";
+            character[4] = "       ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs n()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 6);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "      ";
+            character[1] = " _ _  ";
+            character[2] = "| ' \\ ";
+            character[3] = "|_||_|";
+            character[4] = "      ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs o()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 5);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "     ";
+            character[1] = " ___ ";
+            character[2] = "/ _ \\";
+            character[3] = "\\___/";
+            character[4] = "     ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs p()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 6);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "      ";
+            character[1] = " _ __ ";
+            character[2] = "| '_ \\";
+            character[3] = "| .__/";
+            character[4] = "|_|   ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs q()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 6);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "      ";
+            character[1] = " __ _ ";
+            character[2] = "/ _` |";
+            character[3] = "\\__, |";
+            character[4] = "   |_|";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs r()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 5);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "     ";
+            character[1] = " _ _ ";
+            character[2] = "| '_|";
+            character[3] = "|_|  ";
+            character[4] = "     ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs s()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 4);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "    ";
+            character[1] = " ___";
+            character[2] = "(_-<";
+            character[3] = "/__/";
+            character[4] = "    ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs t()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 5);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = " _   ";
+            character[1] = "| |_ ";
+            character[2] = "|  _|";
+            character[3] = " \\__|";
+            character[4] = "     ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs u()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 6);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "      ";
+            character[1] = " _  _ ";
+            character[2] = "| || |";
+            character[3] = " \\_,_|";
+            character[4] = "      ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs v()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 5);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "     ";
+            character[1] = "__ __";
+            character[2] = "\\ V /";
+            character[3] = " \\_/ ";
+            character[4] = "     ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs w()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 8);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "        ";
+            character[1] = "__ __ __";
+            character[2] = "\\ V  V /";
+            character[3] = " \\_/\\_/ ";
+            character[4] = "        ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs x()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 5);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "     ";
+            character[1] = "__ __";
+            character[2] = "\\ \\ /";
+            character[3] = "/_\\_\\";
+            character[4] = "     ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs y()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 6);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "      ";
+            character[1] = " _  _ ";
+            character[2] = "| || |";
+            character[3] = " \\_, |";
+            character[4] = " |__/ ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs z()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 4);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "    ";
+            character[1] = " ___";
+            character[2] = "|_ /";
+            character[3] = "/__|";
+            character[4] = "    ";
 
             return character;
         }
 
-    */
+    
 
     // Numbers
 
@@ -831,9 +934,9 @@ public:
 
     vs space()
     {
-        vs character = getCharGrid(1, 2);
+        vs character = getCharGrid(1, 1);
 
-        character[0] = "  ";
+        character[0] = " ";
 
         return character;
     }
