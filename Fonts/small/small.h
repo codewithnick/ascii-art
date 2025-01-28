@@ -84,16 +84,20 @@ public:
         }
     
 
-    /*
+    
         vs F()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 6);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "  ___  ";
+            character[1] = " | __| ";
+            character[2] = " | _|  ";
+            character[3] = " |_|   ";
+            character[4] = "       ";
 
             return character;
         }
-    */
+    
 
     /*
         vs G()
