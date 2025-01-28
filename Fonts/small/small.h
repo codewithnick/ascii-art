@@ -810,125 +810,165 @@ public:
 
     // Numbers
 
-    /*
+    
         vs zero()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 6);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "  __  ";
+            character[1] = " /  \\ ";
+            character[2] = "| () |";
+            character[3] = " \\__/ ";
+            character[4] = "      ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs one()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 3);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = " _ ";
+            character[1] = "/ |";
+            character[2] = "| |";
+            character[3] = "|_|";
+            character[4] = "   ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs two()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 5);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = " ___ ";
+            character[1] = "|_  )";
+            character[2] = " / / ";
+            character[3] = "/___|";
+            character[4] = "     ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs three()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 5);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = " ____";
+            character[1] = "|__ /";
+            character[2] = " |_ \\";
+            character[3] = "|___/";
+            character[4] = "     ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs four()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 6);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = " _ _  ";
+            character[1] = "| | | ";
+            character[2] = "|_  _|";
+            character[3] = "  |_| ";
+            character[4] = "      ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs five()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 5);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = " ___ ";
+            character[1] = "| __|";
+            character[2] = "|__ \\";
+            character[3] = "|___/";
+            character[4] = "     ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs six()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 5);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = "  __ ";
+            character[1] = " / / ";
+            character[2] = "/ _ \\";
+            character[3] = "\\___/";
+            character[4] = "     ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs seven()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 6);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = " ____ ";
+            character[1] = "|__  |";
+            character[2] = "  / / ";
+            character[3] = " /_/  ";
+            character[4] = "      ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs eight()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 5);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = " ___ ";
+            character[1] = "( _ )";
+            character[2] = "/ _ \\";
+            character[3] = "\\___/";
+            character[4] = "     ";
 
             return character;
         }
 
-    */
+    
 
-    /*
+    
         vs nine()
         {
-            vs character = getCharGrid();
+            vs character = getCharGrid(5, 5);
 
-            //Enter the character grid in ROWS X COLS
+            character[0] = " ___ ";
+            character[1] = "/ _ \\";
+            character[2] = "\\_, /";
+            character[3] = " /_/ ";
+            character[4] = "     ";
 
             return character;
         }
 
-    */
+    
 
     // Space
 
