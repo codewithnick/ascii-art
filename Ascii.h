@@ -240,6 +240,32 @@ namespace ascii
                 else if (c == ' ')
                     character = font->space();
 
+                // Special characters
+                else if (c == '@')
+                    character = font->at();
+                else if (c == '#')
+                    character = font->hash();
+                else if (c == '$')
+                    character = font->dollar();
+                else if (c == '&')
+                    character = font->ampersand();
+                else if (c == '%')
+                    character = font->percent();
+                else if (c == '!')
+                    character = font->exclamation();
+                else if (c == '?')
+                    character = font->question();
+                else if (c == '*')
+                    character = font->asterisk();
+                else if (c == '+')
+                    character = font->plus();
+                else if (c == '=')
+                    character = font->equal();
+                else if (c == '<')
+                    character = font->lessthan();
+                else if (c == '>')
+                    character = font->greaterthan();
+
                 font->pushChar(character);
             }
             font->printvector();
