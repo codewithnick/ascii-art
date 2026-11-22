@@ -2461,6 +2461,222 @@ public:
 	}
 
 	 // for space
+	vs at()
+	{
+		vs character = getCharGrid();
+		const char *rows[7] = {
+			"  %%%  ",
+			" %   % ",
+			"% %%% %",
+			"% % % %",
+			"% %%% %",
+			" %   % ",
+			"  %%%  ",
+		};
+		for (int i = 0; i < 7; i++)
+			for (int j = 0; j < 7; j++)
+				character[i][j] = rows[i][j];
+		return character;
+	}
+
+	vs hash()
+	{
+		vs character = getCharGrid();
+		const char *rows[7] = {
+			" %  %  ",
+			" %  %  ",
+			"%%%%%%%",
+			" %  %  ",
+			"%%%%%%%",
+			" %  %  ",
+			" %  %  ",
+		};
+		for (int i = 0; i < 7; i++)
+			for (int j = 0; j < 7; j++)
+				character[i][j] = rows[i][j];
+		return character;
+	}
+
+	vs dollar()
+	{
+		vs character = getCharGrid();
+		const char *rows[7] = {
+			"   %   ",
+			"  %%%  ",
+			" % %   ",
+			"  %%%  ",
+			"   % % ",
+			"  %%%  ",
+			"   %   ",
+		};
+		for (int i = 0; i < 7; i++)
+			for (int j = 0; j < 7; j++)
+				character[i][j] = rows[i][j];
+		return character;
+	}
+
+	vs ampersand()
+	{
+		vs character = getCharGrid();
+		const char *rows[7] = {
+			"  %%   ",
+			" %  %  ",
+			" % %   ",
+			"  %    ",
+			" % % % ",
+			"%  % % ",
+			" %% %  ",
+		};
+		for (int i = 0; i < 7; i++)
+			for (int j = 0; j < 7; j++)
+				character[i][j] = rows[i][j];
+		return character;
+	}
+
+	vs percent()
+	{
+		vs character = getCharGrid();
+		const char *rows[7] = {
+			"%%   % ",
+			"%%  %  ",
+			"   %   ",
+			"  %    ",
+			" %     ",
+			"%  %%  ",
+			"%  %%  ",
+		};
+		for (int i = 0; i < 7; i++)
+			for (int j = 0; j < 7; j++)
+				character[i][j] = rows[i][j];
+		return character;
+	}
+
+	vs exclamation()
+	{
+		vs character = getCharGrid();
+		const char *rows[7] = {
+			"   %   ",
+			"   %   ",
+			"   %   ",
+			"   %   ",
+			"   %   ",
+			"       ",
+			"   %   ",
+		};
+		for (int i = 0; i < 7; i++)
+			for (int j = 0; j < 7; j++)
+				character[i][j] = rows[i][j];
+		return character;
+	}
+
+	vs question()
+	{
+		vs character = getCharGrid();
+		const char *rows[7] = {
+			" %%%%  ",
+			"%    % ",
+			"    %  ",
+			"   %   ",
+			"   %   ",
+			"       ",
+			"   %   ",
+		};
+		for (int i = 0; i < 7; i++)
+			for (int j = 0; j < 7; j++)
+				character[i][j] = rows[i][j];
+		return character;
+	}
+
+	vs asterisk()
+	{
+		vs character = getCharGrid();
+		const char *rows[7] = {
+			"   %   ",
+			"% % % %",
+			" %% %% ",
+			"  %%%  ",
+			" %% %% ",
+			"% % % %",
+			"   %   ",
+		};
+		for (int i = 0; i < 7; i++)
+			for (int j = 0; j < 7; j++)
+				character[i][j] = rows[i][j];
+		return character;
+	}
+
+	vs plus()
+	{
+		vs character = getCharGrid();
+		const char *rows[7] = {
+			"       ",
+			"   %   ",
+			"   %   ",
+			"%%%%%%%",
+			"   %   ",
+			"   %   ",
+			"       ",
+		};
+		for (int i = 0; i < 7; i++)
+			for (int j = 0; j < 7; j++)
+				character[i][j] = rows[i][j];
+		return character;
+	}
+
+	vs equal()
+	{
+		vs character = getCharGrid();
+		const char *rows[7] = {
+			"       ",
+			"       ",
+			"%%%%%%%",
+			"       ",
+			"%%%%%%%",
+			"       ",
+			"       ",
+		};
+		for (int i = 0; i < 7; i++)
+			for (int j = 0; j < 7; j++)
+				character[i][j] = rows[i][j];
+		return character;
+	}
+
+	vs lessthan()
+	{
+		vs character = getCharGrid();
+		const char *rows[7] = {
+			"    %  ",
+			"   %   ",
+			"  %    ",
+			" %     ",
+			"  %    ",
+			"   %   ",
+			"    %  ",
+		};
+		for (int i = 0; i < 7; i++)
+			for (int j = 0; j < 7; j++)
+				character[i][j] = rows[i][j];
+		return character;
+	}
+
+	vs greaterthan()
+	{
+		vs character = getCharGrid();
+		const char *rows[7] = {
+			" %     ",
+			"  %    ",
+			"   %   ",
+			"    %  ",
+			"   %   ",
+			"  %    ",
+			" %     ",
+		};
+		for (int i = 0; i < 7; i++)
+			for (int j = 0; j < 7; j++)
+				character[i][j] = rows[i][j];
+		return character;
+	}
+
      vs space()
     {
         vs character = getCharGrid(1,1);

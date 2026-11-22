@@ -413,6 +413,67 @@ public:
         std::cout << "Nine not overridden?" << std::endl;
         return vs();
     }
+    // Virtual functions for special characters
+    virtual vs at()
+    {
+        std::cout << "@ not overridden?" << std::endl;
+        return vs();
+    }
+    virtual vs hash()
+    {
+        std::cout << "# not overridden?" << std::endl;
+        return vs();
+    }
+    virtual vs dollar()
+    {
+        std::cout << "$ not overridden?" << std::endl;
+        return vs();
+    }
+    virtual vs ampersand()
+    {
+        std::cout << "& not overridden?" << std::endl;
+        return vs();
+    }
+    virtual vs percent()
+    {
+        std::cout << "% not overridden?" << std::endl;
+        return vs();
+    }
+    virtual vs exclamation()
+    {
+        std::cout << "! not overridden?" << std::endl;
+        return vs();
+    }
+    virtual vs question()
+    {
+        std::cout << "? not overridden?" << std::endl;
+        return vs();
+    }
+    virtual vs asterisk()
+    {
+        std::cout << "* not overridden?" << std::endl;
+        return vs();
+    }
+    virtual vs plus()
+    {
+        std::cout << "+ not overridden?" << std::endl;
+        return vs();
+    }
+    virtual vs equal()
+    {
+        std::cout << "= not overridden?" << std::endl;
+        return vs();
+    }
+    virtual vs lessthan()
+    {
+        std::cout << "< not overridden?" << std::endl;
+        return vs();
+    }
+    virtual vs greaterthan()
+    {
+        std::cout << "> not overridden?" << std::endl;
+        return vs();
+    }
     /********************************done adding virtual functions********************************/
 };
 #endif
